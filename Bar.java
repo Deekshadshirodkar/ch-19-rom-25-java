@@ -1,33 +1,223 @@
 class Bar {
 
-    
+		/*static String jackDaniels = "Jack Daniel's";
+		static String johnnieWalker = "Johnnie Walker";
+		static String chivasRegal = "Chivas Regal";
+		static String blendersPride = "Blenders Pride";
+		static String royalStag = "Royal Stag";
+		static String jameson = "Jameson";
+
+    	static String whiskyBrands[] = {jackDaniels, johnnieWalker, chivasRegal, blendersPride, royalStag, jameson};
+
+		static String absolut = "Absolut";
+		static String smirnoff = "Smirnoff";
+		static String magicMoments = "Magic Moments";
+		static String greyGoose = "Grey Goose";
+		static String belvedere = "Belvedere";
+		static String finlandia = "Finlandia";
+		
+		static String vodkaBrands[] = {absolut, smirnoff, magicMoments, greyGoose,belvedere,finlandia};
+
+		static String oldMonk = "Old Monk";
+		static String captainMorgan = "Captain Morgan";
+		static String bacardi = "Bacardi";
+		static String havanaClub = "Havana Club";
+		static String mcD = "McDowell's No.1";
+		static String malibu = "Malibu";
+
+		static String rumBrands[] = {oldMonk, captainMorgan, bacardi, havanaClub, mcD, malibu};
+
+		static String bombaySapphire = "Bombay Sapphire";
+		static String tanqueray = "Tanqueray";
+		static String beefeater = "Beefeater";
+		static String hendrick = "Hendrick's";
+		static String greaterThan = "Greater Than";
+		static String rokuGin = "Roku Gin";
+
+		static String ginBrands[] = {bombaySapphire, tanqueray, beefeater, hendrick, greaterThan, rokuGin};
+
+		static String kingFisher = "Kingfisher";
+		static String budweiser = "Budweiser";
+		static String heineken = "Heineken";
+		static String corona = "Corona";
+		static String bira = "Bira 91";
+		static String carlsberg = "Carlsberg";
+		
+		static String beerBrands[] = {kingFisher, budweiser, heineken, corona,bira, carlsberg};
+		
+		static String sula = "Sula";
+		static String  fratelli = "Fratelli";
+		static String york = "York";
+		static String groverZampa = "Grover Zampa";
+		static String jacobCreek = "Jacob's Creek";
+		static String bigBanyan = "Big Banyan";
+
+		static String wineBrands[] = {sula, fratelli, york, groverZampa, jacobCreek, bigBanyan};
+
+		static String joseCuervo = "Jose Cuervo";
+		static String donJulio = "Don Julio";
+		static String patron = "Patron";
+		static String tequila = "1800 Tequila";
+		static String elJimador = "El Jimador";
+		static String caminoReal = "Camino Real";
+
+		static String tequilaBrands[] = {joseCuervo, donJulio, patron, tequila, elJimador, caminoReal};
+
+		static String mansionHouse = "Mansion House";
+		static String honeyBee = "Honey Bee";
+		static String oldAdmiral = "Old Admiral";
+		static String mcDowell = "McDowell's Brandy";
+		static String remyMartin = "Remy Martin";
+
+		static String brandyBrands[] = {mansionHouse,honeyBee,oldAdmiral,mcDowell,remyMartin};
+
+		static String baileysIrishCream = "Baileys Irish Cream";
+		static String kahlua = "Kahlua";
+		static String amarula = "Amarula";
+		static String jagermeister = "Jagermeister";
+		static String cointreau = "Cointreau";
+		static String drambuie = "Drambuie";
+
+		static String liqueurBrands[] = {baileysIrishCream, kahlua, amarula, jagermeister, cointreau, drambuie};
+
+		static String hennessy = "Hennessy";
+		static String martell = "Martell";
+		static String courvoisier = "Courvoisier";
+		static String camus = "Camus";
+		static String pierreFerrand = "Pierre Ferrand";
+
+		static String cognacBrands[] = {hennessy, martell, courvoisier, camus, pierreFerrand};
+
+		static String moetandChandon = "Moet and Chandon";
+		static String veuveClicquot = "Veuve Clicquot";
+		static String domPerignon = "Dom Perignon";
+		static String taittinger = "Taittinger";
+		static String laurentPerrier = "Laurent Perrier";
+		static String piperHeidsieck = "Piper Heidsieck";
+
+		static String champagneBrands[] = {moetandChandon, veuveClicquot, domPerignon, taittinger, laurentPerrier, piperHeidsieck};
+
+		static String whiteOwl = "White Owl";
+		static String simba = "Simba";
+		static String gatewayBrewing = "Gateway Brewing";
+		static String arborBrewing = "Arbor Brewing";
+		static String brewDog = "BrewDog";
+		static String toit = "Toit";
+
+		static String craftBeerBrands[] = {whiteOwl, simba, gatewayBrewing, arborBrewing,brewDog,toit};
+
+		*/
+	
 
     public static void main(String[] alcoholnames) {
 		
-		String whiskyBrands[] = {"Jack Daniel's", "Johnnie Walker", "Chivas Regal", "Blenders Pride", "Royal Stag", "Jameson"};
+		String jackDaniels = "Jack Daniel's";
+		String johnnieWalker = "Johnnie Walker";
+		String chivasRegal = "Chivas Regal";
+		String blendersPride = "Blenders Pride";
+		String royalStag = "Royal Stag";
+		String jameson = "Jameson";
 
-		String vodkaBrands[] = {"Absolut", "Smirnoff", "Magic Moments", "Grey Goose", "Belvedere", "Finlandia"};
+    	String whiskyBrands[] = {jackDaniels, johnnieWalker, chivasRegal, blendersPride, royalStag, jameson};
+		String absolut = "Absolut";
+		String smirnoff = "Smirnoff";
+		String magicMoments = "Magic Moments";
+		String greyGoose = "Grey Goose";
+		String belvedere = "Belvedere";
+		String finlandia = "Finlandia";
+		
+		String vodkaBrands[] = {absolut, smirnoff, magicMoments, greyGoose,belvedere,finlandia};
 
-		String rumBrands[] = {"Old Monk", "Captain Morgan", "Bacardi", "Havana Club", "McDowell's No.1", "Malibu"};
+		String oldMonk = "Old Monk";
+		String captainMorgan = "Captain Morgan";
+		String bacardi = "Bacardi";
+		String havanaClub = "Havana Club";
+		String mcD = "McDowell's No.1";
+		String malibu = "Malibu";
 
-		String ginBrands[] = {"Bombay Sapphire", "Tanqueray", "Beefeater", "Hendrick's", "Greater Than", "Roku Gin"};
+		String rumBrands[] = {oldMonk, captainMorgan, bacardi, havanaClub, mcD, malibu};
 
-		String beerBrands[] = {"Kingfisher", "Budweiser", "Heineken", "Corona", "Bira 91", "Carlsberg"};
-			
-		String wineBrands[] = {"Sula", "Fratelli", "York", "Grover Zampa", "Jacob's Creek", "Big Banyan"};
+		String bombaySapphire = "Bombay Sapphire";
+		String tanqueray = "Tanqueray";
+		String beefeater = "Beefeater";
+		String hendrick = "Hendrick's";
+		String greaterThan = "Greater Than";
+		String rokuGin = "Roku Gin";
 
-		String tequilaBrands[] = {"Jose Cuervo", "Don Julio", "Patrón", "1800 Tequila", "El Jimador", "Camino Real"};
+		String ginBrands[] = {bombaySapphire, tanqueray, beefeater, hendrick, greaterThan, rokuGin};
 
-		String brandyBrands[] = {"Mansion House", "Honey Bee", "Old Admiral", "McDowell's Brandy", "Remy Martin", "Hennessy"};
+		String kingFisher = "Kingfisher";
+		String budweiser = "Budweiser";
+		String heineken = "Heineken";
+		String corona = "Corona";
+		String bira = "Bira 91";
+		String carlsberg = "Carlsberg";
+		
+		String beerBrands[] = {kingFisher, budweiser, heineken, corona,bira, carlsberg};
+		
+		String sula = "Sula";
+		String  fratelli = "Fratelli";
+		String york = "York";
+		String groverZampa = "Grover Zampa";
+		String jacobCreek = "Jacob's Creek";
+		String bigBanyan = "Big Banyan";
 
-		String liqueurBrands[] = {"Baileys Irish Cream", "Kahlua", "Amarula", "Jägermeister", "Cointreau", "Drambuie"};
+		String wineBrands[] = {sula, fratelli, york, groverZampa, jacobCreek, bigBanyan};
 
-		String cognacBrands[] = {"Remy Martin", "Hennessy", "Martell", "Courvoisier", "Camus", "Pierre Ferrand"};
+		String joseCuervo = "Jose Cuervo";
+		String donJulio = "Don Julio";
+		String patron = "Patron";
+		String tequila = "1800 Tequila";
+		String elJimador = "El Jimador";
+		String caminoReal = "Camino Real";
 
-		String champagneBrands[] = {"Moët & Chandon", "Veuve Clicquot", "Dom Pérignon", "Taittinger", "Laurent-Perrier", "Piper-Heidsieck"};
+		String tequilaBrands[] = {joseCuervo, donJulio, patron, tequila, elJimador, caminoReal};
+		String mansionHouse = "Mansion House";
+		String honeyBee = "Honey Bee";
+		String oldAdmiral = "Old Admiral";
+		String mcDowell = "McDowell's Brandy";
+		String remyMartin = "Remy Martin";
 
-		String craftBeerBrands[] = {"White Owl", "Simba", "Gateway Brewing", "Arbor Brewing", "BrewDog", "Toit"};
+		String brandyBrands[] = {mansionHouse,honeyBee,oldAdmiral,mcDowell,remyMartin};
 
+		String baileysIrishCream = "Baileys Irish Cream";
+		String kahlua = "Kahlua";
+		String amarula = "Amarula";
+		String jagermeister = "Jagermeister";
+		String cointreau = "Cointreau";
+		String drambuie = "Drambuie";
+
+		String liqueurBrands[] = {baileysIrishCream, kahlua, amarula, jagermeister, cointreau, drambuie};
+
+		String hennessy = "Hennessy";
+		String martell = "Martell";
+		String courvoisier = "Courvoisier";
+		String camus = "Camus";
+		String pierreFerrand = "Pierre Ferrand";
+
+		String cognacBrands[] = {hennessy, martell, courvoisier, camus, pierreFerrand};
+
+		String moetandChandon = "Moet and Chandon";
+		String veuveClicquot = "Veuve Clicquot";
+		String domPerignon = "Dom Perignon";
+		String taittinger = "Taittinger";
+		String laurentPerrier = "Laurent Perrier";
+		String piperHeidsieck = "Piper Heidsieck";
+
+		String champagneBrands[] = {moetandChandon, veuveClicquot, domPerignon, taittinger, laurentPerrier, piperHeidsieck};
+
+		String whiteOwl = "White Owl";
+		String simba = "Simba";
+		String gatewayBrewing = "Gateway Brewing";
+		String arborBrewing = "Arbor Brewing";
+		String brewDog = "BrewDog";
+		String toit = "Toit";
+
+		String craftBeerBrands[] = {whiteOwl, simba, gatewayBrewing, arborBrewing,brewDog,toit};
+
+		
+
+		System.out.println("Main Started");
 		
 		System.out.println("Whisky Brands: ");
 		for(String whiskyBrand : whiskyBrands){
@@ -89,6 +279,7 @@ class Bar {
 				System.out.println(craftBeerBrand);
 		}
 
+		System.out.println("Main Ended.");
 
         /*System.out.println("Whisky Brands: " + whiskyBrands[0] + ", " + whiskyBrands[1] + ", " + whiskyBrands[2] + ", " + whiskyBrands[3] + ", " + whiskyBrands[4] + ", " + whiskyBrands[5]);
 

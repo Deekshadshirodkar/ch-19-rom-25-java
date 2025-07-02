@@ -1,24 +1,192 @@
 class Library {
 
-   
+		/*
+		static String toKillAMockingBird = "To Kill a Mockingbird";
+		static String bbb = "1984";
+		static String theGreatGatsby = "The Great Gatsby";
+		static String theCatcherInTheRye = "The Catcher in the Rye";
+		static String prideandPrejudice = "Pride and Prejudice";
+		static String theAlchemist = "The Alchemist";
+		static String theBookThief = "The Book Thief";
+		static String theKiteRunner = "The Kite Runner";
+
+		static String fictionBooks[] = {toKillAMockingBird,bbb,theGreatGatsby,theCatcherInTheRye,prideandPrejudice,theAlchemist,theBookThief,theKiteRunner};
+
+ 		static String sapiens = "Sapiens";
+		static String educated = "Educated";
+		static String theWrightBrothers = "The Wright Brothers";
+		static String becoming = "Becoming";
+		static String thePowerofhabit = "The Power of Habit";
+		static String bornaCrime = "Born a Crime";
+		static String thinkingFastandSlow = "Thinking, Fast and Slow";
+		static String intoTheWild = "Into the Wild";
+
+		static String nonFictionBooks[] = {sapiens, educated,theWrightBrothers, becoming,thePowerofhabit,bornaCrime,thinkingFastandSlow,intoTheWild};
+
+		static String aBriefHistoryOfTime = "A Brief History of Time";
+		static String theSelfishGene = "The Selfish Gene";
+		static String cosmos = "Cosmos";
+		static String theElegantUniverse = "The Elegant Universe";
+		static String theGene = "The Gene";
+		static String astrophysics = "Astrophysics for People in a Hurry";
+		static String physicsofImpossible = "Physics of the Impossible";
+		static String theBody = "The Body";
+
+		static String scienceBooks[] = {aBriefHistoryOfTime, theSelfishGene, cosmos, theElegantUniverse,theGene, astrophysics, physicsofImpossible, theBody};
+
+		static String gunsGermsSteel = "Guns, Germs, and Steel";
+		static String theDiaryOfAnneFrank = "The Diary of Anne Frank";
+		static String teamOfRivals = "Team of Rivals";
+		static String theSilkRoads = "The Silk Roads";
+		static String aaaa = "1776";
+		static String theHistoryOfAncientWorld = "The History of the Ancient World";
+		static String aPeopleHistoryofUnitedStates = "A People's History of the United States";
+		static String indiaafterGandhi = "India After Gandhi";
+
+		static String historyBooks[] = {gunsGermsSteel,theDiaryOfAnneFrank, teamOfRivals,theSilkRoads,aaaa,theHistoryOfAncientWorld,aPeopleHistoryofUnitedStates,indiaafterGandhi};
+
+		static String goneGirl = "Gone Girl";
+		static String theGirlWithTheDragonTattoo = "The Girl with the Dragon Tattoo";
+		static String sherlockHolmes = "Sherlock Holmes";
+		static String theDaVinciCode = "The Da Vinci Code";
+		static String andThenWereNone = "And Then There Were None";
+		static String  inTheWoods = "In the Woods";
+		static String bigLittleLies = "Big Little Lies";
+		static String theWomaninWhite = "The Woman in White";
+
+		static String mysteryBooks[] = {goneGirl, theGirlWithTheDragonTattoo, sherlockHolmes, theDaVinciCode, andThenWereNone, inTheWoods, bigLittleLies,theWomaninWhite};
+
+		static String harryPotter = "Harry Potter and the Sorcerer's Stone";
+		static String theHobbit = "The Hobbit";
+		static String theLordoftheRings = "The Lord of the Rings";
+		static String aGameofThrones = "A Game of Thrones";
+		static String eragon = "Eragon";
+		static String theNameOfTheWind = "The Name of the Wind";
+		static String percyJackson = "Percy Jackson";
+		static String mistborn = "Mistborn";
+
+		static String fantasyBooks[] = {harryPotter,theHobbit,theLordoftheRings,aGameofThrones,eragon,theNameOfTheWind,percyJackson,mistborn};
+
+		static String charlotteWeb = "Charlotte's Web";
+		static String theVeryHungryCatepillar = "The Very Hungry Caterpillar";
+		static String matilda = "Matilda";
+		static String theCatinTheHat = "The Cat in the Hat";
+		static String winniwthePooh = "Winnie-the-Pooh";
+		static String diaryOfaWimpyKid = "Diary of a Wimpy Kid";
+		static String wheretheWilsThingsAre = "Where the Wild Things Are";
+		static String theGuffalo = "The Gruffalo";
+
+		static String childrenBooks[] = {charlotteWeb,theVeryHungryCatepillar,matilda,theCatinTheHat,winniwthePooh,diaryOfaWimpyKid,wheretheWilsThingsAre,theGuffalo};
+		
+		static String theHabitsofHighlyEffectivePeople = "The 7 Habits of Highly Effective People";
+		static String howtoWinFriends = "How to Win Friends and Influence People";
+		static String atomicHabits = "Atomic Habits";
+		static String thinkandGrowRich ="Think and Grow Rich";
+		static String youCanWin = "You Can Win";
+		static String theMagicOfThinkingBig = "The Magic of Thinking Big";
+		static String richDadPoorDad = "Rich Dad Poor Dad";
+
+		static String selfHelpBooks[] = {theHabitsofHighlyEffectivePeople,howtoWinFriends,atomicHabits,thinkandGrowRich,youCanWin,theMagicOfThinkingBig,richDadPoorDad};
+
+		*/
+
+
+
 
     public static void main(String[] books) {
 
-		String fictionBooks[] = {"To Kill a Mockingbird", "1984", "The Great Gatsby", "The Catcher in the Rye","Pride and Prejudice", "The Alchemist", "The Book Thief", "The Kite Runner"};
+		String toKillAMockingBird = "To Kill a Mockingbird";
+		String bbb = "1984";
+		String theGreatGatsby = "The Great Gatsby";
+		String theCatcherInTheRye = "The Catcher in the Rye";
+		String prideandPrejudice = "Pride and Prejudice";
+		String theAlchemist = "The Alchemist";
+		String theBookThief = "The Book Thief";
+		String theKiteRunner = "The Kite Runner";
 
-		String nonFictionBooks[] = {"Sapiens", "Educated", "The Wright Brothers", "Becoming", "The Power of Habit", "Born a Crime", "Thinking, Fast and Slow", "Into the Wild"};
+		String fictionBooks[] = {toKillAMockingBird,bbb,theGreatGatsby,theCatcherInTheRye,prideandPrejudice,theAlchemist,theBookThief,theKiteRunner};
 
-		String scienceBooks[] = {"A Brief History of Time", "The Selfish Gene", "Cosmos", "The Elegant Universe","The Gene", "Astrophysics for People in a Hurry", "Physics of the Impossible", "The Body"};
+ 		String sapiens = "Sapiens";
+		String educated = "Educated";
+		String theWrightBrothers = "The Wright Brothers";
+		String becoming = "Becoming";
+		String thePowerofhabit = "The Power of Habit";
+		String bornaCrime = "Born a Crime";
+		String thinkingFastandSlow = "Thinking, Fast and Slow";
+		String intoTheWild = "Into the Wild";
+
+		String nonFictionBooks[] = {sapiens, educated,theWrightBrothers, becoming,thePowerofhabit,bornaCrime,thinkingFastandSlow,intoTheWild};
+
+		String aBriefHistoryOfTime = "A Brief History of Time";
+		String theSelfishGene = "The Selfish Gene";
+		String cosmos = "Cosmos";
+		String theElegantUniverse = "The Elegant Universe";
+		String theGene = "The Gene";
+		String astrophysics = "Astrophysics for People in a Hurry";
+		String physicsofImpossible = "Physics of the Impossible";
+		String theBody = "The Body";
+
+		String scienceBooks[] = {aBriefHistoryOfTime, theSelfishGene, cosmos, theElegantUniverse,theGene, astrophysics, physicsofImpossible, theBody};
+
+		String gunsGermsSteel = "Guns, Germs, and Steel";
+		String theDiaryOfAnneFrank = "The Diary of Anne Frank";
+		String teamOfRivals = "Team of Rivals";
+		String theSilkRoads = "The Silk Roads";
+		String aaaa = "1776";
+		String theHistoryOfAncientWorld = "The History of the Ancient World";
+		String aPeopleHistoryofUnitedStates = "A People's History of the United States";
+		String indiaafterGandhi = "India After Gandhi";
+
+		String historyBooks[] = {gunsGermsSteel,theDiaryOfAnneFrank, teamOfRivals,theSilkRoads,aaaa,theHistoryOfAncientWorld,aPeopleHistoryofUnitedStates,indiaafterGandhi};
+
+		String goneGirl = "Gone Girl";
+		String theGirlWithTheDragonTattoo = "The Girl with the Dragon Tattoo";
+		String sherlockHolmes = "Sherlock Holmes";
+		String theDaVinciCode = "The Da Vinci Code";
+		String andThenWereNone = "And Then There Were None";
+		String inTheWoods = "In the Woods";
+		String bigLittleLies = "Big Little Lies";
+		String theWomaninWhite = "The Woman in White";
+		
+		String mysteryBooks[] = {goneGirl, theGirlWithTheDragonTattoo, sherlockHolmes, theDaVinciCode, andThenWereNone, inTheWoods, bigLittleLies,theWomaninWhite};
+
+		String harryPotter = "Harry Potter and the Sorcerer's Stone";
+		String theHobbit = "The Hobbit";
+		String theLordoftheRings = "The Lord of the Rings";
+		String aGameofThrones = "A Game of Thrones";
+		String eragon = "Eragon";
+		String theNameOfTheWind = "The Name of the Wind";
+		String percyJackson = "Percy Jackson";
+		String mistborn = "Mistborn";
+
+		String fantasyBooks[] = {harryPotter,theHobbit,theLordoftheRings,aGameofThrones,eragon,theNameOfTheWind,percyJackson,mistborn};
+
+		String charlotteWeb = "Charlotte's Web";
+		String theVeryHungryCatepillar = "The Very Hungry Caterpillar";
+		String matilda = "Matilda";
+		String theCatinTheHat = "The Cat in the Hat";
+		String winniwthePooh = "Winnie-the-Pooh";
+		String diaryOfaWimpyKid = "Diary of a Wimpy Kid";
+		String wheretheWilsThingsAre = "Where the Wild Things Are";
+		String theGuffalo = "The Gruffalo";
+
+		String childrenBooks[] = {charlotteWeb,theVeryHungryCatepillar,matilda,theCatinTheHat,winniwthePooh,diaryOfaWimpyKid,wheretheWilsThingsAre,theGuffalo};
+		
+		String theHabitsofHighlyEffectivePeople = "The 7 Habits of Highly Effective People";
+		String howtoWinFriends = "How to Win Friends and Influence People";
+		String atomicHabits = "Atomic Habits";
+		String thinkandGrowRich ="Think and Grow Rich";
+		String youCanWin = "You Can Win";
+		String theMagicOfThinkingBig = "The Magic of Thinking Big";
+		String richDadPoorDad = "Rich Dad Poor Dad";
+
+		String selfHelpBooks[] = {theHabitsofHighlyEffectivePeople,howtoWinFriends,atomicHabits,thinkandGrowRich,youCanWin,theMagicOfThinkingBig,richDadPoorDad};
+
+
     
-		String historyBooks[] = {"Guns, Germs, and Steel", "The Diary of Anne Frank", "Team of Rivals", "The Silk Roads","1776", "The History of the Ancient World", "A People's History of the United States", "India After Gandhi"};
 
-		String mysteryBooks[] = {"Gone Girl", "The Girl with the Dragon Tattoo", "Sherlock Holmes", "The Da Vinci Code","And Then There Were None", "In the Woods", "Big Little Lies", "The Woman in White"};
 
-		String fantasyBooks[] = {"Harry Potter and the Sorcerer's Stone", "The Hobbit", "The Lord of the Rings", "A Game of Thrones","Eragon", "The Name of the Wind", "Percy Jackson", "Mistborn"};
 
-		String childrenBooks[] = {"Charlotte's Web", "The Very Hungry Caterpillar", "Matilda", "The Cat in the Hat","Winnie-the-Pooh", "Diary of a Wimpy Kid", "Where the Wild Things Are", "The Gruffalo"};
-
-		String selfHelpBooks[] = {"The 7 Habits of Highly Effective People", "How to Win Friends and Influence People", "Atomic Habits", "The Subtle Art of Not Giving a F*ck","Think and Grow Rich", "You Can Win", "The Magic of Thinking Big", "Rich Dad Poor Dad"};
 	
 		
 		System.out.println("Fiction Books: " );

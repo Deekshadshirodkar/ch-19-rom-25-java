@@ -1,35 +1,463 @@
 class Hotel {
 
-	
+	/*static String paneerTikka = "Paneer Tikka";
+    static String vegSpringRolls = "Veg Spring Rolls";
+    static String haraBharaKebab = "Hara Bhara Kebab";
+    static String stuffedMushrooms = "Stuffed Mushrooms";
+    static String cornCheeseBalls = "Corn Cheese Balls";
+    static String crispyBabyCorn = "Crispy Baby Corn";
+    static String tandooriAloo = "Tandoori Aloo";
+    static String[] startersVeg = {paneerTikka, vegSpringRolls, haraBharaKebab, stuffedMushrooms, cornCheeseBalls, crispyBabyCorn, tandooriAloo};
+
+    static String chickenLollipop = "Chicken Lollipop";
+    static String fishFingers = "Fish Fingers";
+    static String muttonSeekhKebab = "Mutton Seekh Kebab";
+    static String chickenPakora = "Chicken Pakora";
+    static String prawnsKoliwada = "Prawns Koliwada";
+    static String chickenTikka = "Chicken Tikka";
+    static String kalmiKebab = "Kalmi Kebab";
+    static String[] startersNonVeg = {chickenLollipop, fishFingers, muttonSeekhKebab, chickenPakora, prawnsKoliwada, chickenTikka, kalmiKebab};
+
+    static String paneerButterMasala = "Paneer Butter Masala";
+    static String dalMakhani = "Dal Makhani";
+    static String maliKofta = "Mali Kofta";
+    static String mixVegCurry = "Mix Veg Curry";
+    static String vegKolhapuri = "Veg Kolhapuri";
+    static String bhindiMasala = "Bhindi Masala";
+    static String choleMasala = "Chole Masala";
+    static String[] mainCourseVeg = {paneerButterMasala, dalMakhani, maliKofta, mixVegCurry, vegKolhapuri, bhindiMasala, choleMasala};
+
+    static String butterChicken = "Butter Chicken";
+    static String muttonRoganJosh = "Mutton Rogan Josh";
+    static String eggCurry = "Egg Curry";
+    static String curryHandi = "Curry Handi";
+    static String fishCurry = "Fish Curry";
+    static String muttonKheema = "Mutton Kheema";
+    static String chickenDoPyaza = "Chicken Do Pyaza";
+    static String[] mainCourseNonVeg = {butterChicken, muttonRoganJosh, eggCurry, curryHandi, fishCurry, muttonKheema, chickenDoPyaza};
+
+    static String vegBiryani = "Veg Biryani";
+    static String chickenBiryani = "Chicken Biryani";
+    static String muttonBiryani = "Mutton Biryani";
+    static String jeeraRice = "Jeera Rice";
+    static String steamRice = "Steam Rice";
+    static String eggFriedRice = "Egg Fried Rice";
+    static String peasPulao = "Peas Pulao";
+    static String riceandBiryani[] = {vegBiryani, chickenBiryani, muttonBiryani, jeeraRice, steamRice, eggFriedRice, peasPulao};
+
+    static String butterNaan = "Butter Naan";
+    static String garlicNaan = "Garlic Naan";
+    static String tandooriRoti = "Tandoori Roti";
+    static String lachhaParatha = "Lachha Paratha";
+    static String missiRoti = "Missi Roti";
+    static String plainRoti = "Plain Roti";
+    static String kulcha = "Kulcha";
+    static String[] indianBreads = {butterNaan, garlicNaan, tandooriRoti, lachhaParatha, missiRoti, plainRoti, kulcha};
+
+    static String masalaDosa = "Masala Dosa";
+    static String plainDosa = "Plain Dosa";
+    static String onionUttapam = "Onion Uttapam";
+    static String idliVadaCombo = "Idli Vada Combo";
+    static String meduVada = "Medu Vada";
+    static String ravaDosa = "Rava Dosa";
+    static String pongal = "Pongal";
+    static String[] southIndian = {masalaDosa, plainDosa, onionUttapam, idliVadaCombo, meduVada, ravaDosa, pongal};
+
+	static String vegHakkaNoodles = "Veg Hakka Noodles";
+    static String vegFriedRice = "Veg Fried Rice";
+    static String chilliPaneer = "Chilli Paneer";
+    static String manchurianGravy = "Manchurian Gravy";
+    static String schezwanNoodles = "Schezwan Noodles";
+    static String mushroomChilli = "Mushroom Chilli";
+    static String paneer65 = "Paneer 65";
+    static String chineseVeg[] = {vegHakkaNoodles, vegFriedRice, chilliPaneer, manchurianGravy, schezwanNoodles, mushroomChilli, paneer65};
+
+    static String chickenFriedRice = "Chicken Fried Rice";
+    static String chilliChicken = "Chilli Chicken";
+    static String schezwanChickenNoodles = "Schezwan Chicken Noodles";
+    static String garlicChicken = "Garlic Chicken";
+    static String chickenManchurian = "Chicken Manchurian";
+    static String eggNoodles = "Egg Noodles";
+    static String prawnsFriedRice = "Prawns Fried Rice";
+    static String chineseNonVeg[] = {chickenFriedRice, chilliChicken, schezwanChickenNoodles, garlicChicken, chickenManchurian, eggNoodles, prawnsFriedRice};
+
+    static String tandooriChicken = "Tandoori Chicken";
+    static String tandooriPaneerPlatter = "Tandoori Paneer Platter";
+    static String afghaniChicken = "Afghani Chicken";
+    static String reshmiKebab = "Reshmi Kebab";
+    static String tangdiKebab = "Tangdi Kebab";
+    static String tandooriMushroom = "Tandoori Mushroom";
+    static String chickenMalaiTikka = "Chicken Malai Tikka";
+    static String tandooriSpecials[] = {tandooriChicken, tandooriPaneerPlatter, afghaniChicken, reshmiKebab, tangdiKebab, tandooriMushroom, chickenMalaiTikka};
+
+    static String tomatoSoup = "Tomato Soup";
+    static String sweetCornVegSoup = "Sweet Corn Veg Soup";
+    static String hotSourVegSoup = "Hot & Sour Veg Soup";
+    static String chickenClearSoup = "Chicken Clear Soup";
+    static String manchowSoup = "Manchow Soup";
+    static String mushroomSoup = "Cream of Mushroom Soup";
+    static String lemonCorianderSoup = "Lemon Coriander Soup";
+    static String soups[] = {tomatoSoup, sweetCornVegSoup, hotSourVegSoup, chickenClearSoup, manchowSoup, mushroomSoup, lemonCorianderSoup};
+
+    // Salads
+    static String greenSalad = "Green Salad";
+    static String russianSalad = "Russian Salad";
+    static String caesarSalad = "Caesar Salad";
+    static String sproutSalad = "Sprout Salad";
+    static String fruitSalad = "Fruit Salad";
+    static String coleslaw = "Coleslaw";
+    static String cucumberYogurtSalad = "Cucumber Yogurt Salad";
+    static String salads[] = {greenSalad, russianSalad, caesarSalad, sproutSalad, fruitSalad, coleslaw, cucumberYogurtSalad};
+
+    static String masalaTea = "Masala Tea";
+    static String filterCoffee = "Filter Coffee";
+    static String hotChocolate = "Hot Chocolate";
+    static String blackTea = "Black Tea";
+    static String greenTea = "Green Tea";
+    static String cappuccino = "Cappuccino";
+    static String espresso = "Espresso";
+    static String beveragesHot[] = {masalaTea, filterCoffee, hotChocolate, blackTea, greenTea, cappuccino, espresso};
+
+    static String coldCoffee = "Cold Coffee";
+    static String freshLimeSoda = "Fresh Lime Soda";
+    static String mangoShake = "Mango Shake";
+    static String icedTea = "Iced Tea";
+    static String watermelonJuice = "Watermelon Juice";
+    static String buttermilk = "Buttermilk";
+    static String softDrinks = "Soft Drinks";
+    static String beveragesCold[] = {coldCoffee, freshLimeSoda, mangoShake, icedTea, watermelonJuice, buttermilk, softDrinks};
+
+    static String virginMojito = "Virgin Mojito";
+    static String blueLagoon = "Blue Lagoon";
+    static String greenAppleCooler = "Green Apple Cooler";
+    static String fruitPunch = "Fruit Punch";
+    static String orangeBlossom = "Orange Blossom";
+    static String strawberryMint = "Strawberry Mint";
+    static String kiwiCooler = "Kiwi Cooler";
+    static String mocktails[] = {virginMojito, blueLagoon, greenAppleCooler, fruitPunch, orangeBlossom, strawberryMint, kiwiCooler};
+
+    static String gulabJamun = "Gulab Jamun";
+    static String rasmalai = "Rasmalai";
+    static String kheer = "Kheer";
+    static String gajarHalwa = "Gajar Halwa";
+    static String moongDalHalwa = "Moong Dal Halwa";
+    static String jalebi = "Jalebi";
+    static String malpua = "Malpua";
+    static String dessertsIndian[] = {gulabJamun, rasmalai, kheer, gajarHalwa, moongDalHalwa, jalebi, malpua};
+
+    static String chocolateBrownie = "Chocolate Brownie";
+    static String vanillaIceCream = "Vanilla Ice Cream";
+    static String tiramisu = "Tiramisu";
+    static String applePie = "Apple Pie";
+    static String chocolateMousse = "Chocolate Mousse";
+    static String cheesecake = "Cheesecake";
+    static String doughnut = "Doughnut";
+    static String dessertsWestern[] = {chocolateBrownie, vanillaIceCream, tiramisu, applePie, chocolateMousse, cheesecake, doughnut};
+
+    static String miniCheesePizza = "Mini Cheese Pizza";
+    static String frenchFries = "French Fries";
+    static String chocolateMilkshake = "Chocolate Milkshake";
+    static String nuggets = "Nuggets";
+    static String macAndCheese = "Mac & Cheese";
+    static String miniBurger = "Mini Burger";
+    static String smileyFries = "Smiley Fries";
+    static String kidsMenu[] = {miniCheesePizza, frenchFries, chocolateMilkshake, nuggets, macAndCheese, miniBurger, smileyFries};
+
+    static String vegThali = "Veg Thali";
+    static String chickenThali = "Chicken Thali";
+    static String burgerCombo = "Burger + Fries + Drink";
+    static String chineseCombo = "Chinese Combo";
+    static String southIndianCombo = "South Indian Combo";
+    static String biryaniCombo = "Biryani Combo";
+    static String wrapColdDrinkCombo = "Wrap + Cold Drink";
+    static String comboMeals[] = {vegThali, chickenThali, burgerCombo, chineseCombo, southIndianCombo, biryaniCombo, wrapColdDrinkCombo};
+
+    static String bhunaGhost = "Bhuna Ghost with Paratha";
+    static String stuffedMushroomMasala = "Stuffed Mushroom Masala";
+    static String seafoodPlatter = "Seafood Platter";
+    static String butterGarlicPrawns = "Butter Garlic Prawns";
+    static String chickenDumBiryani = "Chicken Dum Biryani";
+    static String royalVegHandi = "Royal Veg Handi";
+    static String pomfret = "Pomfret";
+    static String chefsSpecial[] = {bhunaGhost, stuffedMushroomMasala, seafoodPlatter, butterGarlicPrawns, chickenDumBiryani, royalVegHandi, pomfret};
+
+    static String rajasthani = "Rajasthani Dal Baati Churma";
+    static String bengali = "Bengali Fish Curry";
+    static String hyderabadi = "Hyderabadi Haleem";
+    static String goan = "Goan Prawn Curry";
+    static String kashmiri = "Kashmiri Dum Aloo";
+    static String punjabi = "Punjabi Chole Bhature";
+    static String kerala = "Kerala Appam with Stew";
+    static String regionalIndianCuisine[] = {rajasthani, bengali, hyderabadi, goan, kashmiri, punjabi, kerala};
+
+    static String grilledChickenSteak = "Grilled Chicken Steak";
+    static String bakedLasagna = "Baked Lasagna";
+    static String alfredoPasta = "Creamy Alfredo Pasta";
+    static String garlicBread = "Garlic Bread with Cheese";
+    static String fries = "French Fries";
+    static String roastedVegPlatter = "Roasted Veg Platter";
+    static String gratin = "Béchamel Sauce Veg Gratin";
+    static String continentalDishes[] = {grilledChickenSteak, bakedLasagna, alfredoPasta, garlicBread, fries, roastedVegPlatter, gratin};
+
+    static String tacos = "Tacos (Veg/Chicken)";
+    static String nachos = "Nachos with Cheese";
+    static String mexicanRice = "Mexican Rice";
+    static String quesadilla = "Quesadilla";
+    static String beanBurrito = "Bean Burrito";
+    static String tortillaChips = "Tortilla Chips";
+    static String enchiladas = "Chicken Enchiladas";
+    static String mexicanSpecials[] = {tacos, nachos, mexicanRice, quesadilla, beanBurrito, tortillaChips, enchiladas};
+
+    static String thaiGreenCurry = "Thai Green Curry";
+    static String thaiRedCurry = "Thai Red Curry";
+    static String jasmineRice = "Jasmine Rice";
+    static String padThai = "Pad Thai Noodles";
+    static String chickenSatay = "Chicken Satay";
+    static String springRolls = "Spring Rolls";
+    static String tomYumSoup = "Tom Yum Soup";
+    static String thaiAndAsianCuisine[] = {thaiGreenCurry, thaiRedCurry, jasmineRice, padThai, chickenSatay, springRolls, tomYumSoup};
+
+    static String lavaCake = "Chocolate Lava Cake";
+    static String blueberryCheesecake = "Blueberry Cheesecake";
+    static String bakedApplePie = "Apple Pie";
+    static String redVelvet = "Red Velvet Cupcake";
+    static String cinnamonRoll = "Cinnamon Roll";
+    static String eclair = "Chocolate Éclair";
+    static String bakedAlaska = "Baked Alaska";
+    static String bakedDesserts[] = {lavaCake, blueberryCheesecake, bakedApplePie, redVelvet, cinnamonRoll, eclair, bakedAlaska};
+
+	*/
+
+
 	public static void main(String[] menu){
-		
-	String startersVeg[] = { "Paneer Tikka","Veg Spring Rolls","Hara Bhara Kebab","Stuffed Mushrooms","Corn Cheese Balls","Crispy Baby Corn","Tandoori Aloo"};
-	String startersNonVeg[] = {"Chicken Lollipop","Fish Fingers","Mutton Seekh Kebab","Chicken Pakora","Prawns Koliwada","Chicken Tikka",",Kalmi Kebab"};
-	String mainCourseVeg[] = {"Paneer Butter Masala","Dal Makhani","Mali Kofta","Mix Veg Curry","Veg Kolhapuri","Bhindi Masala","Chole Masala"};
-	String mainCourseNonVeg[] = {"Butter Chicken","Mutton Rogan Josh","Egg Curry","Curry Handi","Fish Curry","Mutton Kheema","Chicken Do Pyaza"};
-	String riceandBiryani[] = {"Veg Biryani","Chicken Biryani","Mutton Biryani","Jeera Rice","Steam Rice","Egg Fried Rice","Peas Pulao"};
-	String indianBreads[] = {"Butter Naan","Garlic Naan","Tandoori Roti","Lachha Paratha","Missi Roti","Plain Roti","Kulcha"};
-	String southIndian[] = {"Masala Dosa","Plain Dosa","Onion Uttapam","Idli Vada Combo","Medu Vada","Rava Dosa","Pongal"};
-	String chineseVeg[] = {"Veg Hakka Noodles","Veg Fried Rice","Chilli Paneer","Manchurian Gravy","Schezwan Noodles","Mushroom Chilli","Paneer 65"};
-	String chineseNonVeg[] = {"Chicken Fried Rice","Chilli Chicken","Schezwan Chicken Noodles","Garlic Chicken","Chicken Manchurian","Egg Noodles","Prawns Fried Rice"};
-	String tandooriSpecials[] = {"Tandoori Chicken","Tandoori Paneer Platter","Afghani Chicken","Reshmi Kebab","Tangdi Kebab","Tandoori Mushroom","Chicken Malai Tikka"};
-	String soups[] = {"Tomato Soup","Sweet Corn Veg Soup","Hot & Sour Veg Soup","Chicken Clear Soup","Manchow Soup","Cream of Mushroom Soup","Lemon Coriander Soup"};
-	String salads[]= {"Green Salad","Russian Salad","Caesar Salad","Sprout Salad","Fruit Salad","Coleslaw","Cucumber Yogurt Salad"};
-	String beveragesHot[] = {"Masala Tea","Filter Coffee","Hot Chocolate","Black Tea","Green Tea","Cappuccino","Espresso"};
-	String beveragesCold[] = {"Cold Coffee","Fresh Lime Soda","Mango Shake","Iced Tea","Watermelon Juice","Buttermilk","Soft Drinks"};
-	String mocktails[] = {"Virgin Mojito","Blue Lagoon","Green Apple Cooler","Fruit Punch","Orange Blossom","Strawberry Mint","Kiwi Cooler"};
-	String dessertsIndian[] = {"Gulab Jamun","Rasmalai","Kheer","Gajar Halwa","Moong Dal Halwa","Jalebi","Malpua"};
-	String dessertsWestern[] = {"Chocolate Brownie","Vanilla Ice Cream","Tiramisu","Apple Pie","Chocolate Mousse","Cheesecake","Doughnut"};
-	String kidsMenu[] = {"Mini Cheese Pizza","French Fries","Chocolate Milkshake","Nuggets","Mac & Cheese","Mini Burger","Smiley Fries"};
-	String comboMeals[] = {"Veg Thali","Chicken Thali","Burger + Fries + Drink","Chinese Combo","South Indian Combo","Biryani Combo","Wrap + Cold Drink"};
-	String chefsSpecial[] = {"Bhuna Ghost with Paratha","Stuffed Mushroom Masala","Seafood Platter","Butter Garlic Prawns","Chicken Dum Biryani","Royal Veg Handi","Pomfret"};
-	String regionalIndianCuisine[] = { "Rajasthani Dal Baati Churma","Bengali Fish Curry","Hyderabadi Haleem","Goan Prawn Curry","Kashmiri Dum Aloo","Punjabi Chole Bhature","Kerala Appam with Stew"};
-	String continentalDishes[] = { "Grilled Chicken Steak","Baked Lasagna","Creamy Alfredo Pasta","Garlic Bread with Cheese","French Fries","Roasted Veg Platter","Béchamel Sauce Veg Gratin"};
-	String mexicanSpecials[] = {"Tacos (Veg/Chicken)","Nachos with Cheese","Mexican Rice","Quesadilla","Bean Burrito","Tortilla Chips","Chicken Enchiladas"};
-	String thaiAndAsianCuisine[] = {"Thai Green Curry","Thai Red Curry","Jasmine Rice","Pad Thai Noodles","Chicken Satay","Spring Rolls","Tom Yum Soup"};
-	String bakedDesserts[] = {"Chocolate Lava Cake","Blueberry Cheesecake","Apple Pie","Red Velvet Cupcake","Cinnamon Roll","Chocolate Éclair","Baked Alaska"};
+	
+		String paneerTikka = "Paneer Tikka";
+        String vegSpringRolls = "Veg Spring Rolls";
+        String haraBharaKebab = "Hara Bhara Kebab";
+        String stuffedMushrooms = "Stuffed Mushrooms";
+        String cornCheeseBalls = "Corn Cheese Balls";
+        String crispyBabyCorn = "Crispy Baby Corn";
+        String tandooriAloo = "Tandoori Aloo";
+        String startersVeg[] = {paneerTikka, vegSpringRolls, haraBharaKebab, stuffedMushrooms, cornCheeseBalls, crispyBabyCorn, tandooriAloo};
+
+        String chickenLollipop = "Chicken Lollipop";
+        String fishFingers = "Fish Fingers";
+        String muttonSeekhKebab = "Mutton Seekh Kebab";
+        String chickenPakora = "Chicken Pakora";
+        String prawnsKoliwada = "Prawns Koliwada";
+        String chickenTikka = "Chicken Tikka";
+        String kalmiKebab = "Kalmi Kebab";
+        String startersNonVeg[] = {chickenLollipop, fishFingers, muttonSeekhKebab, chickenPakora, prawnsKoliwada, chickenTikka, kalmiKebab};
+
+        String paneerButterMasala = "Paneer Butter Masala";
+        String dalMakhani = "Dal Makhani";
+        String malaiKofta = "Malai Kofta";
+        String mixVegCurry = "Mix Veg Curry";
+        String vegKolhapuri = "Veg Kolhapuri";
+        String bhindiMasala = "Bhindi Masala";
+        String choleMasala = "Chole Masala";
+        String mainCourseVeg[] = {paneerButterMasala, dalMakhani, malaiKofta, mixVegCurry, vegKolhapuri, bhindiMasala, choleMasala};
+
+        String butterChicken = "Butter Chicken";
+        String muttonRoganJosh = "Mutton Rogan Josh";
+        String eggCurry = "Egg Curry";
+        String curryHandi = "Curry Handi";
+        String fishCurry = "Fish Curry";
+        String muttonKheema = "Mutton Kheema";
+        String chickenDoPyaza = "Chicken Do Pyaza";
+        String mainCourseNonVeg[] = {butterChicken, muttonRoganJosh, eggCurry, curryHandi, fishCurry, muttonKheema, chickenDoPyaza};
+
+        String vegBiryani = "Veg Biryani";
+        String chickenBiryani = "Chicken Biryani";
+        String muttonBiryani = "Mutton Biryani";
+        String jeeraRice = "Jeera Rice";
+        String steamRice = "Steam Rice";
+        String eggFriedRice = "Egg Fried Rice";
+        String peasPulao = "Peas Pulao";
+        String riceandBiryani[] = {vegBiryani, chickenBiryani, muttonBiryani, jeeraRice, steamRice, eggFriedRice, peasPulao};
+
+        String butterNaan = "Butter Naan";
+        String garlicNaan = "Garlic Naan";
+        String tandooriRoti = "Tandoori Roti";
+        String lachhaParatha = "Lachha Paratha";
+        String missiRoti = "Missi Roti";
+        String plainRoti = "Plain Roti";
+        String kulcha = "Kulcha";
+        String indianBreads[] = {butterNaan, garlicNaan, tandooriRoti, lachhaParatha, missiRoti, plainRoti, kulcha};
+
+        String masalaDosa = "Masala Dosa";
+        String plainDosa = "Plain Dosa";
+        String onionUttapam = "Onion Uttapam";
+        String idliVadaCombo = "Idli Vada Combo";
+        String meduVada = "Medu Vada";
+        String ravaDosa = "Rava Dosa";
+        String pongal = "Pongal";
+        String southIndian[] = {masalaDosa, plainDosa, onionUttapam, idliVadaCombo, meduVada, ravaDosa, pongal};
+	
+		String vegHakkaNoodles = "Veg Hakka Noodles";
+        String vegFriedRice = "Veg Fried Rice";
+        String chilliPaneer = "Chilli Paneer";
+        String manchurianGravy = "Manchurian Gravy";
+        String schezwanNoodles = "Schezwan Noodles";
+        String mushroomChilli = "Mushroom Chilli";
+        String paneer65 = "Paneer 65";
+        String chineseVeg[] = {vegHakkaNoodles, vegFriedRice, chilliPaneer, manchurianGravy, schezwanNoodles, mushroomChilli, paneer65};
+
+        String chickenFriedRice = "Chicken Fried Rice";
+        String chilliChicken = "Chilli Chicken";
+        String schezwanChickenNoodles = "Schezwan Chicken Noodles";
+        String garlicChicken = "Garlic Chicken";
+        String chickenManchurian = "Chicken Manchurian";
+        String eggNoodles = "Egg Noodles";
+        String prawnsFriedRice = "Prawns Fried Rice";
+        String chineseNonVeg[] = {chickenFriedRice, chilliChicken, schezwanChickenNoodles, garlicChicken, chickenManchurian, eggNoodles, prawnsFriedRice};
+
+        String tandooriChicken = "Tandoori Chicken";
+        String tandooriPaneerPlatter = "Tandoori Paneer Platter";
+        String afghaniChicken = "Afghani Chicken";
+        String reshmiKebab = "Reshmi Kebab";
+        String tangdiKebab = "Tangdi Kebab";
+        String tandooriMushroom = "Tandoori Mushroom";
+        String chickenMalaiTikka = "Chicken Malai Tikka";
+        String tandooriSpecials[] = {tandooriChicken, tandooriPaneerPlatter, afghaniChicken, reshmiKebab, tangdiKebab, tandooriMushroom, chickenMalaiTikka};
+
+        String tomatoSoup = "Tomato Soup";
+        String sweetCornVegSoup = "Sweet Corn Veg Soup";
+        String hotSourVegSoup = "Hot & Sour Veg Soup";
+        String chickenClearSoup = "Chicken Clear Soup";
+        String manchowSoup = "Manchow Soup";
+        String creamOfMushroomSoup = "Cream of Mushroom Soup";
+        String lemonCorianderSoup = "Lemon Coriander Soup";
+        String soups[] = {tomatoSoup, sweetCornVegSoup, hotSourVegSoup, chickenClearSoup, manchowSoup, creamOfMushroomSoup, lemonCorianderSoup};
+
+        String greenSalad = "Green Salad";
+        String russianSalad = "Russian Salad";
+        String caesarSalad = "Caesar Salad";
+        String sproutSalad = "Sprout Salad";
+        String fruitSalad = "Fruit Salad";
+        String coleslaw = "Coleslaw";
+        String cucumberYogurtSalad = "Cucumber Yogurt Salad";
+        String salads[] = {greenSalad, russianSalad, caesarSalad, sproutSalad, fruitSalad, coleslaw, cucumberYogurtSalad};
+
+        String masalaTea = "Masala Tea";
+        String filterCoffee = "Filter Coffee";
+        String hotChocolate = "Hot Chocolate";
+        String blackTea = "Black Tea";
+        String greenTea = "Green Tea";
+        String cappuccino = "Cappuccino";
+        String espresso = "Espresso";
+        String beveragesHot[] = {masalaTea, filterCoffee, hotChocolate, blackTea, greenTea, cappuccino, espresso};
+
+        String coldCoffee = "Cold Coffee";
+        String freshLimeSoda = "Fresh Lime Soda";
+        String mangoShake = "Mango Shake";
+        String icedTea = "Iced Tea";
+        String watermelonJuice = "Watermelon Juice";
+        String buttermilk = "Buttermilk";
+        String softDrinks = "Soft Drinks";
+        String beveragesCold[] = {coldCoffee, freshLimeSoda, mangoShake, icedTea, watermelonJuice, buttermilk, softDrinks};
+
+        String virginMojito = "Virgin Mojito";
+        String blueLagoon = "Blue Lagoon";
+        String greenAppleCooler = "Green Apple Cooler";
+        String fruitPunch = "Fruit Punch";
+        String orangeBlossom = "Orange Blossom";
+        String strawberryMint = "Strawberry Mint";
+        String kiwiCooler = "Kiwi Cooler";
+        String mocktails[] = {virginMojito, blueLagoon, greenAppleCooler, fruitPunch, orangeBlossom, strawberryMint, kiwiCooler};
+
+        String gulabJamun = "Gulab Jamun";
+        String rasmalai = "Rasmalai";
+        String kheer = "Kheer";
+        String gajarHalwa = "Gajar Halwa";
+        String moongDalHalwa = "Moong Dal Halwa";
+        String jalebi = "Jalebi";
+        String malpua = "Malpua";
+        String dessertsIndian[] = {gulabJamun, rasmalai, kheer, gajarHalwa, moongDalHalwa, jalebi, malpua};
+
+        String chocolateBrownie = "Chocolate Brownie";
+        String vanillaIceCream = "Vanilla Ice Cream";
+        String tiramisu = "Tiramisu";
+        String applePie = "Apple Pie";
+        String chocolateMousse = "Chocolate Mousse";
+        String cheesecake = "Cheesecake";
+        String doughnut = "Doughnut";
+        String dessertsWestern[] = {chocolateBrownie, vanillaIceCream, tiramisu, applePie, chocolateMousse, cheesecake, doughnut};
+
+        String miniCheesePizza = "Mini Cheese Pizza";
+        String frenchFries = "French Fries";
+        String chocolateMilkshake = "Chocolate Milkshake";
+        String nuggets = "Nuggets";
+        String macAndCheese = "Mac & Cheese";
+        String miniBurger = "Mini Burger";
+        String smileyFries = "Smiley Fries";
+        String kidsMenu[] = {miniCheesePizza, frenchFries, chocolateMilkshake, nuggets, macAndCheese, miniBurger, smileyFries};
+
+        String vegThali = "Veg Thali";
+        String chickenThali = "Chicken Thali";
+        String burgerCombo = "Burger + Fries + Drink";
+        String chineseCombo = "Chinese Combo";
+        String southIndianCombo = "South Indian Combo";
+        String biryaniCombo = "Biryani Combo";
+        String wrapColdDrink = "Wrap + Cold Drink";
+        String comboMeals[] = {vegThali, chickenThali, burgerCombo, chineseCombo, southIndianCombo, biryaniCombo, wrapColdDrink};
+
+        String bhunaGhostParatha = "Bhuna Ghost with Paratha";
+        String stuffedMushroomMasala = "Stuffed Mushroom Masala";
+        String seafoodPlatter = "Seafood Platter";
+        String butterGarlicPrawns = "Butter Garlic Prawns";
+        String chickenDumBiryani = "Chicken Dum Biryani";
+        String royalVegHandi = "Royal Veg Handi";
+        String pomfret = "Pomfret";
+        String chefsSpecial[] = {bhunaGhostParatha, stuffedMushroomMasala, seafoodPlatter, butterGarlicPrawns, chickenDumBiryani, royalVegHandi, pomfret};
+
+        String dalBaatiChurma = "Rajasthani Dal Baati Churma";
+        String bengaliFishCurry = "Bengali Fish Curry";
+        String hyderabadiHaleem = "Hyderabadi Haleem";
+        String goanPrawnCurry = "Goan Prawn Curry";
+        String kashmiriDumAloo = "Kashmiri Dum Aloo";
+        String punjabiCholeBhature = "Punjabi Chole Bhature";
+        String keralaAppamStew = "Kerala Appam with Stew";
+        String regionalIndianCuisine[] = {dalBaatiChurma, bengaliFishCurry, hyderabadiHaleem, goanPrawnCurry, kashmiriDumAloo, punjabiCholeBhature, keralaAppamStew};
+
+        String grilledChickenSteak = "Grilled Chicken Steak";
+        String bakedLasagna = "Baked Lasagna";
+        String alfredoPasta = "Creamy Alfredo Pasta";
+        String garlicBreadCheese = "Garlic Bread with Cheese";
+        String fries = "French Fries";
+        String roastedVegPlatter = "Roasted Veg Platter";
+        String bechamelGratin = "Béchamel Sauce Veg Gratin";
+        String continentalDishes[] = {grilledChickenSteak, bakedLasagna, alfredoPasta, garlicBreadCheese, fries, roastedVegPlatter, bechamelGratin};
+
+        String tacos = "Tacos (Veg/Chicken)";
+        String nachos = "Nachos with Cheese";
+        String mexicanRice = "Mexican Rice";
+        String quesadilla = "Quesadilla";
+        String beanBurrito = "Bean Burrito";
+        String tortillaChips = "Tortilla Chips";
+        String chickenEnchiladas = "Chicken Enchiladas";
+        String mexicanSpecials[] = {tacos, nachos, mexicanRice, quesadilla, beanBurrito, tortillaChips, chickenEnchiladas};
+
+        String thaiGreenCurry = "Thai Green Curry";
+        String thaiRedCurry = "Thai Red Curry";
+        String jasmineRice = "Jasmine Rice";
+        String padThai = "Pad Thai Noodles";
+        String chickenSatay = "Chicken Satay";
+        String springRolls = "Spring Rolls";
+        String tomYumSoup = "Tom Yum Soup";
+        String thaiAndAsianCuisine[] = {thaiGreenCurry, thaiRedCurry, jasmineRice, padThai, chickenSatay, springRolls, tomYumSoup};
+
+        String lavaCake = "Chocolate Lava Cake";
+        String blueberryCheesecake = "Blueberry Cheesecake";
+        String redVelvetCupcake = "Red Velvet Cupcake";
+        String cinnamonRoll = "Cinnamon Roll";
+        String chocolateEclair = "Chocolate Éclair";
+        String bakedAlaska = "Baked Alaska";
+        String applePieBaked = "Apple Pie";
+        String bakedDesserts[] = {lavaCake, blueberryCheesecake, applePieBaked, redVelvetCupcake, cinnamonRoll, chocolateEclair, bakedAlaska};
 
 	
+	System.out.println("Main Started : ");
 	System.out.println("Starters (Veg) : "	);
 	for(String startersVegs : startersVeg){
 		System.out.println(startersVegs);
@@ -180,7 +608,7 @@ class Hotel {
 		
 	}
 	
-	
+	System.out.println("Main Ended");
 	
 	/*System.out.println("Starters (Veg) : " +startersVeg[0]+ " " +startersVeg[1] + " " + startersVeg[2]+ " " +startersVeg[3] + " " + startersVeg[4]+ " " +startersVeg[5]);
 	System.out.println("Starters (Non Veg) : " +startersNonVeg[0] + " " +startersNonVeg[1] + " " +startersNonVeg[2] + " " +startersNonVeg[3] + " " +startersNonVeg[4] + " " +startersNonVeg[5]);

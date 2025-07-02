@@ -1,33 +1,202 @@
 class PeriodicTable {
 
-    
+    /*static String lithium = "Lithium (Li)";
+    static String sodium = "Sodium (Na)";
+    static String potassium = "Potassium (K)";
+    static String rubidium = "Rubidium (Rb)";
+    static String cesium = "Cesium (Cs)";
+    static String francium = "Francium (Fr)";
+    static String alkaliMetals[] = {lithium, sodium, potassium, rubidium, cesium, francium};
+
+    static String beryllium = "Beryllium (Be)";
+    static String magnesium = "Magnesium (Mg)";
+    static String calcium = "Calcium (Ca)";
+    static String strontium = "Strontium (Sr)";
+    static String barium = "Barium (Ba)";
+    static String radium = "Radium (Ra)";
+    static String alkalineEarthMetals[] = {beryllium, magnesium, calcium, strontium, barium, radium};
+
+    static String iron = "Iron (Fe)";
+    static String copper = "Copper (Cu)";
+    static String nickel = "Nickel (Ni)";
+    static String zinc = "Zinc (Zn)";
+    static String silver = "Silver (Ag)";
+    static String gold = "Gold (Au)";
+    static String transitionMetals[] = {iron, copper, nickel, zinc, silver, gold};
+
+    static String aluminium = "Aluminium (Al)";
+    static String gallium = "Gallium (Ga)";
+    static String indium = "Indium (In)";
+    static String tin = "Tin (Sn)";
+    static String thallium = "Thallium (Tl)";
+    static String lead = "Lead (Pb)";
+    static String postTransitionMetals[] = {aluminium, gallium, indium, tin, thallium, lead};
+
+    static String boron = "Boron (B)";
+    static String silicon = "Silicon (Si)";
+    static String germanium = "Germanium (Ge)";
+    static String arsenic = "Arsenic (As)";
+    static String antimony = "Antimony (Sb)";
+    static String tellurium = "Tellurium (Te)";
+    static String metalloids[] = {boron, silicon, germanium, arsenic, antimony, tellurium};
+
+    static String hydrogen = "Hydrogen (H)";
+    static String carbon = "Carbon (C)";
+    static String nitrogen = "Nitrogen (N)";
+    static String oxygen = "Oxygen (O)";
+    static String phosphorus = "Phosphorus (P)";
+    static String sulfur = "Sulfur (S)";
+    static String nonMetals[] = {hydrogen, carbon, nitrogen, oxygen, phosphorus, sulfur};
+
+    static String helium = "Helium (He)";
+    static String neon = "Neon (Ne)";
+    static String argon = "Argon (Ar)";
+    static String krypton = "Krypton (Kr)";
+    static String xenon = "Xenon (Xe)";
+    static String radon = "Radon (Rn)";
+    static String nobleGases[] = {helium, neon, argon, krypton, xenon, radon};
+
+    static String lanthanum = "Lanthanum (La)";
+    static String cerium = "Cerium (Ce)";
+    static String praseodymium = "Praseodymium (Pr)";
+    static String neodymium = "Neodymium (Nd)";
+    static String samarium = "Samarium (Sm)";
+    static String europium = "Europium (Eu)";
+    static String lanthanides[] = {lanthanum, cerium, praseodymium, neodymium, samarium, europium};
+
+    static String actinium = "Actinium (Ac)";
+    static String thorium = "Thorium (Th)";
+    static String protactinium = "Protactinium (Pa)";
+    static String uranium = "Uranium (U)";
+    static String neptunium = "Neptunium (Np)";
+    static String plutonium = "Plutonium (Pu)";
+    static String actinides[] = {actinium, thorium, protactinium, uranium, neptunium, plutonium};
+
+    static String fluorine = "Fluorine (F)";
+    static String chlorine = "Chlorine (Cl)";
+    static String bromine = "Bromine (Br)";
+    static String iodine = "Iodine (I)";
+    static String astatine = "Astatine (At)";
+    static String tennessine = "Tennessine (Ts)";
+    static String halogens[] = {fluorine, chlorine, bromine, iodine, astatine, tennessine};
+
+    static String technetium = "Technetium (Tc)";
+    static String promethium = "Promethium (Pm)";
+    static String syntheticNp = "Neptunium (Np)";
+    static String syntheticPu = "Plutonium (Pu)";
+    static String americium = "Americium (Am)";
+    static String curium = "Curium (Cm)";
+    static String syntheticElements[] = {technetium, promethium, syntheticNp, syntheticPu, americium, curium};
+
+    static String polonium = "Polonium (Po)";
+    static String bismuth = "Bismuth (Bi)";
+    static String livermorium = "Livermorium (Lv)";
+    static String flerovium = "Flerovium (Fl)";
+    static String copernicium = "Copernicium (Cn)";
+    static String nihonium = "Nihonium (Nh)";
+    static String otherMetals[] = {polonium, bismuth, livermorium, flerovium, copernicium, nihonium};
+*/
 
     public static void main(String[] elements) {
 		
-		String alkaliMetals[] = {"Lithium (Li)", "Sodium (Na)", "Potassium (K)", "Rubidium (Rb)", "Cesium (Cs)", "Francium (Fr)"};
+		String lithium = "Lithium (Li)";
+        String sodium = "Sodium (Na)";
+        String potassium = "Potassium (K)";
+        String rubidium = "Rubidium (Rb)";
+        String cesium = "Cesium (Cs)";
+        String francium = "Francium (Fr)";
+        String alkaliMetals[] = {lithium, sodium, potassium, rubidium, cesium, francium};
 
-		String alkalineEarthMetals[] = {"Beryllium (Be)", "Magnesium (Mg)", "Calcium (Ca)", "Strontium (Sr)", "Barium (Ba)", "Radium (Ra)"};
+        String beryllium = "Beryllium (Be)";
+        String magnesium = "Magnesium (Mg)";
+        String calcium = "Calcium (Ca)";
+        String strontium = "Strontium (Sr)";
+        String barium = "Barium (Ba)";
+        String radium = "Radium (Ra)";
+        String alkalineEarthMetals[] = {beryllium, magnesium, calcium, strontium, barium, radium};
 
-		String transitionMetals[] = {"Iron (Fe)", "Copper (Cu)", "Nickel (Ni)", "Zinc (Zn)", "Silver (Ag)", "Gold (Au)"};
+        String iron = "Iron (Fe)";
+        String copper = "Copper (Cu)";
+        String nickel = "Nickel (Ni)";
+        String zinc = "Zinc (Zn)";
+        String silver = "Silver (Ag)";
+        String gold = "Gold (Au)";
+        String transitionMetals[] = {iron, copper, nickel, zinc, silver, gold};
 
-		String postTransitionMetals[] = {"Aluminium (Al)", "Gallium (Ga)", "Indium (In)", "Tin (Sn)", "Thallium (Tl)", "Lead (Pb)"};
+        String aluminium = "Aluminium (Al)";
+        String gallium = "Gallium (Ga)";
+        String indium = "Indium (In)";
+        String tin = "Tin (Sn)";
+        String thallium = "Thallium (Tl)";
+        String lead = "Lead (Pb)";
+        String postTransitionMetals[] = {aluminium, gallium, indium, tin, thallium, lead};
 
-		String metalloids[] = {"Boron (B)", "Silicon (Si)", "Germanium (Ge)", "Arsenic (As)", "Antimony (Sb)", "Tellurium (Te)"};
+        String boron = "Boron (B)";
+        String silicon = "Silicon (Si)";
+        String germanium = "Germanium (Ge)";
+        String arsenic = "Arsenic (As)";
+        String antimony = "Antimony (Sb)";
+        String tellurium = "Tellurium (Te)";
+        String metalloids[] = {boron, silicon, germanium, arsenic, antimony, tellurium};
 
-		String nonMetals[] = {"Hydrogen (H)", "Carbon (C)", "Nitrogen (N)", "Oxygen (O)", "Phosphorus (P)", "Sulfur (S)"};
+        String hydrogen = "Hydrogen (H)";
+        String carbon = "Carbon (C)";
+        String nitrogen = "Nitrogen (N)";
+        String oxygen = "Oxygen (O)";
+        String phosphorus = "Phosphorus (P)";
+        String sulfur = "Sulfur (S)";
+        String nonMetals[] = {hydrogen, carbon, nitrogen, oxygen, phosphorus, sulfur};
 
-		String nobleGases[] = {"Helium (He)", "Neon (Ne)", "Argon (Ar)", "Krypton (Kr)", "Xenon (Xe)", "Radon (Rn)"};
+        String helium = "Helium (He)";
+        String neon = "Neon (Ne)";
+        String argon = "Argon (Ar)";
+        String krypton = "Krypton (Kr)";
+        String xenon = "Xenon (Xe)";
+        String radon = "Radon (Rn)";
+        String nobleGases[] = {helium, neon, argon, krypton, xenon, radon};
 
-		String lanthanides[] = {"Lanthanum (La)", "Cerium (Ce)", "Praseodymium (Pr)", "Neodymium (Nd)", "Samarium (Sm)", "Europium (Eu)"};
+        String lanthanum = "Lanthanum (La)";
+        String cerium = "Cerium (Ce)";
+        String praseodymium = "Praseodymium (Pr)";
+        String neodymium = "Neodymium (Nd)";
+        String samarium = "Samarium (Sm)";
+        String europium = "Europium (Eu)";
+        String lanthanides[] = {lanthanum, cerium, praseodymium, neodymium, samarium, europium};
 
-		String actinides[] = {"Actinium (Ac)", "Thorium (Th)", "Protactinium (Pa)", "Uranium (U)", "Neptunium (Np)", "Plutonium (Pu)"};
+        String actinium = "Actinium (Ac)";
+        String thorium = "Thorium (Th)";
+        String protactinium = "Protactinium (Pa)";
+        String uranium = "Uranium (U)";
+        String neptunium = "Neptunium (Np)";
+        String plutonium = "Plutonium (Pu)";
+        String actinides[] = {actinium, thorium, protactinium, uranium, neptunium, plutonium};
 
-		String halogens[] = {"Fluorine (F)", "Chlorine (Cl)", "Bromine (Br)", "Iodine (I)", "Astatine (At)", "Tennessine (Ts)"};
+        String fluorine = "Fluorine (F)";
+        String chlorine = "Chlorine (Cl)";
+        String bromine = "Bromine (Br)";
+        String iodine = "Iodine (I)";
+        String astatine = "Astatine (At)";
+        String tennessine = "Tennessine (Ts)";
+        String halogens[] = {fluorine, chlorine, bromine, iodine, astatine, tennessine};
 
-		String syntheticElements[] = {"Technetium (Tc)", "Promethium (Pm)", "Neptunium (Np)", "Plutonium (Pu)", "Americium (Am)", "Curium (Cm)"};
+        String technetium = "Technetium (Tc)";
+        String promethium = "Promethium (Pm)";
+        String syntheticNp = "Neptunium (Np)";
+        String syntheticPu = "Plutonium (Pu)";
+        String americium = "Americium (Am)";
+        String curium = "Curium (Cm)";
+        String syntheticElements[] = {technetium, promethium, syntheticNp, syntheticPu, americium, curium};
 
-		String otherMetals[] = {"Polonium (Po)", "Bismuth (Bi)", "Livermorium (Lv)", "Flerovium (Fl)", "Copernicium (Cn)", "Nihonium (Nh)"};
-			
+        String polonium = "Polonium (Po)";
+        String bismuth = "Bismuth (Bi)";
+        String livermorium = "Livermorium (Lv)";
+        String flerovium = "Flerovium (Fl)";
+        String copernicium = "Copernicium (Cn)";
+        String nihonium = "Nihonium (Nh)";
+        String otherMetals[] = {polonium, bismuth, livermorium, flerovium, copernicium, nihonium};
+
+
+      	System.out.println("Main Started");
 		
         System.out.println("Alkali Metals: ");		
 		for(String alkaliMetal : alkaliMetals){
@@ -88,6 +257,7 @@ class PeriodicTable {
 		for(String otherMetal : otherMetals){
 				System.out.println(otherMetal);
 		}
+      	System.out.println("Main Ended");
 
 		
 
