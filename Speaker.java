@@ -1,27 +1,26 @@
-class Projector{
+class Speaker{
 
 	static boolean isConnected;
 	static int currentVolume;
-	static int maxVolume = 10;
-	static int minVolume = 1;
+	static int maxVolume = 7;
+	static int minVolume = 0;
 	
 	public static void onOrOff(){
 	
 		if(isConnected == false){
 			isConnected = true;
-			System.out.println("The Projector is turned On....." + isConnected);
+			System.out.println("The speaker is turned On....." + isConnected);
 		
 		}else if(isConnected == true){
 			
 			isConnected = false;
-			System.out.println("The Projector is not connected" );
-			return;
-			
+			System.out.println("The speaker is not connected" );
+		
 		}
 	}
 	
-	
-	public static void increasedVolume(){
+	//increase volume
+	public static void increaseVolume(){
 		System.out.println("IncreaseVolume Started");
 		if(isConnected == true){
 			
@@ -35,15 +34,12 @@ class Projector{
 			}
 		}else{
 				
-				System.out.println("Please Switch on the Projector");
+				System.out.println("Please Switch on the speaker");
 				
 			}
-			System.out.println("Increased Volume Ended.");
-			return;
 		}
 		
-		
-	public static void decreasedVolume(){
+		public static void decreaseVolume(){
 			
 			System.out.println("decreaseVolume Started");
 			
@@ -60,14 +56,10 @@ class Projector{
 				}
 			}
 			else{
-				System.out.println("Please Switch on the Projector");
+				System.out.println("Please Switch on the Speaker");
 				
 			}
-			System.out.println("Decreased Volume Ended.");	
-			return;
-			
-			
-		}
-
-
+						
+		}	
+	
 }
