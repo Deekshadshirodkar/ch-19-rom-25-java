@@ -14,13 +14,7 @@ class KingRunner {
         king1.queenName = "Asandhimitra";
 
         System.out.println("=== King 1 ===");
-        System.out.println("ID: " + king1.kingId);
-        System.out.println("Name: " + king1.name);
-        System.out.println("Kingdom: " + king1.kingdom);
-        System.out.println("Reign Start: " + king1.reignStartYear);
-        System.out.println("Reign End: " + king1.reignEndYear);
-        System.out.println("Warrior: " + king1.isWarrior);
-        System.out.println("Queen: " + king1.queenName);
+        king1.getKingInfo();
 
         King king2 = new King();
         king2.kingId = 2;
@@ -32,13 +26,7 @@ class KingRunner {
         king2.queenName = "Jodha Bai";
 
         System.out.println("=== King 2 ===");
-        System.out.println("ID: " + king2.kingId);
-        System.out.println("Name: " + king2.name);
-        System.out.println("Kingdom: " + king2.kingdom);
-        System.out.println("Reign Start: " + king2.reignStartYear);
-        System.out.println("Reign End: " + king2.reignEndYear);
-        System.out.println("Warrior: " + king2.isWarrior);
-        System.out.println("Queen: " + king2.queenName);
+        king2.getKingInfo();
 
         King king3 = new King();
         king3.kingId = 3;
@@ -50,13 +38,7 @@ class KingRunner {
         king3.queenName = "Trailokya Mahadevi";
 
         System.out.println("=== King 3 ===");
-        System.out.println("ID: " + king3.kingId);
-        System.out.println("Name: " + king3.name);
-        System.out.println("Kingdom: " + king3.kingdom);
-        System.out.println("Reign Start: " + king3.reignStartYear);
-        System.out.println("Reign End: " + king3.reignEndYear);
-        System.out.println("Warrior: " + king3.isWarrior);
-        System.out.println("Queen: " + king3.queenName);
+        king3.getKingInfo();
 
         King king4 = new King();
         king4.kingId = 4;
@@ -68,13 +50,7 @@ class KingRunner {
         king4.queenName = "Chinna Devi";
 
         System.out.println("=== King 4 ===");
-        System.out.println("ID: " + king4.kingId);
-        System.out.println("Name: " + king4.name);
-        System.out.println("Kingdom: " + king4.kingdom);
-        System.out.println("Reign Start: " + king4.reignStartYear);
-        System.out.println("Reign End: " + king4.reignEndYear);
-        System.out.println("Warrior: " + king4.isWarrior);
-        System.out.println("Queen: " + king4.queenName);
+        king4.getKingInfo();
 
         King king5 = new King();
         king5.kingId = 5;
@@ -86,15 +62,9 @@ class KingRunner {
         king5.queenName = "Unnamed";
 
         System.out.println("=== King 5 ===");
-        System.out.println("ID: " + king5.kingId);
-        System.out.println("Name: " + king5.name);
-        System.out.println("Kingdom: " + king5.kingdom);
-        System.out.println("Reign Start: " + king5.reignStartYear);
-        System.out.println("Reign End: " + king5.reignEndYear);
-        System.out.println("Warrior: " + king5.isWarrior);
-        System.out.println("Queen: " + king5.queenName);
+        king5.getKingInfo();
 
-		King king6 = new King();
+        King king6 = new King();
         king6.kingId = 6;
         king6.name = "Prithviraj Chauhan";
         king6.kingdom = "Chahamana";
@@ -104,13 +74,7 @@ class KingRunner {
         king6.queenName = "Samyukta";
 
         System.out.println("=== King 6 ===");
-        System.out.println("ID: " + king6.kingId);
-        System.out.println("Name: " + king6.name);
-        System.out.println("Kingdom: " + king6.kingdom);
-        System.out.println("Reign Start: " + king6.reignStartYear);
-        System.out.println("Reign End: " + king6.reignEndYear);
-        System.out.println("Warrior: " + king6.isWarrior);
-        System.out.println("Queen: " + king6.queenName);
+        king6.getKingInfo();
 
         King king7 = new King();
         king7.kingId = 7;
@@ -122,13 +86,7 @@ class KingRunner {
         king7.queenName = "Sai Bhonsale";
 
         System.out.println("=== King 7 ===");
-        System.out.println("ID: " + king7.kingId);
-        System.out.println("Name: " + king7.name);
-        System.out.println("Kingdom: " + king7.kingdom);
-        System.out.println("Reign Start: " + king7.reignStartYear);
-        System.out.println("Reign End: " + king7.reignEndYear);
-        System.out.println("Warrior: " + king7.isWarrior);
-        System.out.println("Queen: " + king7.queenName);
+        king7.getKingInfo();
 
         King king8 = new King();
         king8.kingId = 8;
@@ -140,13 +98,7 @@ class KingRunner {
         king8.queenName = "Durdhara";
 
         System.out.println("=== King 8 ===");
-        System.out.println("ID: " + king8.kingId);
-        System.out.println("Name: " + king8.name);
-        System.out.println("Kingdom: " + king8.kingdom);
-        System.out.println("Reign Start: " + king8.reignStartYear);
-        System.out.println("Reign End: " + king8.reignEndYear);
-        System.out.println("Warrior: " + king8.isWarrior);
-        System.out.println("Queen: " + king8.queenName);
+        king8.getKingInfo();
 
         King king9 = new King();
         king9.kingId = 9;
@@ -158,13 +110,7 @@ class KingRunner {
         king9.queenName = "Subhadrangi";
 
         System.out.println("=== King 9 ===");
-        System.out.println("ID: " + king9.kingId);
-        System.out.println("Name: " + king9.name);
-        System.out.println("Kingdom: " + king9.kingdom);
-        System.out.println("Reign Start: " + king9.reignStartYear);
-        System.out.println("Reign End: " + king9.reignEndYear);
-        System.out.println("Warrior: " + king9.isWarrior);
-        System.out.println("Queen: " + king9.queenName);
+        king9.getKingInfo();
 
         King king10 = new King();
         king10.kingId = 10;
@@ -176,13 +122,7 @@ class KingRunner {
         king10.queenName = "Mehtab Kaur";
 
         System.out.println("=== King 10 ===");
-        System.out.println("ID: " + king10.kingId);
-        System.out.println("Name: " + king10.name);
-        System.out.println("Kingdom: " + king10.kingdom);
-        System.out.println("Reign Start: " + king10.reignStartYear);
-        System.out.println("Reign End: " + king10.reignEndYear);
-        System.out.println("Warrior: " + king10.isWarrior);
-        System.out.println("Queen: " + king10.queenName);
+        king10.getKingInfo();
 
         King king11 = new King();
         king11.kingId = 11;
@@ -194,13 +134,7 @@ class KingRunner {
         king11.queenName = "Kosala Devi";
 
         System.out.println("=== King 11 ===");
-        System.out.println("ID: " + king11.kingId);
-        System.out.println("Name: " + king11.name);
-        System.out.println("Kingdom: " + king11.kingdom);
-        System.out.println("Reign Start: " + king11.reignStartYear);
-        System.out.println("Reign End: " + king11.reignEndYear);
-        System.out.println("Warrior: " + king11.isWarrior);
-        System.out.println("Queen: " + king11.queenName);
+        king11.getKingInfo();
 
         King king12 = new King();
         king12.kingId = 12;
@@ -212,13 +146,7 @@ class KingRunner {
         king12.queenName = "Unnamed";
 
         System.out.println("=== King 12 ===");
-        System.out.println("ID: " + king12.kingId);
-        System.out.println("Name: " + king12.name);
-        System.out.println("Kingdom: " + king12.kingdom);
-        System.out.println("Reign Start: " + king12.reignStartYear);
-        System.out.println("Reign End: " + king12.reignEndYear);
-        System.out.println("Warrior: " + king12.isWarrior);
-        System.out.println("Queen: " + king12.queenName);
+        king12.getKingInfo();
 
         King king13 = new King();
         king13.kingId = 13;
@@ -230,13 +158,7 @@ class KingRunner {
         king13.queenName = "Unknown";
 
         System.out.println("=== King 13 ===");
-        System.out.println("ID: " + king13.kingId);
-        System.out.println("Name: " + king13.name);
-        System.out.println("Kingdom: " + king13.kingdom);
-        System.out.println("Reign Start: " + king13.reignStartYear);
-        System.out.println("Reign End: " + king13.reignEndYear);
-        System.out.println("Warrior: " + king13.isWarrior);
-        System.out.println("Queen: " + king13.queenName);
+        king13.getKingInfo();
 
         King king14 = new King();
         king14.kingId = 14;
@@ -248,13 +170,7 @@ class KingRunner {
         king14.queenName = "Unknown";
 
         System.out.println("=== King 14 ===");
-        System.out.println("ID: " + king14.kingId);
-        System.out.println("Name: " + king14.name);
-        System.out.println("Kingdom: " + king14.kingdom);
-        System.out.println("Reign Start: " + king14.reignStartYear);
-        System.out.println("Reign End: " + king14.reignEndYear);
-        System.out.println("Warrior: " + king14.isWarrior);
-        System.out.println("Queen: " + king14.queenName);
+        king14.getKingInfo();
 
         King king15 = new King();
         king15.kingId = 15;
@@ -266,13 +182,7 @@ class KingRunner {
         king15.queenName = "Unknown";
 
         System.out.println("=== King 15 ===");
-        System.out.println("ID: " + king15.kingId);
-        System.out.println("Name: " + king15.name);
-        System.out.println("Kingdom: " + king15.kingdom);
-        System.out.println("Reign Start: " + king15.reignStartYear);
-        System.out.println("Reign End: " + king15.reignEndYear);
-        System.out.println("Warrior: " + king15.isWarrior);
-        System.out.println("Queen: " + king15.queenName);
+        king15.getKingInfo();
 
         King king16 = new King();
         king16.kingId = 16;
@@ -284,13 +194,7 @@ class KingRunner {
         king16.queenName = "Unknown";
 
         System.out.println("=== King 16 ===");
-        System.out.println("ID: " + king16.kingId);
-        System.out.println("Name: " + king16.name);
-        System.out.println("Kingdom: " + king16.kingdom);
-        System.out.println("Reign Start: " + king16.reignStartYear);
-        System.out.println("Reign End: " + king16.reignEndYear);
-        System.out.println("Warrior: " + king16.isWarrior);
-        System.out.println("Queen: " + king16.queenName);
+        king16.getKingInfo();
 
         King king17 = new King();
         king17.kingId = 17;
@@ -302,13 +206,7 @@ class KingRunner {
         king17.queenName = "Unknown";
 
         System.out.println("=== King 17 ===");
-        System.out.println("ID: " + king17.kingId);
-        System.out.println("Name: " + king17.name);
-        System.out.println("Kingdom: " + king17.kingdom);
-        System.out.println("Reign Start: " + king17.reignStartYear);
-        System.out.println("Reign End: " + king17.reignEndYear);
-        System.out.println("Warrior: " + king17.isWarrior);
-        System.out.println("Queen: " + king17.queenName);
+        king17.getKingInfo();
 
         King king18 = new King();
         king18.kingId = 18;
@@ -320,13 +218,7 @@ class KingRunner {
         king18.queenName = "Aisha Sultan Begum";
 
         System.out.println("=== King 18 ===");
-        System.out.println("ID: " + king18.kingId);
-        System.out.println("Name: " + king18.name);
-        System.out.println("Kingdom: " + king18.kingdom);
-        System.out.println("Reign Start: " + king18.reignStartYear);
-        System.out.println("Reign End: " + king18.reignEndYear);
-        System.out.println("Warrior: " + king18.isWarrior);
-        System.out.println("Queen: " + king18.queenName);
+        king18.getKingInfo();
 
         King king19 = new King();
         king19.kingId = 19;
@@ -338,13 +230,7 @@ class KingRunner {
         king19.queenName = "Unnamed";
 
         System.out.println("=== King 19 ===");
-        System.out.println("ID: " + king19.kingId);
-        System.out.println("Name: " + king19.name);
-        System.out.println("Kingdom: " + king19.kingdom);
-        System.out.println("Reign Start: " + king19.reignStartYear);
-        System.out.println("Reign End: " + king19.reignEndYear);
-        System.out.println("Warrior: " + king19.isWarrior);
-        System.out.println("Queen: " + king19.queenName);
+        king19.getKingInfo();
 
         King king20 = new King();
         king20.kingId = 20;
@@ -356,13 +242,7 @@ class KingRunner {
         king20.queenName = "Unknown";
 
         System.out.println("=== King 20 ===");
-        System.out.println("ID: " + king20.kingId);
-        System.out.println("Name: " + king20.name);
-        System.out.println("Kingdom: " + king20.kingdom);
-        System.out.println("Reign Start: " + king20.reignStartYear);
-        System.out.println("Reign End: " + king20.reignEndYear);
-        System.out.println("Warrior: " + king20.isWarrior);
-        System.out.println("Queen: " + king20.queenName);
+        king20.getKingInfo();
 
         System.out.println("Main Ended");
     }

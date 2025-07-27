@@ -1,5 +1,5 @@
 class HairclipRunner {
-
+	
     public static void main(String[] args) {
 
         System.out.println("Main Started");
@@ -13,13 +13,7 @@ class HairclipRunner {
         clip1.price = 25.0;
         clip1.isDecorative = false;
         System.out.println("=== Hairclip 1 ===");
-        System.out.println("ID: " + clip1.clipId);
-        System.out.println("Brand: " + clip1.brand);
-        System.out.println("Color: " + clip1.color);
-        System.out.println("Type: " + clip1.type);
-        System.out.println("Material: " + clip1.material);
-        System.out.println("Price: ₹" + clip1.price);
-        System.out.println("Decorative: " + clip1.isDecorative);
+        clip1.getHairclipInfo();
 
         Hairclip clip2 = new Hairclip();
         clip2.clipId = 2;
@@ -30,13 +24,7 @@ class HairclipRunner {
         clip2.price = 30.0;
         clip2.isDecorative = true;
         System.out.println("=== Hairclip 2 ===");
-        System.out.println("ID: " + clip2.clipId);
-        System.out.println("Brand: " + clip2.brand);
-        System.out.println("Color: " + clip2.color);
-        System.out.println("Type: " + clip2.type);
-        System.out.println("Material: " + clip2.material);
-        System.out.println("Price: ₹" + clip2.price);
-        System.out.println("Decorative: " + clip2.isDecorative);
+        clip2.getHairclipInfo();
 
         Hairclip clip3 = new Hairclip();
         clip3.clipId = 3;
@@ -47,13 +35,7 @@ class HairclipRunner {
         clip3.price = 35.0;
         clip3.isDecorative = true;
         System.out.println("=== Hairclip 3 ===");
-        System.out.println("ID: " + clip3.clipId);
-        System.out.println("Brand: " + clip3.brand);
-        System.out.println("Color: " + clip3.color);
-        System.out.println("Type: " + clip3.type);
-        System.out.println("Material: " + clip3.material);
-        System.out.println("Price: ₹" + clip3.price);
-        System.out.println("Decorative: " + clip3.isDecorative);
+        clip3.getHairclipInfo();
 
         Hairclip clip4 = new Hairclip();
         clip4.clipId = 4;
@@ -64,13 +46,7 @@ class HairclipRunner {
         clip4.price = 28.0;
         clip4.isDecorative = false;
         System.out.println("=== Hairclip 4 ===");
-        System.out.println("ID: " + clip4.clipId);
-        System.out.println("Brand: " + clip4.brand);
-        System.out.println("Color: " + clip4.color);
-        System.out.println("Type: " + clip4.type);
-        System.out.println("Material: " + clip4.material);
-        System.out.println("Price: ₹" + clip4.price);
-        System.out.println("Decorative: " + clip4.isDecorative);
+        clip4.getHairclipInfo();
 
         Hairclip clip5 = new Hairclip();
         clip5.clipId = 5;
@@ -81,15 +57,9 @@ class HairclipRunner {
         clip5.price = 40.0;
         clip5.isDecorative = true;
         System.out.println("=== Hairclip 5 ===");
-        System.out.println("ID: " + clip5.clipId);
-        System.out.println("Brand: " + clip5.brand);
-        System.out.println("Color: " + clip5.color);
-        System.out.println("Type: " + clip5.type);
-        System.out.println("Material: " + clip5.material);
-        System.out.println("Price: ₹" + clip5.price);
-        System.out.println("Decorative: " + clip5.isDecorative);
+        clip5.getHairclipInfo();
 
-		        Hairclip clip6 = new Hairclip();
+        Hairclip clip6 = new Hairclip();
         clip6.clipId = 6;
         clip6.brand = "GlamClips";
         clip6.color = "Green";
@@ -98,13 +68,7 @@ class HairclipRunner {
         clip6.price = 18.0;
         clip6.isDecorative = true;
         System.out.println("=== Hairclip 6 ===");
-        System.out.println("ID: " + clip6.clipId);
-        System.out.println("Brand: " + clip6.brand);
-        System.out.println("Color: " + clip6.color);
-        System.out.println("Type: " + clip6.type);
-        System.out.println("Material: " + clip6.material);
-        System.out.println("Price: ₹" + clip6.price);
-        System.out.println("Decorative: " + clip6.isDecorative);
+        clip6.getHairclipInfo();
 
         Hairclip clip7 = new Hairclip();
         clip7.clipId = 7;
@@ -115,13 +79,7 @@ class HairclipRunner {
         clip7.price = 45.0;
         clip7.isDecorative = false;
         System.out.println("=== Hairclip 7 ===");
-        System.out.println("ID: " + clip7.clipId);
-        System.out.println("Brand: " + clip7.brand);
-        System.out.println("Color: " + clip7.color);
-        System.out.println("Type: " + clip7.type);
-        System.out.println("Material: " + clip7.material);
-        System.out.println("Price: ₹" + clip7.price);
-        System.out.println("Decorative: " + clip7.isDecorative);
+        clip7.getHairclipInfo();
 
         Hairclip clip8 = new Hairclip();
         clip8.clipId = 8;
@@ -132,13 +90,7 @@ class HairclipRunner {
         clip8.price = 22.0;
         clip8.isDecorative = true;
         System.out.println("=== Hairclip 8 ===");
-        System.out.println("ID: " + clip8.clipId);
-        System.out.println("Brand: " + clip8.brand);
-        System.out.println("Color: " + clip8.color);
-        System.out.println("Type: " + clip8.type);
-        System.out.println("Material: " + clip8.material);
-        System.out.println("Price: ₹" + clip8.price);
-        System.out.println("Decorative: " + clip8.isDecorative);
+        clip8.getHairclipInfo();
 
         Hairclip clip9 = new Hairclip();
         clip9.clipId = 9;
@@ -149,13 +101,7 @@ class HairclipRunner {
         clip9.price = 26.0;
         clip9.isDecorative = false;
         System.out.println("=== Hairclip 9 ===");
-        System.out.println("ID: " + clip9.clipId);
-        System.out.println("Brand: " + clip9.brand);
-        System.out.println("Color: " + clip9.color);
-        System.out.println("Type: " + clip9.type);
-        System.out.println("Material: " + clip9.material);
-        System.out.println("Price: ₹" + clip9.price);
-        System.out.println("Decorative: " + clip9.isDecorative);
+        clip9.getHairclipInfo();
 
         Hairclip clip10 = new Hairclip();
         clip10.clipId = 10;
@@ -166,13 +112,7 @@ class HairclipRunner {
         clip10.price = 50.0;
         clip10.isDecorative = true;
         System.out.println("=== Hairclip 10 ===");
-        System.out.println("ID: " + clip10.clipId);
-        System.out.println("Brand: " + clip10.brand);
-        System.out.println("Color: " + clip10.color);
-        System.out.println("Type: " + clip10.type);
-        System.out.println("Material: " + clip10.material);
-        System.out.println("Price: ₹" + clip10.price);
-        System.out.println("Decorative: " + clip10.isDecorative);
+        clip10.getHairclipInfo();
 
         Hairclip clip11 = new Hairclip();
         clip11.clipId = 11;
@@ -183,13 +123,7 @@ class HairclipRunner {
         clip11.price = 65.0;
         clip11.isDecorative = true;
         System.out.println("=== Hairclip 11 ===");
-        System.out.println("ID: " + clip11.clipId);
-        System.out.println("Brand: " + clip11.brand);
-        System.out.println("Color: " + clip11.color);
-        System.out.println("Type: " + clip11.type);
-        System.out.println("Material: " + clip11.material);
-        System.out.println("Price: ₹" + clip11.price);
-        System.out.println("Decorative: " + clip11.isDecorative);
+        clip11.getHairclipInfo();
 
         Hairclip clip12 = new Hairclip();
         clip12.clipId = 12;
@@ -200,13 +134,7 @@ class HairclipRunner {
         clip12.price = 38.0;
         clip12.isDecorative = false;
         System.out.println("=== Hairclip 12 ===");
-        System.out.println("ID: " + clip12.clipId);
-        System.out.println("Brand: " + clip12.brand);
-        System.out.println("Color: " + clip12.color);
-        System.out.println("Type: " + clip12.type);
-        System.out.println("Material: " + clip12.material);
-        System.out.println("Price: ₹" + clip12.price);
-        System.out.println("Decorative: " + clip12.isDecorative);
+        clip12.getHairclipInfo();
 
         Hairclip clip13 = new Hairclip();
         clip13.clipId = 13;
@@ -217,13 +145,7 @@ class HairclipRunner {
         clip13.price = 32.0;
         clip13.isDecorative = false;
         System.out.println("=== Hairclip 13 ===");
-        System.out.println("ID: " + clip13.clipId);
-        System.out.println("Brand: " + clip13.brand);
-        System.out.println("Color: " + clip13.color);
-        System.out.println("Type: " + clip13.type);
-        System.out.println("Material: " + clip13.material);
-        System.out.println("Price: ₹" + clip13.price);
-        System.out.println("Decorative: " + clip13.isDecorative);
+        clip13.getHairclipInfo();
 
         Hairclip clip14 = new Hairclip();
         clip14.clipId = 14;
@@ -234,13 +156,7 @@ class HairclipRunner {
         clip14.price = 29.0;
         clip14.isDecorative = true;
         System.out.println("=== Hairclip 14 ===");
-        System.out.println("ID: " + clip14.clipId);
-        System.out.println("Brand: " + clip14.brand);
-        System.out.println("Color: " + clip14.color);
-        System.out.println("Type: " + clip14.type);
-        System.out.println("Material: " + clip14.material);
-        System.out.println("Price: ₹" + clip14.price);
-        System.out.println("Decorative: " + clip14.isDecorative);
+        clip14.getHairclipInfo();
 
         Hairclip clip15 = new Hairclip();
         clip15.clipId = 15;
@@ -251,13 +167,7 @@ class HairclipRunner {
         clip15.price = 60.0;
         clip15.isDecorative = true;
         System.out.println("=== Hairclip 15 ===");
-        System.out.println("ID: " + clip15.clipId);
-        System.out.println("Brand: " + clip15.brand);
-        System.out.println("Color: " + clip15.color);
-        System.out.println("Type: " + clip15.type);
-        System.out.println("Material: " + clip15.material);
-        System.out.println("Price: ₹" + clip15.price);
-        System.out.println("Decorative: " + clip15.isDecorative);
+        clip15.getHairclipInfo();
 
         Hairclip clip16 = new Hairclip();
         clip16.clipId = 16;
@@ -268,13 +178,7 @@ class HairclipRunner {
         clip16.price = 33.0;
         clip16.isDecorative = false;
         System.out.println("=== Hairclip 16 ===");
-        System.out.println("ID: " + clip16.clipId);
-        System.out.println("Brand: " + clip16.brand);
-        System.out.println("Color: " + clip16.color);
-        System.out.println("Type: " + clip16.type);
-        System.out.println("Material: " + clip16.material);
-        System.out.println("Price: ₹" + clip16.price);
-        System.out.println("Decorative: " + clip16.isDecorative);
+        clip16.getHairclipInfo();
 
         Hairclip clip17 = new Hairclip();
         clip17.clipId = 17;
@@ -285,13 +189,7 @@ class HairclipRunner {
         clip17.price = 27.0;
         clip17.isDecorative = true;
         System.out.println("=== Hairclip 17 ===");
-        System.out.println("ID: " + clip17.clipId);
-        System.out.println("Brand: " + clip17.brand);
-        System.out.println("Color: " + clip17.color);
-        System.out.println("Type: " + clip17.type);
-        System.out.println("Material: " + clip17.material);
-        System.out.println("Price: ₹" + clip17.price);
-        System.out.println("Decorative: " + clip17.isDecorative);
+        clip17.getHairclipInfo();
 
         Hairclip clip18 = new Hairclip();
         clip18.clipId = 18;
@@ -302,13 +200,7 @@ class HairclipRunner {
         clip18.price = 42.0;
         clip18.isDecorative = true;
         System.out.println("=== Hairclip 18 ===");
-        System.out.println("ID: " + clip18.clipId);
-        System.out.println("Brand: " + clip18.brand);
-        System.out.println("Color: " + clip18.color);
-        System.out.println("Type: " + clip18.type);
-        System.out.println("Material: " + clip18.material);
-        System.out.println("Price: ₹" + clip18.price);
-        System.out.println("Decorative: " + clip18.isDecorative);
+        clip18.getHairclipInfo();
 
         Hairclip clip19 = new Hairclip();
         clip19.clipId = 19;
@@ -319,13 +211,7 @@ class HairclipRunner {
         clip19.price = 70.0;
         clip19.isDecorative = true;
         System.out.println("=== Hairclip 19 ===");
-        System.out.println("ID: " + clip19.clipId);
-        System.out.println("Brand: " + clip19.brand);
-        System.out.println("Color: " + clip19.color);
-        System.out.println("Type: " + clip19.type);
-        System.out.println("Material: " + clip19.material);
-        System.out.println("Price: ₹" + clip19.price);
-        System.out.println("Decorative: " + clip19.isDecorative);
+        clip19.getHairclipInfo();
 
         Hairclip clip20 = new Hairclip();
         clip20.clipId = 20;
@@ -336,15 +222,8 @@ class HairclipRunner {
         clip20.price = 55.0;
         clip20.isDecorative = false;
         System.out.println("=== Hairclip 20 ===");
-        System.out.println("ID: " + clip20.clipId);
-        System.out.println("Brand: " + clip20.brand);
-        System.out.println("Color: " + clip20.color);
-        System.out.println("Type: " + clip20.type);
-        System.out.println("Material: " + clip20.material);
-        System.out.println("Price: ₹" + clip20.price);
-        System.out.println("Decorative: " + clip20.isDecorative);
+        clip20.getHairclipInfo();
 
         System.out.println("Main Ended");
     }
 }
-

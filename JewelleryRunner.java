@@ -1,5 +1,5 @@
 class JewelleryRunner {
-
+	
     public static void main(String[] args) {
 
         System.out.println("Main Started");
@@ -13,13 +13,7 @@ class JewelleryRunner {
         j1.color = "Golden";
         j1.price = 75000.0;
         System.out.println("=== Jewellery 1 ===");
-        System.out.println("ID: " + j1.jewelleryId);
-        System.out.println("Type: " + j1.type);
-        System.out.println("Material: " + j1.material);
-        System.out.println("Weight: " + j1.weight + "g");
-        System.out.println("Brand: " + j1.brand);
-        System.out.println("Color: " + j1.color);
-        System.out.println("Price: ₹" + j1.price);
+        j1.getJewelleryInfo();
 
         Jewellery j2 = new Jewellery();
         j2.jewelleryId = 2;
@@ -30,13 +24,7 @@ class JewelleryRunner {
         j2.color = "Silver";
         j2.price = 35000.0;
         System.out.println("=== Jewellery 2 ===");
-        System.out.println("ID: " + j2.jewelleryId);
-        System.out.println("Type: " + j2.type);
-        System.out.println("Material: " + j2.material);
-        System.out.println("Weight: " + j2.weight + "g");
-        System.out.println("Brand: " + j2.brand);
-        System.out.println("Color: " + j2.color);
-        System.out.println("Price: ₹" + j2.price);
+        j2.getJewelleryInfo();
 
         Jewellery j3 = new Jewellery();
         j3.jewelleryId = 3;
@@ -47,13 +35,7 @@ class JewelleryRunner {
         j3.color = "Yellow Gold";
         j3.price = 58000.0;
         System.out.println("=== Jewellery 3 ===");
-        System.out.println("ID: " + j3.jewelleryId);
-        System.out.println("Type: " + j3.type);
-        System.out.println("Material: " + j3.material);
-        System.out.println("Weight: " + j3.weight + "g");
-        System.out.println("Brand: " + j3.brand);
-        System.out.println("Color: " + j3.color);
-        System.out.println("Price: ₹" + j3.price);
+        j3.getJewelleryInfo();
 
         Jewellery j4 = new Jewellery();
         j4.jewelleryId = 4;
@@ -64,13 +46,7 @@ class JewelleryRunner {
         j4.color = "White";
         j4.price = 45000.0;
         System.out.println("=== Jewellery 4 ===");
-        System.out.println("ID: " + j4.jewelleryId);
-        System.out.println("Type: " + j4.type);
-        System.out.println("Material: " + j4.material);
-        System.out.println("Weight: " + j4.weight + "g");
-        System.out.println("Brand: " + j4.brand);
-        System.out.println("Color: " + j4.color);
-        System.out.println("Price: ₹" + j4.price);
+        j4.getJewelleryInfo();
 
         Jewellery j5 = new Jewellery();
         j5.jewelleryId = 5;
@@ -81,15 +57,9 @@ class JewelleryRunner {
         j5.color = "Silver";
         j5.price = 8000.0;
         System.out.println("=== Jewellery 5 ===");
-        System.out.println("ID: " + j5.jewelleryId);
-        System.out.println("Type: " + j5.type);
-        System.out.println("Material: " + j5.material);
-        System.out.println("Weight: " + j5.weight + "g");
-        System.out.println("Brand: " + j5.brand);
-        System.out.println("Color: " + j5.color);
-        System.out.println("Price: ₹" + j5.price);
+        j5.getJewelleryInfo();
 
-		        Jewellery j6 = new Jewellery();
+        Jewellery j6 = new Jewellery();
         j6.jewelleryId = 6;
         j6.type = "Pendant";
         j6.material = "Gold";
@@ -98,13 +68,7 @@ class JewelleryRunner {
         j6.color = "Golden";
         j6.price = 31000.0;
         System.out.println("=== Jewellery 6 ===");
-        System.out.println("ID: " + j6.jewelleryId);
-        System.out.println("Type: " + j6.type);
-        System.out.println("Material: " + j6.material);
-        System.out.println("Weight: " + j6.weight + "g");
-        System.out.println("Brand: " + j6.brand);
-        System.out.println("Color: " + j6.color);
-        System.out.println("Price: ₹" + j6.price);
+        j6.getJewelleryInfo();
 
         Jewellery j7 = new Jewellery();
         j7.jewelleryId = 7;
@@ -115,13 +79,7 @@ class JewelleryRunner {
         j7.color = "Silver";
         j7.price = 2500.0;
         System.out.println("=== Jewellery 7 ===");
-        System.out.println("ID: " + j7.jewelleryId);
-        System.out.println("Type: " + j7.type);
-        System.out.println("Material: " + j7.material);
-        System.out.println("Weight: " + j7.weight + "g");
-        System.out.println("Brand: " + j7.brand);
-        System.out.println("Color: " + j7.color);
-        System.out.println("Price: ₹" + j7.price);
+        j7.getJewelleryInfo();
 
         Jewellery j8 = new Jewellery();
         j8.jewelleryId = 8;
@@ -132,13 +90,7 @@ class JewelleryRunner {
         j8.color = "White";
         j8.price = 15000.0;
         System.out.println("=== Jewellery 8 ===");
-        System.out.println("ID: " + j8.jewelleryId);
-        System.out.println("Type: " + j8.type);
-        System.out.println("Material: " + j8.material);
-        System.out.println("Weight: " + j8.weight + "g");
-        System.out.println("Brand: " + j8.brand);
-        System.out.println("Color: " + j8.color);
-        System.out.println("Price: ₹" + j8.price);
+        j8.getJewelleryInfo();
 
         Jewellery j9 = new Jewellery();
         j9.jewelleryId = 9;
@@ -149,13 +101,7 @@ class JewelleryRunner {
         j9.color = "Silver";
         j9.price = 1000.0;
         System.out.println("=== Jewellery 9 ===");
-        System.out.println("ID: " + j9.jewelleryId);
-        System.out.println("Type: " + j9.type);
-        System.out.println("Material: " + j9.material);
-        System.out.println("Weight: " + j9.weight + "g");
-        System.out.println("Brand: " + j9.brand);
-        System.out.println("Color: " + j9.color);
-        System.out.println("Price: ₹" + j9.price);
+        j9.getJewelleryInfo();
 
         Jewellery j10 = new Jewellery();
         j10.jewelleryId = 10;
@@ -166,13 +112,7 @@ class JewelleryRunner {
         j10.color = "Golden Black";
         j10.price = 82000.0;
         System.out.println("=== Jewellery 10 ===");
-        System.out.println("ID: " + j10.jewelleryId);
-        System.out.println("Type: " + j10.type);
-        System.out.println("Material: " + j10.material);
-        System.out.println("Weight: " + j10.weight + "g");
-        System.out.println("Brand: " + j10.brand);
-        System.out.println("Color: " + j10.color);
-        System.out.println("Price: ₹" + j10.price);
+        j10.getJewelleryInfo();
 
         Jewellery j11 = new Jewellery();
         j11.jewelleryId = 11;
@@ -183,13 +123,7 @@ class JewelleryRunner {
         j11.color = "White Gold";
         j11.price = 150000.0;
         System.out.println("=== Jewellery 11 ===");
-        System.out.println("ID: " + j11.jewelleryId);
-        System.out.println("Type: " + j11.type);
-        System.out.println("Material: " + j11.material);
-        System.out.println("Weight: " + j11.weight + "g");
-        System.out.println("Brand: " + j11.brand);
-        System.out.println("Color: " + j11.color);
-        System.out.println("Price: ₹" + j11.price);
+        j11.getJewelleryInfo();
 
         Jewellery j12 = new Jewellery();
         j12.jewelleryId = 12;
@@ -200,13 +134,7 @@ class JewelleryRunner {
         j12.color = "Golden";
         j12.price = 28000.0;
         System.out.println("=== Jewellery 12 ===");
-        System.out.println("ID: " + j12.jewelleryId);
-        System.out.println("Type: " + j12.type);
-        System.out.println("Material: " + j12.material);
-        System.out.println("Weight: " + j12.weight + "g");
-        System.out.println("Brand: " + j12.brand);
-        System.out.println("Color: " + j12.color);
-        System.out.println("Price: ₹" + j12.price);
+        j12.getJewelleryInfo();
 
         Jewellery j13 = new Jewellery();
         j13.jewelleryId = 13;
@@ -217,13 +145,7 @@ class JewelleryRunner {
         j13.color = "Golden";
         j13.price = 44000.0;
         System.out.println("=== Jewellery 13 ===");
-        System.out.println("ID: " + j13.jewelleryId);
-        System.out.println("Type: " + j13.type);
-        System.out.println("Material: " + j13.material);
-        System.out.println("Weight: " + j13.weight + "g");
-        System.out.println("Brand: " + j13.brand);
-        System.out.println("Color: " + j13.color);
-        System.out.println("Price: ₹" + j13.price);
+        j13.getJewelleryInfo();
 
         Jewellery j14 = new Jewellery();
         j14.jewelleryId = 14;
@@ -234,13 +156,7 @@ class JewelleryRunner {
         j14.color = "Silver";
         j14.price = 56000.0;
         System.out.println("=== Jewellery 14 ===");
-        System.out.println("ID: " + j14.jewelleryId);
-        System.out.println("Type: " + j14.type);
-        System.out.println("Material: " + j14.material);
-        System.out.println("Weight: " + j14.weight + "g");
-        System.out.println("Brand: " + j14.brand);
-        System.out.println("Color: " + j14.color);
-        System.out.println("Price: ₹" + j14.price);
+        j14.getJewelleryInfo();
 
         Jewellery j15 = new Jewellery();
         j15.jewelleryId = 15;
@@ -251,13 +167,7 @@ class JewelleryRunner {
         j15.color = "Silver";
         j15.price = 3200.0;
         System.out.println("=== Jewellery 15 ===");
-        System.out.println("ID: " + j15.jewelleryId);
-        System.out.println("Type: " + j15.type);
-        System.out.println("Material: " + j15.material);
-        System.out.println("Weight: " + j15.weight + "g");
-        System.out.println("Brand: " + j15.brand);
-        System.out.println("Color: " + j15.color);
-        System.out.println("Price: ₹" + j15.price);
+        j15.getJewelleryInfo();
 
         Jewellery j16 = new Jewellery();
         j16.jewelleryId = 16;
@@ -268,13 +178,7 @@ class JewelleryRunner {
         j16.color = "White";
         j16.price = 62000.0;
         System.out.println("=== Jewellery 16 ===");
-        System.out.println("ID: " + j16.jewelleryId);
-        System.out.println("Type: " + j16.type);
-        System.out.println("Material: " + j16.material);
-        System.out.println("Weight: " + j16.weight + "g");
-        System.out.println("Brand: " + j16.brand);
-        System.out.println("Color: " + j16.color);
-        System.out.println("Price: ₹" + j16.price);
+        j16.getJewelleryInfo();
 
         Jewellery j17 = new Jewellery();
         j17.jewelleryId = 17;
@@ -285,13 +189,7 @@ class JewelleryRunner {
         j17.color = "Yellow Gold";
         j17.price = 7800.0;
         System.out.println("=== Jewellery 17 ===");
-        System.out.println("ID: " + j17.jewelleryId);
-        System.out.println("Type: " + j17.type);
-        System.out.println("Material: " + j17.material);
-        System.out.println("Weight: " + j17.weight + "g");
-        System.out.println("Brand: " + j17.brand);
-        System.out.println("Color: " + j17.color);
-        System.out.println("Price: ₹" + j17.price);
+        j17.getJewelleryInfo();
 
         Jewellery j18 = new Jewellery();
         j18.jewelleryId = 18;
@@ -302,13 +200,7 @@ class JewelleryRunner {
         j18.color = "Silver";
         j18.price = 1800.0;
         System.out.println("=== Jewellery 18 ===");
-        System.out.println("ID: " + j18.jewelleryId);
-        System.out.println("Type: " + j18.type);
-        System.out.println("Material: " + j18.material);
-        System.out.println("Weight: " + j18.weight + "g");
-        System.out.println("Brand: " + j18.brand);
-        System.out.println("Color: " + j18.color);
-        System.out.println("Price: ₹" + j18.price);
+        j18.getJewelleryInfo();
 
         Jewellery j19 = new Jewellery();
         j19.jewelleryId = 19;
@@ -319,13 +211,7 @@ class JewelleryRunner {
         j19.color = "Golden";
         j19.price = 102000.0;
         System.out.println("=== Jewellery 19 ===");
-        System.out.println("ID: " + j19.jewelleryId);
-        System.out.println("Type: " + j19.type);
-        System.out.println("Material: " + j19.material);
-        System.out.println("Weight: " + j19.weight + "g");
-        System.out.println("Brand: " + j19.brand);
-        System.out.println("Color: " + j19.color);
-        System.out.println("Price: ₹" + j19.price);
+        j19.getJewelleryInfo();
 
         Jewellery j20 = new Jewellery();
         j20.jewelleryId = 20;
@@ -336,15 +222,8 @@ class JewelleryRunner {
         j20.color = "Silver";
         j20.price = 70000.0;
         System.out.println("=== Jewellery 20 ===");
-        System.out.println("ID: " + j20.jewelleryId);
-        System.out.println("Type: " + j20.type);
-        System.out.println("Material: " + j20.material);
-        System.out.println("Weight: " + j20.weight + "g");
-        System.out.println("Brand: " + j20.brand);
-        System.out.println("Color: " + j20.color);
-        System.out.println("Price: ₹" + j20.price);
+        j20.getJewelleryInfo();
 
         System.out.println("Main Ended");
-
     }
 }

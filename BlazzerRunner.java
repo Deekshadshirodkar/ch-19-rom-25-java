@@ -13,13 +13,7 @@ class BlazzerRunner {
         blazzer1.price = 3499.99;
         blazzer1.isFormal = true;
         System.out.println("=== Blazzer 1 ===");
-        System.out.println("ID: " + blazzer1.blazzerId);
-        System.out.println("Brand: " + blazzer1.brand);
-        System.out.println("Size: " + blazzer1.size);
-        System.out.println("Color: " + blazzer1.color);
-        System.out.println("Fabric: " + blazzer1.fabric);
-        System.out.println("Price: Rs." + blazzer1.price);
-        System.out.println("Formal: " + blazzer1.isFormal);
+        blazzer1.getBlazzerInfo();
 
         Blazzer blazzer2 = new Blazzer();
         blazzer2.blazzerId = 2;
@@ -30,13 +24,7 @@ class BlazzerRunner {
         blazzer2.price = 4299.50;
         blazzer2.isFormal = false;
         System.out.println("=== Blazzer 2 ===");
-        System.out.println("ID: " + blazzer2.blazzerId);
-        System.out.println("Brand: " + blazzer2.brand);
-        System.out.println("Size: " + blazzer2.size);
-        System.out.println("Color: " + blazzer2.color);
-        System.out.println("Fabric: " + blazzer2.fabric);
-        System.out.println("Price: Rs." + blazzer2.price);
-        System.out.println("Formal: " + blazzer2.isFormal);
+        blazzer2.getBlazzerInfo();
 
         Blazzer blazzer3 = new Blazzer();
         blazzer3.blazzerId = 3;
@@ -47,13 +35,7 @@ class BlazzerRunner {
         blazzer3.price = 3999.99;
         blazzer3.isFormal = true;
         System.out.println("=== Blazzer 3 ===");
-        System.out.println("ID: " + blazzer3.blazzerId);
-        System.out.println("Brand: " + blazzer3.brand);
-        System.out.println("Size: " + blazzer3.size);
-        System.out.println("Color: " + blazzer3.color);
-        System.out.println("Fabric: " + blazzer3.fabric);
-        System.out.println("Price: ₹" + blazzer3.price);
-        System.out.println("Formal: " + blazzer3.isFormal);
+        blazzer3.getBlazzerInfo();
 
         Blazzer blazzer4 = new Blazzer();
         blazzer4.blazzerId = 4;
@@ -64,13 +46,7 @@ class BlazzerRunner {
         blazzer4.price = 2899.0;
         blazzer4.isFormal = false;
         System.out.println("=== Blazzer 4 ===");
-        System.out.println("ID: " + blazzer4.blazzerId);
-        System.out.println("Brand: " + blazzer4.brand);
-        System.out.println("Size: " + blazzer4.size);
-        System.out.println("Color: " + blazzer4.color);
-        System.out.println("Fabric: " + blazzer4.fabric);
-        System.out.println("Price: ₹" + blazzer4.price);
-        System.out.println("Formal: " + blazzer4.isFormal);
+        blazzer4.getBlazzerInfo();
 
         Blazzer blazzer5 = new Blazzer();
         blazzer5.blazzerId = 5;
@@ -81,14 +57,8 @@ class BlazzerRunner {
         blazzer5.price = 4599.75;
         blazzer5.isFormal = true;
         System.out.println("=== Blazzer 5 ===");
-        System.out.println("ID: " + blazzer5.blazzerId);
-        System.out.println("Brand: " + blazzer5.brand);
-        System.out.println("Size: " + blazzer5.size);
-        System.out.println("Color: " + blazzer5.color);
-        System.out.println("Fabric: " + blazzer5.fabric);
-        System.out.println("Price: ₹" + blazzer5.price);
-        System.out.println("Formal: " + blazzer5.isFormal);
-
+        blazzer5.getBlazzerInfo();
+		
         Blazzer blazzer6 = new Blazzer();
         blazzer6.blazzerId = 6;
         blazzer6.brand = "Raymond";
@@ -98,13 +68,7 @@ class BlazzerRunner {
         blazzer6.price = 4999.0;
         blazzer6.isFormal = false;
         System.out.println("=== Blazzer 6 ===");
-        System.out.println("ID: " + blazzer6.blazzerId);
-        System.out.println("Brand: " + blazzer6.brand);
-        System.out.println("Size: " + blazzer6.size);
-        System.out.println("Color: " + blazzer6.color);
-        System.out.println("Fabric: " + blazzer6.fabric);
-        System.out.println("Price: Rs" + blazzer6.price);
-        System.out.println("Formal: " + blazzer6.isFormal);
+        blazzer6.getBlazzerInfo();
 
         Blazzer blazzer7 = new Blazzer();
         blazzer7.blazzerId = 7;
@@ -115,13 +79,7 @@ class BlazzerRunner {
         blazzer7.price = 3899.95;
         blazzer7.isFormal = true;
         System.out.println("=== Blazzer 7 ===");
-        System.out.println("ID: " + blazzer7.blazzerId);
-        System.out.println("Brand: " + blazzer7.brand);
-        System.out.println("Size: " + blazzer7.size);
-        System.out.println("Color: " + blazzer7.color);
-        System.out.println("Fabric: " + blazzer7.fabric);
-        System.out.println("Price: ₹" + blazzer7.price);
-        System.out.println("Formal: " + blazzer7.isFormal);
+        blazzer7.getBlazzerInfo();
 
         Blazzer blazzer8 = new Blazzer();
         blazzer8.blazzerId = 8;
@@ -132,13 +90,7 @@ class BlazzerRunner {
         blazzer8.price = 5499.99;
         blazzer8.isFormal = true;
         System.out.println("=== Blazzer 8 ===");
-        System.out.println("ID: " + blazzer8.blazzerId);
-        System.out.println("Brand: " + blazzer8.brand);
-        System.out.println("Size: " + blazzer8.size);
-        System.out.println("Color: " + blazzer8.color);
-        System.out.println("Fabric: " + blazzer8.fabric);
-        System.out.println("Price: ₹" + blazzer8.price);
-        System.out.println("Formal: " + blazzer8.isFormal);
+        blazzer8.getBlazzerInfo();
 
         Blazzer blazzer9 = new Blazzer();
         blazzer9.blazzerId = 9;
@@ -149,13 +101,7 @@ class BlazzerRunner {
         blazzer9.price = 3799.0;
         blazzer9.isFormal = false;
         System.out.println("=== Blazzer 9 ===");
-        System.out.println("ID: " + blazzer9.blazzerId);
-        System.out.println("Brand: " + blazzer9.brand);
-        System.out.println("Size: " + blazzer9.size);
-        System.out.println("Color: " + blazzer9.color);
-        System.out.println("Fabric: " + blazzer9.fabric);
-        System.out.println("Price: ₹" + blazzer9.price);
-        System.out.println("Formal: " + blazzer9.isFormal);
+        blazzer9.getBlazzerInfo();
 
         Blazzer blazzer10 = new Blazzer();
         blazzer10.blazzerId = 10;
@@ -166,13 +112,7 @@ class BlazzerRunner {
         blazzer10.price = 5999.0;
         blazzer10.isFormal = true;
         System.out.println("=== Blazzer 10 ===");
-        System.out.println("ID: " + blazzer10.blazzerId);
-        System.out.println("Brand: " + blazzer10.brand);
-        System.out.println("Size: " + blazzer10.size);
-        System.out.println("Color: " + blazzer10.color);
-        System.out.println("Fabric: " + blazzer10.fabric);
-        System.out.println("Price: ₹" + blazzer10.price);
-        System.out.println("Formal: " + blazzer10.isFormal);
+        blazzer10.getBlazzerInfo();
 
 		Blazzer blazzer11 = new Blazzer();
         blazzer11.blazzerId = 11;
@@ -183,13 +123,7 @@ class BlazzerRunner {
         blazzer11.price = 4599.0;
         blazzer11.isFormal = true;
         System.out.println("=== Blazzer 11 ===");
-        System.out.println("ID: " + blazzer11.blazzerId);
-        System.out.println("Brand: " + blazzer11.brand);
-        System.out.println("Size: " + blazzer11.size);
-        System.out.println("Color: " + blazzer11.color);
-        System.out.println("Fabric: " + blazzer11.fabric);
-        System.out.println("Price: ₹" + blazzer11.price);
-        System.out.println("Formal: " + blazzer11.isFormal);
+        blazzer11.getBlazzerInfo();
 
         Blazzer blazzer12 = new Blazzer();
         blazzer12.blazzerId = 12;
@@ -200,13 +134,7 @@ class BlazzerRunner {
         blazzer12.price = 3299.0;
         blazzer12.isFormal = false;
         System.out.println("=== Blazzer 12 ===");
-        System.out.println("ID: " + blazzer12.blazzerId);
-        System.out.println("Brand: " + blazzer12.brand);
-        System.out.println("Size: " + blazzer12.size);
-        System.out.println("Color: " + blazzer12.color);
-        System.out.println("Fabric: " + blazzer12.fabric);
-        System.out.println("Price: ₹" + blazzer12.price);
-        System.out.println("Formal: " + blazzer12.isFormal);
+        blazzer12.getBlazzerInfo();
 
         Blazzer blazzer13 = new Blazzer();
         blazzer13.blazzerId = 13;
@@ -217,13 +145,7 @@ class BlazzerRunner {
         blazzer13.price = 6199.0;
         blazzer13.isFormal = false;
         System.out.println("=== Blazzer 13 ===");
-        System.out.println("ID: " + blazzer13.blazzerId);
-        System.out.println("Brand: " + blazzer13.brand);
-        System.out.println("Size: " + blazzer13.size);
-        System.out.println("Color: " + blazzer13.color);
-        System.out.println("Fabric: " + blazzer13.fabric);
-        System.out.println("Price: ₹" + blazzer13.price);
-        System.out.println("Formal: " + blazzer13.isFormal);
+        blazzer13.getBlazzerInfo();
 
         Blazzer blazzer14 = new Blazzer();
         blazzer14.blazzerId = 14;
@@ -234,13 +156,7 @@ class BlazzerRunner {
         blazzer14.price = 3799.0;
         blazzer14.isFormal = true;
         System.out.println("=== Blazzer 14 ===");
-        System.out.println("ID: " + blazzer14.blazzerId);
-        System.out.println("Brand: " + blazzer14.brand);
-        System.out.println("Size: " + blazzer14.size);
-        System.out.println("Color: " + blazzer14.color);
-        System.out.println("Fabric: " + blazzer14.fabric);
-        System.out.println("Price: ₹" + blazzer14.price);
-        System.out.println("Formal: " + blazzer14.isFormal);
+        blazzer14.getBlazzerInfo();
 
         Blazzer blazzer15 = new Blazzer();
         blazzer15.blazzerId = 15;
@@ -251,13 +167,7 @@ class BlazzerRunner {
         blazzer15.price = 4899.0;
         blazzer15.isFormal = true;
         System.out.println("=== Blazzer 15 ===");
-        System.out.println("ID: " + blazzer15.blazzerId);
-        System.out.println("Brand: " + blazzer15.brand);
-        System.out.println("Size: " + blazzer15.size);
-        System.out.println("Color: " + blazzer15.color);
-        System.out.println("Fabric: " + blazzer15.fabric);
-        System.out.println("Price: ₹" + blazzer15.price);
-        System.out.println("Formal: " + blazzer15.isFormal);
+        blazzer15.getBlazzerInfo();
 
         Blazzer blazzer16 = new Blazzer();
         blazzer16.blazzerId = 16;
@@ -268,13 +178,7 @@ class BlazzerRunner {
         blazzer16.price = 3999.0;
         blazzer16.isFormal = false;
         System.out.println("=== Blazzer 16 ===");
-        System.out.println("ID: " + blazzer16.blazzerId);
-        System.out.println("Brand: " + blazzer16.brand);
-        System.out.println("Size: " + blazzer16.size);
-        System.out.println("Color: " + blazzer16.color);
-        System.out.println("Fabric: " + blazzer16.fabric);
-        System.out.println("Price: ₹" + blazzer16.price);
-        System.out.println("Formal: " + blazzer16.isFormal);
+        blazzer16.getBlazzerInfo();
 
         Blazzer blazzer17 = new Blazzer();
         blazzer17.blazzerId = 17;
@@ -285,13 +189,7 @@ class BlazzerRunner {
         blazzer17.price = 4599.0;
         blazzer17.isFormal = false;
         System.out.println("=== Blazzer 17 ===");
-        System.out.println("ID: " + blazzer17.blazzerId);
-        System.out.println("Brand: " + blazzer17.brand);
-        System.out.println("Size: " + blazzer17.size);
-        System.out.println("Color: " + blazzer17.color);
-        System.out.println("Fabric: " + blazzer17.fabric);
-        System.out.println("Price: ₹" + blazzer17.price);
-        System.out.println("Formal: " + blazzer17.isFormal);
+        blazzer17.getBlazzerInfo();
 
         Blazzer blazzer18 = new Blazzer();
         blazzer18.blazzerId = 18;
@@ -302,13 +200,7 @@ class BlazzerRunner {
         blazzer18.price = 4099.0;
         blazzer18.isFormal = false;
         System.out.println("=== Blazzer 18 ===");
-        System.out.println("ID: " + blazzer18.blazzerId);
-        System.out.println("Brand: " + blazzer18.brand);
-        System.out.println("Size: " + blazzer18.size);
-        System.out.println("Color: " + blazzer18.color);
-        System.out.println("Fabric: " + blazzer18.fabric);
-        System.out.println("Price: ₹" + blazzer18.price);
-        System.out.println("Formal: " + blazzer18.isFormal);
+        blazzer18.getBlazzerInfo();
 
         Blazzer blazzer19 = new Blazzer();
         blazzer19.blazzerId = 19;
@@ -319,14 +211,8 @@ class BlazzerRunner {
         blazzer19.price = 6399.0;
         blazzer19.isFormal = true;
         System.out.println("=== Blazzer 19 ===");
-        System.out.println("ID: " + blazzer19.blazzerId);
-        System.out.println("Brand: " + blazzer19.brand);
-        System.out.println("Size: " + blazzer19.size);
-        System.out.println("Color: " + blazzer19.color);
-        System.out.println("Fabric: " + blazzer19.fabric);
-        System.out.println("Price: ₹" + blazzer19.price);
-        System.out.println("Formal: " + blazzer19.isFormal);
-
+        blazzer19.getBlazzerInfo();
+		
         Blazzer blazzer20 = new Blazzer();
         blazzer20.blazzerId = 20;
         blazzer20.brand = "Marks & Spencer";
@@ -336,13 +222,7 @@ class BlazzerRunner {
         blazzer20.price = 6799.0;
         blazzer20.isFormal = true;
         System.out.println("=== Blazzer 20 ===");
-        System.out.println("ID: " + blazzer20.blazzerId);
-        System.out.println("Brand: " + blazzer20.brand);
-        System.out.println("Size: " + blazzer20.size);
-        System.out.println("Color: " + blazzer20.color);
-        System.out.println("Fabric: " + blazzer20.fabric);
-        System.out.println("Price: ₹" + blazzer20.price);
-        System.out.println("Formal: " + blazzer20.isFormal);
+        blazzer20.getBlazzerInfo();
 
         System.out.println("Main Ended");
     }

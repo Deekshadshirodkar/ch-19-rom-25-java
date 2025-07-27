@@ -13,13 +13,7 @@ class WeaponRunner {
         weapon1.length = 26.5;
         weapon1.isLicensed = true;
         System.out.println("=== Weapon 1 ===");
-        System.out.println("ID: " + weapon1.weaponId);
-        System.out.println("Name: " + weapon1.name);
-        System.out.println("Type: " + weapon1.type);
-        System.out.println("Material: " + weapon1.material);
-        System.out.println("Weight (kg): " + weapon1.weight);
-        System.out.println("Length (cm): " + weapon1.length);
-        System.out.println("Licensed: " + weapon1.isLicensed);
+        weapon1.getWeaponInfo();
 
         Weapon weapon2 = new Weapon();
         weapon2.weaponId = 2;
@@ -30,13 +24,7 @@ class WeaponRunner {
         weapon2.length = 100.0;
         weapon2.isLicensed = false;
         System.out.println("=== Weapon 2 ===");
-        System.out.println("ID: " + weapon2.weaponId);
-        System.out.println("Name: " + weapon2.name);
-        System.out.println("Type: " + weapon2.type);
-        System.out.println("Material: " + weapon2.material);
-        System.out.println("Weight (kg): " + weapon2.weight);
-        System.out.println("Length (cm): " + weapon2.length);
-        System.out.println("Licensed: " + weapon2.isLicensed);
+        weapon2.getWeaponInfo();
 
         Weapon weapon3 = new Weapon();
         weapon3.weaponId = 3;
@@ -47,13 +35,7 @@ class WeaponRunner {
         weapon3.length = 87.0;
         weapon3.isLicensed = true;
         System.out.println("=== Weapon 3 ===");
-        System.out.println("ID: " + weapon3.weaponId);
-        System.out.println("Name: " + weapon3.name);
-        System.out.println("Type: " + weapon3.type);
-        System.out.println("Material: " + weapon3.material);
-        System.out.println("Weight (kg): " + weapon3.weight);
-        System.out.println("Length (cm): " + weapon3.length);
-        System.out.println("Licensed: " + weapon3.isLicensed);
+        weapon3.getWeaponInfo();
 
         Weapon weapon4 = new Weapon();
         weapon4.weaponId = 4;
@@ -64,13 +46,7 @@ class WeaponRunner {
         weapon4.length = 78.0;
         weapon4.isLicensed = false;
         System.out.println("=== Weapon 4 ===");
-        System.out.println("ID: " + weapon4.weaponId);
-        System.out.println("Name: " + weapon4.name);
-        System.out.println("Type: " + weapon4.type);
-        System.out.println("Material: " + weapon4.material);
-        System.out.println("Weight (kg): " + weapon4.weight);
-        System.out.println("Length (cm): " + weapon4.length);
-        System.out.println("Licensed: " + weapon4.isLicensed);
+        weapon4.getWeaponInfo();
 
         Weapon weapon5 = new Weapon();
         weapon5.weaponId = 5;
@@ -81,13 +57,7 @@ class WeaponRunner {
         weapon5.length = 150.0;
         weapon5.isLicensed = false;
         System.out.println("=== Weapon 5 ===");
-        System.out.println("ID: " + weapon5.weaponId);
-        System.out.println("Name: " + weapon5.name);
-        System.out.println("Type: " + weapon5.type);
-        System.out.println("Material: " + weapon5.material);
-        System.out.println("Weight (kg): " + weapon5.weight);
-        System.out.println("Length (cm): " + weapon5.length);
-        System.out.println("Licensed: " + weapon5.isLicensed);
+        weapon5.getWeaponInfo();
 
         Weapon weapon6 = new Weapon();
         weapon6.weaponId = 6;
@@ -98,13 +68,7 @@ class WeaponRunner {
         weapon6.length = 60.0;
         weapon6.isLicensed = false;
         System.out.println("=== Weapon 6 ===");
-        System.out.println("ID: " + weapon6.weaponId);
-        System.out.println("Name: " + weapon6.name);
-        System.out.println("Type: " + weapon6.type);
-        System.out.println("Material: " + weapon6.material);
-        System.out.println("Weight (kg): " + weapon6.weight);
-        System.out.println("Length (cm): " + weapon6.length);
-        System.out.println("Licensed: " + weapon6.isLicensed);
+        weapon6.getWeaponInfo();
 
         Weapon weapon7 = new Weapon();
         weapon7.weaponId = 7;
@@ -115,13 +79,7 @@ class WeaponRunner {
         weapon7.length = 30.0;
         weapon7.isLicensed = false;
         System.out.println("=== Weapon 7 ===");
-        System.out.println("ID: " + weapon7.weaponId);
-        System.out.println("Name: " + weapon7.name);
-        System.out.println("Type: " + weapon7.type);
-        System.out.println("Material: " + weapon7.material);
-        System.out.println("Weight (kg): " + weapon7.weight);
-        System.out.println("Length (cm): " + weapon7.length);
-        System.out.println("Licensed: " + weapon7.isLicensed);
+        weapon7.getWeaponInfo();
 
         Weapon weapon8 = new Weapon();
         weapon8.weaponId = 8;
@@ -132,13 +90,7 @@ class WeaponRunner {
         weapon8.length = 10.0;
         weapon8.isLicensed = true;
         System.out.println("=== Weapon 8 ===");
-        System.out.println("ID: " + weapon8.weaponId);
-        System.out.println("Name: " + weapon8.name);
-        System.out.println("Type: " + weapon8.type);
-        System.out.println("Material: " + weapon8.material);
-        System.out.println("Weight (kg): " + weapon8.weight);
-        System.out.println("Length (cm): " + weapon8.length);
-        System.out.println("Licensed: " + weapon8.isLicensed);
+        weapon8.getWeaponInfo();
 
         Weapon weapon9 = new Weapon();
         weapon9.weaponId = 9;
@@ -149,13 +101,7 @@ class WeaponRunner {
         weapon9.length = 15.0;
         weapon9.isLicensed = true;
         System.out.println("=== Weapon 9 ===");
-        System.out.println("ID: " + weapon9.weaponId);
-        System.out.println("Name: " + weapon9.name);
-        System.out.println("Type: " + weapon9.type);
-        System.out.println("Material: " + weapon9.material);
-        System.out.println("Weight (kg): " + weapon9.weight);
-        System.out.println("Length (cm): " + weapon9.length);
-        System.out.println("Licensed: " + weapon9.isLicensed);
+        weapon9.getWeaponInfo();
 
         Weapon weapon10 = new Weapon();
         weapon10.weaponId = 10;
@@ -166,13 +112,7 @@ class WeaponRunner {
         weapon10.length = 50.0;
         weapon10.isLicensed = false;
         System.out.println("=== Weapon 10 ===");
-        System.out.println("ID: " + weapon10.weaponId);
-        System.out.println("Name: " + weapon10.name);
-        System.out.println("Type: " + weapon10.type);
-        System.out.println("Material: " + weapon10.material);
-        System.out.println("Weight (kg): " + weapon10.weight);
-        System.out.println("Length (cm): " + weapon10.length);
-        System.out.println("Licensed: " + weapon10.isLicensed);
+        weapon10.getWeaponInfo();
 
         Weapon weapon11 = new Weapon();
         weapon11.weaponId = 11;
@@ -183,13 +123,7 @@ class WeaponRunner {
         weapon11.length = 35.0;
         weapon11.isLicensed = false;
         System.out.println("=== Weapon 11 ===");
-        System.out.println("ID: " + weapon11.weaponId);
-        System.out.println("Name: " + weapon11.name);
-        System.out.println("Type: " + weapon11.type);
-        System.out.println("Material: " + weapon11.material);
-        System.out.println("Weight (kg): " + weapon11.weight);
-        System.out.println("Length (cm): " + weapon11.length);
-        System.out.println("Licensed: " + weapon11.isLicensed);
+        weapon11.getWeaponInfo();
 
         Weapon weapon12 = new Weapon();
         weapon12.weaponId = 12;
@@ -200,13 +134,7 @@ class WeaponRunner {
         weapon12.length = 12.0;
         weapon12.isLicensed = false;
         System.out.println("=== Weapon 12 ===");
-        System.out.println("ID: " + weapon12.weaponId);
-        System.out.println("Name: " + weapon12.name);
-        System.out.println("Type: " + weapon12.type);
-        System.out.println("Material: " + weapon12.material);
-        System.out.println("Weight (kg): " + weapon12.weight);
-        System.out.println("Length (cm): " + weapon12.length);
-        System.out.println("Licensed: " + weapon12.isLicensed);
+        weapon12.getWeaponInfo();
 
         Weapon weapon13 = new Weapon();
         weapon13.weaponId = 13;
@@ -217,13 +145,7 @@ class WeaponRunner {
         weapon13.length = 80.0;
         weapon13.isLicensed = false;
         System.out.println("=== Weapon 13 ===");
-        System.out.println("ID: " + weapon13.weaponId);
-        System.out.println("Name: " + weapon13.name);
-        System.out.println("Type: " + weapon13.type);
-        System.out.println("Material: " + weapon13.material);
-        System.out.println("Weight (kg): " + weapon13.weight);
-        System.out.println("Length (cm): " + weapon13.length);
-        System.out.println("Licensed: " + weapon13.isLicensed);
+        weapon13.getWeaponInfo();
 
         Weapon weapon14 = new Weapon();
         weapon14.weaponId = 14;
@@ -234,13 +156,7 @@ class WeaponRunner {
         weapon14.length = 110.0;
         weapon14.isLicensed = true;
         System.out.println("=== Weapon 14 ===");
-        System.out.println("ID: " + weapon14.weaponId);
-        System.out.println("Name: " + weapon14.name);
-        System.out.println("Type: " + weapon14.type);
-        System.out.println("Material: " + weapon14.material);
-        System.out.println("Weight (kg): " + weapon14.weight);
-        System.out.println("Length (cm): " + weapon14.length);
-        System.out.println("Licensed: " + weapon14.isLicensed);
+        weapon14.getWeaponInfo();
 
         Weapon weapon15 = new Weapon();
         weapon15.weaponId = 15;
@@ -251,13 +167,7 @@ class WeaponRunner {
         weapon15.length = 180.0;
         weapon15.isLicensed = false;
         System.out.println("=== Weapon 15 ===");
-        System.out.println("ID: " + weapon15.weaponId);
-        System.out.println("Name: " + weapon15.name);
-        System.out.println("Type: " + weapon15.type);
-        System.out.println("Material: " + weapon15.material);
-        System.out.println("Weight (kg): " + weapon15.weight);
-        System.out.println("Length (cm): " + weapon15.length);
-        System.out.println("Licensed: " + weapon15.isLicensed);
+        weapon15.getWeaponInfo();
 
         Weapon weapon16 = new Weapon();
         weapon16.weaponId = 16;
@@ -268,13 +178,7 @@ class WeaponRunner {
         weapon16.length = 35.0;
         weapon16.isLicensed = true;
         System.out.println("=== Weapon 16 ===");
-        System.out.println("ID: " + weapon16.weaponId);
-        System.out.println("Name: " + weapon16.name);
-        System.out.println("Type: " + weapon16.type);
-        System.out.println("Material: " + weapon16.material);
-        System.out.println("Weight (kg): " + weapon16.weight);
-        System.out.println("Length (cm): " + weapon16.length);
-        System.out.println("Licensed: " + weapon16.isLicensed);
+        weapon16.getWeaponInfo();
 
         Weapon weapon17 = new Weapon();
         weapon17.weaponId = 17;
@@ -285,13 +189,7 @@ class WeaponRunner {
         weapon17.length = 220.0;
         weapon17.isLicensed = false;
         System.out.println("=== Weapon 17 ===");
-        System.out.println("ID: " + weapon17.weaponId);
-        System.out.println("Name: " + weapon17.name);
-        System.out.println("Type: " + weapon17.type);
-        System.out.println("Material: " + weapon17.material);
-        System.out.println("Weight (kg): " + weapon17.weight);
-        System.out.println("Length (cm): " + weapon17.length);
-        System.out.println("Licensed: " + weapon17.isLicensed);
+        weapon17.getWeaponInfo();
 
         Weapon weapon18 = new Weapon();
         weapon18.weaponId = 18;
@@ -302,13 +200,7 @@ class WeaponRunner {
         weapon18.length = 18.0;
         weapon18.isLicensed = false;
         System.out.println("=== Weapon 18 ===");
-        System.out.println("ID: " + weapon18.weaponId);
-        System.out.println("Name: " + weapon18.name);
-        System.out.println("Type: " + weapon18.type);
-        System.out.println("Material: " + weapon18.material);
-        System.out.println("Weight (kg): " + weapon18.weight);
-        System.out.println("Length (cm): " + weapon18.length);
-        System.out.println("Licensed: " + weapon18.isLicensed);
+        weapon18.getWeaponInfo();
 
         Weapon weapon19 = new Weapon();
         weapon19.weaponId = 19;
@@ -319,13 +211,7 @@ class WeaponRunner {
         weapon19.length = 95.0;
         weapon19.isLicensed = true;
         System.out.println("=== Weapon 19 ===");
-        System.out.println("ID: " + weapon19.weaponId);
-        System.out.println("Name: " + weapon19.name);
-        System.out.println("Type: " + weapon19.type);
-        System.out.println("Material: " + weapon19.material);
-        System.out.println("Weight (kg): " + weapon19.weight);
-        System.out.println("Length (cm): " + weapon19.length);
-        System.out.println("Licensed: " + weapon19.isLicensed);
+        weapon19.getWeaponInfo();
 
         Weapon weapon20 = new Weapon();
         weapon20.weaponId = 20;
@@ -336,15 +222,8 @@ class WeaponRunner {
         weapon20.length = 25.0;
         weapon20.isLicensed = false;
         System.out.println("=== Weapon 20 ===");
-        System.out.println("ID: " + weapon20.weaponId);
-        System.out.println("Name: " + weapon20.name);
-        System.out.println("Type: " + weapon20.type);
-        System.out.println("Material: " + weapon20.material);
-        System.out.println("Weight (kg): " + weapon20.weight);
-        System.out.println("Length (cm): " + weapon20.length);
-        System.out.println("Licensed: " + weapon20.isLicensed);
+        weapon20.getWeaponInfo();
 
         System.out.println("Main Ended");
-
     }
 }

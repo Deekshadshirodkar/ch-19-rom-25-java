@@ -12,15 +12,8 @@ class CrackersRunner {
         cracker1.isLoud = false;
         cracker1.price = 50;
         cracker1.manufacturer = "Standard Fireworks";
-
         System.out.println("=== Cracker 1 ===");
-        System.out.println("ID: " + cracker1.crackerId);
-        System.out.println("Name: " + cracker1.name);
-        System.out.println("Type: " + cracker1.type);
-        System.out.println("Color: " + cracker1.color);
-        System.out.println("Loud: " + cracker1.isLoud);
-        System.out.println("Price: " + cracker1.price);
-        System.out.println("Manufacturer: " + cracker1.manufacturer);
+        cracker1.getCrackersInfo();
 
         Crackers cracker2 = new Crackers();
         cracker2.crackerId = 2;
@@ -30,15 +23,8 @@ class CrackersRunner {
         cracker2.isLoud = false;
         cracker2.price = 30;
         cracker2.manufacturer = "Ajanta Fireworks";
-
         System.out.println("=== Cracker 2 ===");
-        System.out.println("ID: " + cracker2.crackerId);
-        System.out.println("Name: " + cracker2.name);
-        System.out.println("Type: " + cracker2.type);
-        System.out.println("Color: " + cracker2.color);
-        System.out.println("Loud: " + cracker2.isLoud);
-        System.out.println("Price: " + cracker2.price);
-        System.out.println("Manufacturer: " + cracker2.manufacturer);
+        cracker2.getCrackersInfo();
 
         Crackers cracker3 = new Crackers();
         cracker3.crackerId = 3;
@@ -48,15 +34,8 @@ class CrackersRunner {
         cracker3.isLoud = true;
         cracker3.price = 70;
         cracker3.manufacturer = "Sri Kaliswari";
-
         System.out.println("=== Cracker 3 ===");
-        System.out.println("ID: " + cracker3.crackerId);
-        System.out.println("Name: " + cracker3.name);
-        System.out.println("Type: " + cracker3.type);
-        System.out.println("Color: " + cracker3.color);
-        System.out.println("Loud: " + cracker3.isLoud);
-        System.out.println("Price: " + cracker3.price);
-        System.out.println("Manufacturer: " + cracker3.manufacturer);
+        cracker3.getCrackersInfo();
 
         Crackers cracker4 = new Crackers();
         cracker4.crackerId = 4;
@@ -66,15 +45,8 @@ class CrackersRunner {
         cracker4.isLoud = true;
         cracker4.price = 40;
         cracker4.manufacturer = "Classic Fireworks";
-
         System.out.println("=== Cracker 4 ===");
-        System.out.println("ID: " + cracker4.crackerId);
-        System.out.println("Name: " + cracker4.name);
-        System.out.println("Type: " + cracker4.type);
-        System.out.println("Color: " + cracker4.color);
-        System.out.println("Loud: " + cracker4.isLoud);
-        System.out.println("Price: " + cracker4.price);
-        System.out.println("Manufacturer: " + cracker4.manufacturer);
+        cracker4.getCrackersInfo();
 
         Crackers cracker5 = new Crackers();
         cracker5.crackerId = 5;
@@ -84,17 +56,10 @@ class CrackersRunner {
         cracker5.isLoud = false;
         cracker5.price = 10;
         cracker5.manufacturer = "Anil Fireworks";
-
         System.out.println("=== Cracker 5 ===");
-        System.out.println("ID: " + cracker5.crackerId);
-        System.out.println("Name: " + cracker5.name);
-        System.out.println("Type: " + cracker5.type);
-        System.out.println("Color: " + cracker5.color);
-        System.out.println("Loud: " + cracker5.isLoud);
-        System.out.println("Price: " + cracker5.price);
-        System.out.println("Manufacturer: " + cracker5.manufacturer);
+        cracker5.getCrackersInfo();
 
-		        Crackers cracker6 = new Crackers();
+        Crackers cracker6 = new Crackers();
         cracker6.crackerId = 6;
         cracker6.name = "Garland";
         cracker6.type = "Chain";
@@ -102,15 +67,8 @@ class CrackersRunner {
         cracker6.isLoud = true;
         cracker6.price = 60;
         cracker6.manufacturer = "Sivakasi Boom";
-
         System.out.println("=== Cracker 6 ===");
-        System.out.println("ID: " + cracker6.crackerId);
-        System.out.println("Name: " + cracker6.name);
-        System.out.println("Type: " + cracker6.type);
-        System.out.println("Color: " + cracker6.color);
-        System.out.println("Loud: " + cracker6.isLoud);
-        System.out.println("Price: " + cracker6.price);
-        System.out.println("Manufacturer: " + cracker6.manufacturer);
+        cracker6.getCrackersInfo();
 
         Crackers cracker7 = new Crackers();
         cracker7.crackerId = 7;
@@ -120,15 +78,8 @@ class CrackersRunner {
         cracker7.isLoud = true;
         cracker7.price = 150;
         cracker7.manufacturer = "Royal Fireworks";
-
         System.out.println("=== Cracker 7 ===");
-        System.out.println("ID: " + cracker7.crackerId);
-        System.out.println("Name: " + cracker7.name);
-        System.out.println("Type: " + cracker7.type);
-        System.out.println("Color: " + cracker7.color);
-        System.out.println("Loud: " + cracker7.isLoud);
-        System.out.println("Price: " + cracker7.price);
-        System.out.println("Manufacturer: " + cracker7.manufacturer);
+        cracker7.getCrackersInfo();
 
         Crackers cracker8 = new Crackers();
         cracker8.crackerId = 8;
@@ -138,15 +89,8 @@ class CrackersRunner {
         cracker8.isLoud = true;
         cracker8.price = 55;
         cracker8.manufacturer = "Tiger Fireworks";
-
         System.out.println("=== Cracker 8 ===");
-        System.out.println("ID: " + cracker8.crackerId);
-        System.out.println("Name: " + cracker8.name);
-        System.out.println("Type: " + cracker8.type);
-        System.out.println("Color: " + cracker8.color);
-        System.out.println("Loud: " + cracker8.isLoud);
-        System.out.println("Price: " + cracker8.price);
-        System.out.println("Manufacturer: " + cracker8.manufacturer);
+        cracker8.getCrackersInfo();
 
         Crackers cracker9 = new Crackers();
         cracker9.crackerId = 9;
@@ -156,15 +100,8 @@ class CrackersRunner {
         cracker9.isLoud = false;
         cracker9.price = 80;
         cracker9.manufacturer = "Sparkle Lights";
-
         System.out.println("=== Cracker 9 ===");
-        System.out.println("ID: " + cracker9.crackerId);
-        System.out.println("Name: " + cracker9.name);
-        System.out.println("Type: " + cracker9.type);
-        System.out.println("Color: " + cracker9.color);
-        System.out.println("Loud: " + cracker9.isLoud);
-        System.out.println("Price: " + cracker9.price);
-        System.out.println("Manufacturer: " + cracker9.manufacturer);
+        cracker9.getCrackersInfo();
 
         Crackers cracker10 = new Crackers();
         cracker10.crackerId = 10;
@@ -174,15 +111,8 @@ class CrackersRunner {
         cracker10.isLoud = true;
         cracker10.price = 100;
         cracker10.manufacturer = "Supreme Boom";
-
         System.out.println("=== Cracker 10 ===");
-        System.out.println("ID: " + cracker10.crackerId);
-        System.out.println("Name: " + cracker10.name);
-        System.out.println("Type: " + cracker10.type);
-        System.out.println("Color: " + cracker10.color);
-        System.out.println("Loud: " + cracker10.isLoud);
-        System.out.println("Price: " + cracker10.price);
-        System.out.println("Manufacturer: " + cracker10.manufacturer);
+        cracker10.getCrackersInfo();
 
         Crackers cracker11 = new Crackers();
         cracker11.crackerId = 11;
@@ -192,15 +122,8 @@ class CrackersRunner {
         cracker11.isLoud = false;
         cracker11.price = 120;
         cracker11.manufacturer = "ColorBang";
-
         System.out.println("=== Cracker 11 ===");
-        System.out.println("ID: " + cracker11.crackerId);
-        System.out.println("Name: " + cracker11.name);
-        System.out.println("Type: " + cracker11.type);
-        System.out.println("Color: " + cracker11.color);
-        System.out.println("Loud: " + cracker11.isLoud);
-        System.out.println("Price: " + cracker11.price);
-        System.out.println("Manufacturer: " + cracker11.manufacturer);
+        cracker11.getCrackersInfo();
 
         Crackers cracker12 = new Crackers();
         cracker12.crackerId = 12;
@@ -210,15 +133,8 @@ class CrackersRunner {
         cracker12.isLoud = true;
         cracker12.price = 35;
         cracker12.manufacturer = "Mega Boom";
-
         System.out.println("=== Cracker 12 ===");
-        System.out.println("ID: " + cracker12.crackerId);
-        System.out.println("Name: " + cracker12.name);
-        System.out.println("Type: " + cracker12.type);
-        System.out.println("Color: " + cracker12.color);
-        System.out.println("Loud: " + cracker12.isLoud);
-        System.out.println("Price: " + cracker12.price);
-        System.out.println("Manufacturer: " + cracker12.manufacturer);
+        cracker12.getCrackersInfo();
 
         Crackers cracker13 = new Crackers();
         cracker13.crackerId = 13;
@@ -228,15 +144,8 @@ class CrackersRunner {
         cracker13.isLoud = false;
         cracker13.price = 25;
         cracker13.manufacturer = "Glow Fest";
-
         System.out.println("=== Cracker 13 ===");
-        System.out.println("ID: " + cracker13.crackerId);
-        System.out.println("Name: " + cracker13.name);
-        System.out.println("Type: " + cracker13.type);
-        System.out.println("Color: " + cracker13.color);
-        System.out.println("Loud: " + cracker13.isLoud);
-        System.out.println("Price: " + cracker13.price);
-        System.out.println("Manufacturer: " + cracker13.manufacturer);
+        cracker13.getCrackersInfo();
 
         Crackers cracker14 = new Crackers();
         cracker14.crackerId = 14;
@@ -246,15 +155,8 @@ class CrackersRunner {
         cracker14.isLoud = true;
         cracker14.price = 45;
         cracker14.manufacturer = "Festiva Fireworks";
-
         System.out.println("=== Cracker 14 ===");
-        System.out.println("ID: " + cracker14.crackerId);
-        System.out.println("Name: " + cracker14.name);
-        System.out.println("Type: " + cracker14.type);
-        System.out.println("Color: " + cracker14.color);
-        System.out.println("Loud: " + cracker14.isLoud);
-        System.out.println("Price: " + cracker14.price);
-        System.out.println("Manufacturer: " + cracker14.manufacturer);
+        cracker14.getCrackersInfo();
 
         Crackers cracker15 = new Crackers();
         cracker15.crackerId = 15;
@@ -264,15 +166,8 @@ class CrackersRunner {
         cracker15.isLoud = false;
         cracker15.price = 60;
         cracker15.manufacturer = "Fancy Bang";
-
         System.out.println("=== Cracker 15 ===");
-        System.out.println("ID: " + cracker15.crackerId);
-        System.out.println("Name: " + cracker15.name);
-        System.out.println("Type: " + cracker15.type);
-        System.out.println("Color: " + cracker15.color);
-        System.out.println("Loud: " + cracker15.isLoud);
-        System.out.println("Price: " + cracker15.price);
-        System.out.println("Manufacturer: " + cracker15.manufacturer);
+        cracker15.getCrackersInfo();
 
         Crackers cracker16 = new Crackers();
         cracker16.crackerId = 16;
@@ -282,15 +177,8 @@ class CrackersRunner {
         cracker16.isLoud = true;
         cracker16.price = 90;
         cracker16.manufacturer = "Storm Blaze";
-
         System.out.println("=== Cracker 16 ===");
-        System.out.println("ID: " + cracker16.crackerId);
-        System.out.println("Name: " + cracker16.name);
-        System.out.println("Type: " + cracker16.type);
-        System.out.println("Color: " + cracker16.color);
-        System.out.println("Loud: " + cracker16.isLoud);
-        System.out.println("Price: " + cracker16.price);
-        System.out.println("Manufacturer: " + cracker16.manufacturer);
+        cracker16.getCrackersInfo();
 
         Crackers cracker17 = new Crackers();
         cracker17.crackerId = 17;
@@ -300,15 +188,8 @@ class CrackersRunner {
         cracker17.isLoud = false;
         cracker17.price = 65;
         cracker17.manufacturer = "RoundSpark";
-
         System.out.println("=== Cracker 17 ===");
-        System.out.println("ID: " + cracker17.crackerId);
-        System.out.println("Name: " + cracker17.name);
-        System.out.println("Type: " + cracker17.type);
-        System.out.println("Color: " + cracker17.color);
-        System.out.println("Loud: " + cracker17.isLoud);
-        System.out.println("Price: " + cracker17.price);
-        System.out.println("Manufacturer: " + cracker17.manufacturer);
+        cracker17.getCrackersInfo();
 
         Crackers cracker18 = new Crackers();
         cracker18.crackerId = 18;
@@ -318,15 +199,8 @@ class CrackersRunner {
         cracker18.isLoud = true;
         cracker18.price = 70;
         cracker18.manufacturer = "SparkPro";
-
         System.out.println("=== Cracker 18 ===");
-        System.out.println("ID: " + cracker18.crackerId);
-        System.out.println("Name: " + cracker18.name);
-        System.out.println("Type: " + cracker18.type);
-        System.out.println("Color: " + cracker18.color);
-        System.out.println("Loud: " + cracker18.isLoud);
-        System.out.println("Price: " + cracker18.price);
-        System.out.println("Manufacturer: " + cracker18.manufacturer);
+        cracker18.getCrackersInfo();
 
         Crackers cracker19 = new Crackers();
         cracker19.crackerId = 19;
@@ -336,15 +210,8 @@ class CrackersRunner {
         cracker19.isLoud = false;
         cracker19.price = 85;
         cracker19.manufacturer = "SpinLite";
-
         System.out.println("=== Cracker 19 ===");
-        System.out.println("ID: " + cracker19.crackerId);
-        System.out.println("Name: " + cracker19.name);
-        System.out.println("Type: " + cracker19.type);
-        System.out.println("Color: " + cracker19.color);
-        System.out.println("Loud: " + cracker19.isLoud);
-        System.out.println("Price: " + cracker19.price);
-        System.out.println("Manufacturer: " + cracker19.manufacturer);
+        cracker19.getCrackersInfo();
 
         Crackers cracker20 = new Crackers();
         cracker20.crackerId = 20;
@@ -354,15 +221,8 @@ class CrackersRunner {
         cracker20.isLoud = true;
         cracker20.price = 160;
         cracker20.manufacturer = "Nova Fireworks";
-
         System.out.println("=== Cracker 20 ===");
-        System.out.println("ID: " + cracker20.crackerId);
-        System.out.println("Name: " + cracker20.name);
-        System.out.println("Type: " + cracker20.type);
-        System.out.println("Color: " + cracker20.color);
-        System.out.println("Loud: " + cracker20.isLoud);
-        System.out.println("Price: " + cracker20.price);
-        System.out.println("Manufacturer: " + cracker20.manufacturer);
+        cracker20.getCrackersInfo();
 
         System.out.println("Main Ended");
     }

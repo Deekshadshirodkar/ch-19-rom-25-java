@@ -13,13 +13,7 @@ class PipeRunner {
         pipe1.usageType = "Water Supply";
         pipe1.color = "White";
         System.out.println("=== Pipe 1 ===");
-        System.out.println("ID: " + pipe1.pipeId);
-        System.out.println("Material: " + pipe1.material);
-        System.out.println("Length (m): " + pipe1.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe1.diameterInInches);
-        System.out.println("Flexible: " + pipe1.isFlexible);
-        System.out.println("Usage: " + pipe1.usageType);
-        System.out.println("Color: " + pipe1.color);
+        pipe1.getPipeInfo();
 
         Pipe pipe2 = new Pipe();
         pipe2.pipeId = 2;
@@ -30,13 +24,7 @@ class PipeRunner {
         pipe2.usageType = "Gas Pipeline";
         pipe2.color = "Silver";
         System.out.println("=== Pipe 2 ===");
-        System.out.println("ID: " + pipe2.pipeId);
-        System.out.println("Material: " + pipe2.material);
-        System.out.println("Length (m): " + pipe2.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe2.diameterInInches);
-        System.out.println("Flexible: " + pipe2.isFlexible);
-        System.out.println("Usage: " + pipe2.usageType);
-        System.out.println("Color: " + pipe2.color);
+        pipe2.getPipeInfo();
 
         Pipe pipe3 = new Pipe();
         pipe3.pipeId = 3;
@@ -47,13 +35,7 @@ class PipeRunner {
         pipe3.usageType = "Electrical Conduit";
         pipe3.color = "Copper Red";
         System.out.println("=== Pipe 3 ===");
-        System.out.println("ID: " + pipe3.pipeId);
-        System.out.println("Material: " + pipe3.material);
-        System.out.println("Length (m): " + pipe3.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe3.diameterInInches);
-        System.out.println("Flexible: " + pipe3.isFlexible);
-        System.out.println("Usage: " + pipe3.usageType);
-        System.out.println("Color: " + pipe3.color);
+        pipe3.getPipeInfo();
 
         Pipe pipe4 = new Pipe();
         pipe4.pipeId = 4;
@@ -64,13 +46,7 @@ class PipeRunner {
         pipe4.usageType = "Drainage";
         pipe4.color = "Black";
         System.out.println("=== Pipe 4 ===");
-        System.out.println("ID: " + pipe4.pipeId);
-        System.out.println("Material: " + pipe4.material);
-        System.out.println("Length (m): " + pipe4.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe4.diameterInInches);
-        System.out.println("Flexible: " + pipe4.isFlexible);
-        System.out.println("Usage: " + pipe4.usageType);
-        System.out.println("Color: " + pipe4.color);
+        pipe4.getPipeInfo();
 
         Pipe pipe5 = new Pipe();
         pipe5.pipeId = 5;
@@ -81,15 +57,9 @@ class PipeRunner {
         pipe5.usageType = "Garden Hose";
         pipe5.color = "Green";
         System.out.println("=== Pipe 5 ===");
-        System.out.println("ID: " + pipe5.pipeId);
-        System.out.println("Material: " + pipe5.material);
-        System.out.println("Length (m): " + pipe5.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe5.diameterInInches);
-        System.out.println("Flexible: " + pipe5.isFlexible);
-        System.out.println("Usage: " + pipe5.usageType);
-        System.out.println("Color: " + pipe5.color);
+        pipe5.getPipeInfo();
 
-                Pipe pipe6 = new Pipe();
+        Pipe pipe6 = new Pipe();
         pipe6.pipeId = 6;
         pipe6.material = "Aluminum";
         pipe6.lengthInMeters = 3.2;
@@ -98,13 +68,7 @@ class PipeRunner {
         pipe6.usageType = "Exhaust";
         pipe6.color = "Gray";
         System.out.println("=== Pipe 6 ===");
-        System.out.println("ID: " + pipe6.pipeId);
-        System.out.println("Material: " + pipe6.material);
-        System.out.println("Length (m): " + pipe6.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe6.diameterInInches);
-        System.out.println("Flexible: " + pipe6.isFlexible);
-        System.out.println("Usage: " + pipe6.usageType);
-        System.out.println("Color: " + pipe6.color);
+        pipe6.getPipeInfo();
 
         Pipe pipe7 = new Pipe();
         pipe7.pipeId = 7;
@@ -115,13 +79,7 @@ class PipeRunner {
         pipe7.usageType = "Cable Casing";
         pipe7.color = "Blue";
         System.out.println("=== Pipe 7 ===");
-        System.out.println("ID: " + pipe7.pipeId);
-        System.out.println("Material: " + pipe7.material);
-        System.out.println("Length (m): " + pipe7.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe7.diameterInInches);
-        System.out.println("Flexible: " + pipe7.isFlexible);
-        System.out.println("Usage: " + pipe7.usageType);
-        System.out.println("Color: " + pipe7.color);
+        pipe7.getPipeInfo();
 
         Pipe pipe8 = new Pipe();
         pipe8.pipeId = 8;
@@ -132,13 +90,7 @@ class PipeRunner {
         pipe8.usageType = "Irrigation";
         pipe8.color = "White";
         System.out.println("=== Pipe 8 ===");
-        System.out.println("ID: " + pipe8.pipeId);
-        System.out.println("Material: " + pipe8.material);
-        System.out.println("Length (m): " + pipe8.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe8.diameterInInches);
-        System.out.println("Flexible: " + pipe8.isFlexible);
-        System.out.println("Usage: " + pipe8.usageType);
-        System.out.println("Color: " + pipe8.color);
+        pipe8.getPipeInfo();
 
         Pipe pipe9 = new Pipe();
         pipe9.pipeId = 9;
@@ -149,13 +101,7 @@ class PipeRunner {
         pipe9.usageType = "Sewerage";
         pipe9.color = "Rust Brown";
         System.out.println("=== Pipe 9 ===");
-        System.out.println("ID: " + pipe9.pipeId);
-        System.out.println("Material: " + pipe9.material);
-        System.out.println("Length (m): " + pipe9.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe9.diameterInInches);
-        System.out.println("Flexible: " + pipe9.isFlexible);
-        System.out.println("Usage: " + pipe9.usageType);
-        System.out.println("Color: " + pipe9.color);
+        pipe9.getPipeInfo();
 
         Pipe pipe10 = new Pipe();
         pipe10.pipeId = 10;
@@ -166,13 +112,7 @@ class PipeRunner {
         pipe10.usageType = "Air Duct";
         pipe10.color = "Yellow";
         System.out.println("=== Pipe 10 ===");
-        System.out.println("ID: " + pipe10.pipeId);
-        System.out.println("Material: " + pipe10.material);
-        System.out.println("Length (m): " + pipe10.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe10.diameterInInches);
-        System.out.println("Flexible: " + pipe10.isFlexible);
-        System.out.println("Usage: " + pipe10.usageType);
-        System.out.println("Color: " + pipe10.color);
+        pipe10.getPipeInfo();
 
         Pipe pipe11 = new Pipe();
         pipe11.pipeId = 11;
@@ -183,13 +123,7 @@ class PipeRunner {
         pipe11.usageType = "Bathroom Fitting";
         pipe11.color = "Cream";
         System.out.println("=== Pipe 11 ===");
-        System.out.println("ID: " + pipe11.pipeId);
-        System.out.println("Material: " + pipe11.material);
-        System.out.println("Length (m): " + pipe11.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe11.diameterInInches);
-        System.out.println("Flexible: " + pipe11.isFlexible);
-        System.out.println("Usage: " + pipe11.usageType);
-        System.out.println("Color: " + pipe11.color);
+        pipe11.getPipeInfo();
 
         Pipe pipe12 = new Pipe();
         pipe12.pipeId = 12;
@@ -200,13 +134,7 @@ class PipeRunner {
         pipe12.usageType = "Construction";
         pipe12.color = "Silver";
         System.out.println("=== Pipe 12 ===");
-        System.out.println("ID: " + pipe12.pipeId);
-        System.out.println("Material: " + pipe12.material);
-        System.out.println("Length (m): " + pipe12.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe12.diameterInInches);
-        System.out.println("Flexible: " + pipe12.isFlexible);
-        System.out.println("Usage: " + pipe12.usageType);
-        System.out.println("Color: " + pipe12.color);
+        pipe12.getPipeInfo();
 
         Pipe pipe13 = new Pipe();
         pipe13.pipeId = 13;
@@ -217,13 +145,7 @@ class PipeRunner {
         pipe13.usageType = "Automotive Hose";
         pipe13.color = "Red";
         System.out.println("=== Pipe 13 ===");
-        System.out.println("ID: " + pipe13.pipeId);
-        System.out.println("Material: " + pipe13.material);
-        System.out.println("Length (m): " + pipe13.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe13.diameterInInches);
-        System.out.println("Flexible: " + pipe13.isFlexible);
-        System.out.println("Usage: " + pipe13.usageType);
-        System.out.println("Color: " + pipe13.color);
+        pipe13.getPipeInfo();
 
         Pipe pipe14 = new Pipe();
         pipe14.pipeId = 14;
@@ -234,13 +156,7 @@ class PipeRunner {
         pipe14.usageType = "Air Conditioner Tube";
         pipe14.color = "Golden Brown";
         System.out.println("=== Pipe 14 ===");
-        System.out.println("ID: " + pipe14.pipeId);
-        System.out.println("Material: " + pipe14.material);
-        System.out.println("Length (m): " + pipe14.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe14.diameterInInches);
-        System.out.println("Flexible: " + pipe14.isFlexible);
-        System.out.println("Usage: " + pipe14.usageType);
-        System.out.println("Color: " + pipe14.color);
+        pipe14.getPipeInfo();
 
         Pipe pipe15 = new Pipe();
         pipe15.pipeId = 15;
@@ -251,13 +167,7 @@ class PipeRunner {
         pipe15.usageType = "Sump Outlet";
         pipe15.color = "White";
         System.out.println("=== Pipe 15 ===");
-        System.out.println("ID: " + pipe15.pipeId);
-        System.out.println("Material: " + pipe15.material);
-        System.out.println("Length (m): " + pipe15.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe15.diameterInInches);
-        System.out.println("Flexible: " + pipe15.isFlexible);
-        System.out.println("Usage: " + pipe15.usageType);
-        System.out.println("Color: " + pipe15.color);
+        pipe15.getPipeInfo();
 
         Pipe pipe16 = new Pipe();
         pipe16.pipeId = 16;
@@ -268,13 +178,7 @@ class PipeRunner {
         pipe16.usageType = "Aquarium Pump";
         pipe16.color = "Transparent";
         System.out.println("=== Pipe 16 ===");
-        System.out.println("ID: " + pipe16.pipeId);
-        System.out.println("Material: " + pipe16.material);
-        System.out.println("Length (m): " + pipe16.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe16.diameterInInches);
-        System.out.println("Flexible: " + pipe16.isFlexible);
-        System.out.println("Usage: " + pipe16.usageType);
-        System.out.println("Color: " + pipe16.color);
+        pipe16.getPipeInfo();
 
         Pipe pipe17 = new Pipe();
         pipe17.pipeId = 17;
@@ -285,13 +189,7 @@ class PipeRunner {
         pipe17.usageType = "Oil Refinery";
         pipe17.color = "Steel Gray";
         System.out.println("=== Pipe 17 ===");
-        System.out.println("ID: " + pipe17.pipeId);
-        System.out.println("Material: " + pipe17.material);
-        System.out.println("Length (m): " + pipe17.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe17.diameterInInches);
-        System.out.println("Flexible: " + pipe17.isFlexible);
-        System.out.println("Usage: " + pipe17.usageType);
-        System.out.println("Color: " + pipe17.color);
+        pipe17.getPipeInfo();
 
         Pipe pipe18 = new Pipe();
         pipe18.pipeId = 18;
@@ -302,13 +200,7 @@ class PipeRunner {
         pipe18.usageType = "Fridge Coil";
         pipe18.color = "Reddish Brown";
         System.out.println("=== Pipe 18 ===");
-        System.out.println("ID: " + pipe18.pipeId);
-        System.out.println("Material: " + pipe18.material);
-        System.out.println("Length (m): " + pipe18.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe18.diameterInInches);
-        System.out.println("Flexible: " + pipe18.isFlexible);
-        System.out.println("Usage: " + pipe18.usageType);
-        System.out.println("Color: " + pipe18.color);
+        pipe18.getPipeInfo();
 
         Pipe pipe19 = new Pipe();
         pipe19.pipeId = 19;
@@ -319,13 +211,7 @@ class PipeRunner {
         pipe19.usageType = "Data Conduit";
         pipe19.color = "Orange";
         System.out.println("=== Pipe 19 ===");
-        System.out.println("ID: " + pipe19.pipeId);
-        System.out.println("Material: " + pipe19.material);
-        System.out.println("Length (m): " + pipe19.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe19.diameterInInches);
-        System.out.println("Flexible: " + pipe19.isFlexible);
-        System.out.println("Usage: " + pipe19.usageType);
-        System.out.println("Color: " + pipe19.color);
+        pipe19.getPipeInfo();
 
         Pipe pipe20 = new Pipe();
         pipe20.pipeId = 20;
@@ -336,16 +222,8 @@ class PipeRunner {
         pipe20.usageType = "Rain Water";
         pipe20.color = "Gray";
         System.out.println("=== Pipe 20 ===");
-        System.out.println("ID: " + pipe20.pipeId);
-        System.out.println("Material: " + pipe20.material);
-        System.out.println("Length (m): " + pipe20.lengthInMeters);
-        System.out.println("Diameter (in): " + pipe20.diameterInInches);
-        System.out.println("Flexible: " + pipe20.isFlexible);
-        System.out.println("Usage: " + pipe20.usageType);
-        System.out.println("Color: " + pipe20.color);
+        pipe20.getPipeInfo();
 
         System.out.println("Main Ended");
     }
 }
-
- 

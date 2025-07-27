@@ -1,4 +1,5 @@
 class FishRunner {
+	
     public static void main(String[] args) {
 
         System.out.println("Main Started");
@@ -11,15 +12,8 @@ class FishRunner {
         fish1.habitat = "Aquarium";
         fish1.freshwater = true;
         fish1.diet = "Flakes";
-
         System.out.println("=== Fish 1 ===");
-        System.out.println("Species: " + fish1.species);
-        System.out.println("Color: " + fish1.color);
-        System.out.println("Length: " + fish1.length + " cm");
-        System.out.println("Weight: " + fish1.weight + " kg");
-        System.out.println("Habitat: " + fish1.habitat);
-        System.out.println("Freshwater: " + fish1.freshwater);
-        System.out.println("Diet: " + fish1.diet);
+        fish1.getFishInfo();
 
         Fish fish2 = new Fish();
         fish2.species = "Clownfish";
@@ -29,15 +23,8 @@ class FishRunner {
         fish2.habitat = "Coral Reefs";
         fish2.freshwater = false;
         fish2.diet = "Plankton";
-
         System.out.println("=== Fish 2 ===");
-        System.out.println("Species: " + fish2.species);
-        System.out.println("Color: " + fish2.color);
-        System.out.println("Length: " + fish2.length + " cm");
-        System.out.println("Weight: " + fish2.weight + " kg");
-        System.out.println("Habitat: " + fish2.habitat);
-        System.out.println("Freshwater: " + fish2.freshwater);
-        System.out.println("Diet: " + fish2.diet);
+        fish2.getFishInfo();
 
         Fish fish3 = new Fish();
         fish3.species = "Betta";
@@ -47,15 +34,8 @@ class FishRunner {
         fish3.habitat = "Tanks";
         fish3.freshwater = true;
         fish3.diet = "Insects";
-
         System.out.println("=== Fish 3 ===");
-        System.out.println("Species: " + fish3.species);
-        System.out.println("Color: " + fish3.color);
-        System.out.println("Length: " + fish3.length + " cm");
-        System.out.println("Weight: " + fish3.weight + " kg");
-        System.out.println("Habitat: " + fish3.habitat);
-        System.out.println("Freshwater: " + fish3.freshwater);
-        System.out.println("Diet: " + fish3.diet);
+        fish3.getFishInfo();
 
         Fish fish4 = new Fish();
         fish4.species = "Guppy";
@@ -65,15 +45,8 @@ class FishRunner {
         fish4.habitat = "Freshwater streams";
         fish4.freshwater = true;
         fish4.diet = "Algae";
-
         System.out.println("=== Fish 4 ===");
-        System.out.println("Species: " + fish4.species);
-        System.out.println("Color: " + fish4.color);
-        System.out.println("Length: " + fish4.length + " cm");
-        System.out.println("Weight: " + fish4.weight + " kg");
-        System.out.println("Habitat: " + fish4.habitat);
-        System.out.println("Freshwater: " + fish4.freshwater);
-        System.out.println("Diet: " + fish4.diet);
+        fish4.getFishInfo();
 
         Fish fish5 = new Fish();
         fish5.species = "Tuna";
@@ -83,17 +56,10 @@ class FishRunner {
         fish5.habitat = "Ocean";
         fish5.freshwater = false;
         fish5.diet = "Small fish";
-
         System.out.println("=== Fish 5 ===");
-        System.out.println("Species: " + fish5.species);
-        System.out.println("Color: " + fish5.color);
-        System.out.println("Length: " + fish5.length + " cm");
-        System.out.println("Weight: " + fish5.weight + " kg");
-        System.out.println("Habitat: " + fish5.habitat);
-        System.out.println("Freshwater: " + fish5.freshwater);
-        System.out.println("Diet: " + fish5.diet);
+        fish5.getFishInfo();
 
-                Fish fish6 = new Fish();
+        Fish fish6 = new Fish();
         fish6.species = "Catfish";
         fish6.color = "Gray";
         fish6.length = 40.0;
@@ -101,15 +67,8 @@ class FishRunner {
         fish6.habitat = "Rivers";
         fish6.freshwater = true;
         fish6.diet = "Insects";
-
         System.out.println("=== Fish 6 ===");
-        System.out.println("Species: " + fish6.species);
-        System.out.println("Color: " + fish6.color);
-        System.out.println("Length: " + fish6.length + " cm");
-        System.out.println("Weight: " + fish6.weight + " kg");
-        System.out.println("Habitat: " + fish6.habitat);
-        System.out.println("Freshwater: " + fish6.freshwater);
-        System.out.println("Diet: " + fish6.diet);
+        fish6.getFishInfo();
 
         Fish fish7 = new Fish();
         fish7.species = "Swordfish";
@@ -119,15 +78,8 @@ class FishRunner {
         fish7.habitat = "Deep Ocean";
         fish7.freshwater = false;
         fish7.diet = "Squid";
-
         System.out.println("=== Fish 7 ===");
-        System.out.println("Species: " + fish7.species);
-        System.out.println("Color: " + fish7.color);
-        System.out.println("Length: " + fish7.length + " cm");
-        System.out.println("Weight: " + fish7.weight + " kg");
-        System.out.println("Habitat: " + fish7.habitat);
-        System.out.println("Freshwater: " + fish7.freshwater);
-        System.out.println("Diet: " + fish7.diet);
+        fish7.getFishInfo();
 
         Fish fish8 = new Fish();
         fish8.species = "Shark";
@@ -137,15 +89,8 @@ class FishRunner {
         fish8.habitat = "Ocean";
         fish8.freshwater = false;
         fish8.diet = "Fish";
-
         System.out.println("=== Fish 8 ===");
-        System.out.println("Species: " + fish8.species);
-        System.out.println("Color: " + fish8.color);
-        System.out.println("Length: " + fish8.length + " cm");
-        System.out.println("Weight: " + fish8.weight + " kg");
-        System.out.println("Habitat: " + fish8.habitat);
-        System.out.println("Freshwater: " + fish8.freshwater);
-        System.out.println("Diet: " + fish8.diet);
+        fish8.getFishInfo();
 
         Fish fish9 = new Fish();
         fish9.species = "Salmon";
@@ -155,15 +100,8 @@ class FishRunner {
         fish9.habitat = "Rivers and Oceans";
         fish9.freshwater = true;
         fish9.diet = "Insects";
-
         System.out.println("=== Fish 9 ===");
-        System.out.println("Species: " + fish9.species);
-        System.out.println("Color: " + fish9.color);
-        System.out.println("Length: " + fish9.length + " cm");
-        System.out.println("Weight: " + fish9.weight + " kg");
-        System.out.println("Habitat: " + fish9.habitat);
-        System.out.println("Freshwater: " + fish9.freshwater);
-        System.out.println("Diet: " + fish9.diet);
+        fish9.getFishInfo();
 
         Fish fish10 = new Fish();
         fish10.species = "Carp";
@@ -173,15 +111,8 @@ class FishRunner {
         fish10.habitat = "Lakes";
         fish10.freshwater = true;
         fish10.diet = "Plants";
-
         System.out.println("=== Fish 10 ===");
-        System.out.println("Species: " + fish10.species);
-        System.out.println("Color: " + fish10.color);
-        System.out.println("Length: " + fish10.length + " cm");
-        System.out.println("Weight: " + fish10.weight + " kg");
-        System.out.println("Habitat: " + fish10.habitat);
-        System.out.println("Freshwater: " + fish10.freshwater);
-        System.out.println("Diet: " + fish10.diet);
+        fish10.getFishInfo();
 
         Fish fish11 = new Fish();
         fish11.species = "Piranha";
@@ -191,15 +122,8 @@ class FishRunner {
         fish11.habitat = "Amazon River";
         fish11.freshwater = true;
         fish11.diet = "Meat";
-
         System.out.println("=== Fish 11 ===");
-        System.out.println("Species: " + fish11.species);
-        System.out.println("Color: " + fish11.color);
-        System.out.println("Length: " + fish11.length + " cm");
-        System.out.println("Weight: " + fish11.weight + " kg");
-        System.out.println("Habitat: " + fish11.habitat);
-        System.out.println("Freshwater: " + fish11.freshwater);
-        System.out.println("Diet: " + fish11.diet);
+        fish11.getFishInfo();
 
         Fish fish12 = new Fish();
         fish12.species = "Angelfish";
@@ -209,15 +133,8 @@ class FishRunner {
         fish12.habitat = "Aquarium";
         fish12.freshwater = true;
         fish12.diet = "Flakes";
-
         System.out.println("=== Fish 12 ===");
-        System.out.println("Species: " + fish12.species);
-        System.out.println("Color: " + fish12.color);
-        System.out.println("Length: " + fish12.length + " cm");
-        System.out.println("Weight: " + fish12.weight + " kg");
-        System.out.println("Habitat: " + fish12.habitat);
-        System.out.println("Freshwater: " + fish12.freshwater);
-        System.out.println("Diet: " + fish12.diet);
+        fish12.getFishInfo();
 
         Fish fish13 = new Fish();
         fish13.species = "Seahorse";
@@ -227,15 +144,8 @@ class FishRunner {
         fish13.habitat = "Sea grass";
         fish13.freshwater = false;
         fish13.diet = "Plankton";
-
         System.out.println("=== Fish 13 ===");
-        System.out.println("Species: " + fish13.species);
-        System.out.println("Color: " + fish13.color);
-        System.out.println("Length: " + fish13.length + " cm");
-        System.out.println("Weight: " + fish13.weight + " kg");
-        System.out.println("Habitat: " + fish13.habitat);
-        System.out.println("Freshwater: " + fish13.freshwater);
-        System.out.println("Diet: " + fish13.diet);
+        fish13.getFishInfo();
 
         Fish fish14 = new Fish();
         fish14.species = "Snapper";
@@ -245,15 +155,8 @@ class FishRunner {
         fish14.habitat = "Coastal Waters";
         fish14.freshwater = false;
         fish14.diet = "Shrimp";
-
         System.out.println("=== Fish 14 ===");
-        System.out.println("Species: " + fish14.species);
-        System.out.println("Color: " + fish14.color);
-        System.out.println("Length: " + fish14.length + " cm");
-        System.out.println("Weight: " + fish14.weight + " kg");
-        System.out.println("Habitat: " + fish14.habitat);
-        System.out.println("Freshwater: " + fish14.freshwater);
-        System.out.println("Diet: " + fish14.diet);
+        fish14.getFishInfo();
 
         Fish fish15 = new Fish();
         fish15.species = "Eel";
@@ -263,17 +166,10 @@ class FishRunner {
         fish15.habitat = "River beds";
         fish15.freshwater = true;
         fish15.diet = "Crustaceans";
-
         System.out.println("=== Fish 15 ===");
-        System.out.println("Species: " + fish15.species);
-        System.out.println("Color: " + fish15.color);
-        System.out.println("Length: " + fish15.length + " cm");
-        System.out.println("Weight: " + fish15.weight + " kg");
-        System.out.println("Habitat: " + fish15.habitat);
-        System.out.println("Freshwater: " + fish15.freshwater);
-        System.out.println("Diet: " + fish15.diet);
+        fish15.getFishInfo();
 
-		        Fish fish16 = new Fish();
+        Fish fish16 = new Fish();
         fish16.species = "Flying Fish";
         fish16.color = "Silver-Blue";
         fish16.length = 30.0;
@@ -281,15 +177,8 @@ class FishRunner {
         fish16.habitat = "Open Ocean";
         fish16.freshwater = false;
         fish16.diet = "Plankton";
-
         System.out.println("=== Fish 16 ===");
-        System.out.println("Species: " + fish16.species);
-        System.out.println("Color: " + fish16.color);
-        System.out.println("Length: " + fish16.length + " cm");
-        System.out.println("Weight: " + fish16.weight + " kg");
-        System.out.println("Habitat: " + fish16.habitat);
-        System.out.println("Freshwater: " + fish16.freshwater);
-        System.out.println("Diet: " + fish16.diet);
+        fish16.getFishInfo();
 
         Fish fish17 = new Fish();
         fish17.species = "Barracuda";
@@ -299,15 +188,8 @@ class FishRunner {
         fish17.habitat = "Tropical Seas";
         fish17.freshwater = false;
         fish17.diet = "Fish";
-
         System.out.println("=== Fish 17 ===");
-        System.out.println("Species: " + fish17.species);
-        System.out.println("Color: " + fish17.color);
-        System.out.println("Length: " + fish17.length + " cm");
-        System.out.println("Weight: " + fish17.weight + " kg");
-        System.out.println("Habitat: " + fish17.habitat);
-        System.out.println("Freshwater: " + fish17.freshwater);
-        System.out.println("Diet: " + fish17.diet);
+        fish17.getFishInfo();
 
         Fish fish18 = new Fish();
         fish18.species = "Guppy";
@@ -317,15 +199,8 @@ class FishRunner {
         fish18.habitat = "Aquarium";
         fish18.freshwater = true;
         fish18.diet = "Algae";
-
         System.out.println("=== Fish 18 ===");
-        System.out.println("Species: " + fish18.species);
-        System.out.println("Color: " + fish18.color);
-        System.out.println("Length: " + fish18.length + " cm");
-        System.out.println("Weight: " + fish18.weight + " kg");
-        System.out.println("Habitat: " + fish18.habitat);
-        System.out.println("Freshwater: " + fish18.freshwater);
-        System.out.println("Diet: " + fish18.diet);
+        fish18.getFishInfo();
 
         Fish fish19 = new Fish();
         fish19.species = "Tilapia";
@@ -335,15 +210,8 @@ class FishRunner {
         fish19.habitat = "Lakes and Rivers";
         fish19.freshwater = true;
         fish19.diet = "Plants";
-
         System.out.println("=== Fish 19 ===");
-        System.out.println("Species: " + fish19.species);
-        System.out.println("Color: " + fish19.color);
-        System.out.println("Length: " + fish19.length + " cm");
-        System.out.println("Weight: " + fish19.weight + " kg");
-        System.out.println("Habitat: " + fish19.habitat);
-        System.out.println("Freshwater: " + fish19.freshwater);
-        System.out.println("Diet: " + fish19.diet);
+        fish19.getFishInfo();
 
         Fish fish20 = new Fish();
         fish20.species = "Zebrafish";
@@ -353,18 +221,9 @@ class FishRunner {
         fish20.habitat = "Aquarium";
         fish20.freshwater = true;
         fish20.diet = "Larvae";
-
         System.out.println("=== Fish 20 ===");
-        System.out.println("Species: " + fish20.species);
-        System.out.println("Color: " + fish20.color);
-        System.out.println("Length: " + fish20.length + " cm");
-        System.out.println("Weight: " + fish20.weight + " kg");
-        System.out.println("Habitat: " + fish20.habitat);
-        System.out.println("Freshwater: " + fish20.freshwater);
-        System.out.println("Diet: " + fish20.diet);
+        fish20.getFishInfo();
 
         System.out.println("Main Ended");
     }
 }
-
- 

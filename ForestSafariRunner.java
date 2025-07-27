@@ -14,13 +14,7 @@ class ForestSafariRunner {
         safari1.bestTimeToVisit = "Nov-Feb";
 
         System.out.println("=== Safari 1 ===");
-        System.out.println("Name: " + safari1.safariName);
-        System.out.println("Location: " + safari1.location);
-        System.out.println("Animals: " + safari1.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari1.jeepAvailable);
-        System.out.println("Duration: " + safari1.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari1.ticketPrice);
-        System.out.println("Best Time: " + safari1.bestTimeToVisit);
+        safari1.getForestSafariInfo();
 
         ForestSafari safari2 = new ForestSafari();
         safari2.safariName = "Elephant Safari";
@@ -32,13 +26,7 @@ class ForestSafariRunner {
         safari2.bestTimeToVisit = "Dec-Mar";
 
         System.out.println("=== Safari 2 ===");
-        System.out.println("Name: " + safari2.safariName);
-        System.out.println("Location: " + safari2.location);
-        System.out.println("Animals: " + safari2.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari2.jeepAvailable);
-        System.out.println("Duration: " + safari2.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari2.ticketPrice);
-        System.out.println("Best Time: " + safari2.bestTimeToVisit);
+        safari2.getForestSafariInfo();
 
         ForestSafari safari3 = new ForestSafari();
         safari3.safariName = "Panther Path";
@@ -50,15 +38,9 @@ class ForestSafariRunner {
         safari3.bestTimeToVisit = "Jan-Apr";
 
         System.out.println("=== Safari 3 ===");
-        System.out.println("Name: " + safari3.safariName);
-        System.out.println("Location: " + safari3.location);
-        System.out.println("Animals: " + safari3.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari3.jeepAvailable);
-        System.out.println("Duration: " + safari3.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari3.ticketPrice);
-        System.out.println("Best Time: " + safari3.bestTimeToVisit);
+        safari3.getForestSafariInfo();
 
-		        ForestSafari safari4 = new ForestSafari();
+        ForestSafari safari4 = new ForestSafari();
         safari4.safariName = "Lion Lookout";
         safari4.location = "Gir Forest";
         safari4.numberOfAnimals = 20;
@@ -68,13 +50,7 @@ class ForestSafariRunner {
         safari4.bestTimeToVisit = "Oct-Jan";
 
         System.out.println("=== Safari 4 ===");
-        System.out.println("Name: " + safari4.safariName);
-        System.out.println("Location: " + safari4.location);
-        System.out.println("Animals: " + safari4.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari4.jeepAvailable);
-        System.out.println("Duration: " + safari4.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari4.ticketPrice);
-        System.out.println("Best Time: " + safari4.bestTimeToVisit);
+        safari4.getForestSafariInfo();
 
         ForestSafari safari5 = new ForestSafari();
         safari5.safariName = "Rhino Reserve";
@@ -86,13 +62,7 @@ class ForestSafariRunner {
         safari5.bestTimeToVisit = "Nov-Mar";
 
         System.out.println("=== Safari 5 ===");
-        System.out.println("Name: " + safari5.safariName);
-        System.out.println("Location: " + safari5.location);
-        System.out.println("Animals: " + safari5.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari5.jeepAvailable);
-        System.out.println("Duration: " + safari5.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari5.ticketPrice);
-        System.out.println("Best Time: " + safari5.bestTimeToVisit);
+        safari5.getForestSafariInfo();
 
         ForestSafari safari6 = new ForestSafari();
         safari6.safariName = "Bear Bush";
@@ -104,13 +74,7 @@ class ForestSafariRunner {
         safari6.bestTimeToVisit = "Jul-Sep";
 
         System.out.println("=== Safari 6 ===");
-        System.out.println("Name: " + safari6.safariName);
-        System.out.println("Location: " + safari6.location);
-        System.out.println("Animals: " + safari6.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari6.jeepAvailable);
-        System.out.println("Duration: " + safari6.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari6.ticketPrice);
-        System.out.println("Best Time: " + safari6.bestTimeToVisit);
+        safari6.getForestSafariInfo();
 
         ForestSafari safari7 = new ForestSafari();
         safari7.safariName = "Jungle Jeep";
@@ -122,13 +86,7 @@ class ForestSafariRunner {
         safari7.bestTimeToVisit = "Nov-Mar";
 
         System.out.println("=== Safari 7 ===");
-        System.out.println("Name: " + safari7.safariName);
-        System.out.println("Location: " + safari7.location);
-        System.out.println("Animals: " + safari7.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari7.jeepAvailable);
-        System.out.println("Duration: " + safari7.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari7.ticketPrice);
-        System.out.println("Best Time: " + safari7.bestTimeToVisit);
+        safari7.getForestSafariInfo();
 
         ForestSafari safari8 = new ForestSafari();
         safari8.safariName = "Cheetah Chase";
@@ -140,15 +98,9 @@ class ForestSafariRunner {
         safari8.bestTimeToVisit = "Jan-Mar";
 
         System.out.println("=== Safari 8 ===");
-        System.out.println("Name: " + safari8.safariName);
-        System.out.println("Location: " + safari8.location);
-        System.out.println("Animals: " + safari8.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari8.jeepAvailable);
-        System.out.println("Duration: " + safari8.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari8.ticketPrice);
-        System.out.println("Best Time: " + safari8.bestTimeToVisit);
+        safari8.getForestSafariInfo();
 
-		        ForestSafari safari9 = new ForestSafari();
+        ForestSafari safari9 = new ForestSafari();
         safari9.safariName = "Elephant Path";
         safari9.location = "Wayanad";
         safari9.numberOfAnimals = 28;
@@ -158,13 +110,7 @@ class ForestSafariRunner {
         safari9.bestTimeToVisit = "Jun-Aug";
 
         System.out.println("=== Safari 9 ===");
-        System.out.println("Name: " + safari9.safariName);
-        System.out.println("Location: " + safari9.location);
-        System.out.println("Animals: " + safari9.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari9.jeepAvailable);
-        System.out.println("Duration: " + safari9.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari9.ticketPrice);
-        System.out.println("Best Time: " + safari9.bestTimeToVisit);
+        safari9.getForestSafariInfo();
 
         ForestSafari safari10 = new ForestSafari();
         safari10.safariName = "Jungle Trail";
@@ -176,13 +122,7 @@ class ForestSafariRunner {
         safari10.bestTimeToVisit = "Nov-Feb";
 
         System.out.println("=== Safari 10 ===");
-        System.out.println("Name: " + safari10.safariName);
-        System.out.println("Location: " + safari10.location);
-        System.out.println("Animals: " + safari10.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari10.jeepAvailable);
-        System.out.println("Duration: " + safari10.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari10.ticketPrice);
-        System.out.println("Best Time: " + safari10.bestTimeToVisit);
+        safari10.getForestSafariInfo();
 
         ForestSafari safari11 = new ForestSafari();
         safari11.safariName = "Giraffe Grove";
@@ -194,13 +134,7 @@ class ForestSafariRunner {
         safari11.bestTimeToVisit = "Dec-Feb";
 
         System.out.println("=== Safari 11 ===");
-        System.out.println("Name: " + safari11.safariName);
-        System.out.println("Location: " + safari11.location);
-        System.out.println("Animals: " + safari11.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari11.jeepAvailable);
-        System.out.println("Duration: " + safari11.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari11.ticketPrice);
-        System.out.println("Best Time: " + safari11.bestTimeToVisit);
+        safari11.getForestSafariInfo();
 
         ForestSafari safari12 = new ForestSafari();
         safari12.safariName = "Tiger Zone";
@@ -212,13 +146,7 @@ class ForestSafariRunner {
         safari12.bestTimeToVisit = "Mar-May";
 
         System.out.println("=== Safari 12 ===");
-        System.out.println("Name: " + safari12.safariName);
-        System.out.println("Location: " + safari12.location);
-        System.out.println("Animals: " + safari12.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari12.jeepAvailable);
-        System.out.println("Duration: " + safari12.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari12.ticketPrice);
-        System.out.println("Best Time: " + safari12.bestTimeToVisit);
+        safari12.getForestSafariInfo();
 
         ForestSafari safari13 = new ForestSafari();
         safari13.safariName = "Jungle Vibe";
@@ -230,13 +158,7 @@ class ForestSafariRunner {
         safari13.bestTimeToVisit = "Jul-Sep";
 
         System.out.println("=== Safari 13 ===");
-        System.out.println("Name: " + safari13.safariName);
-        System.out.println("Location: " + safari13.location);
-        System.out.println("Animals: " + safari13.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari13.jeepAvailable);
-        System.out.println("Duration: " + safari13.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari13.ticketPrice);
-        System.out.println("Best Time: " + safari13.bestTimeToVisit);
+        safari13.getForestSafariInfo();
 
         ForestSafari safari14 = new ForestSafari();
         safari14.safariName = "Panther Patrol";
@@ -248,13 +170,7 @@ class ForestSafariRunner {
         safari14.bestTimeToVisit = "Dec-Mar";
 
         System.out.println("=== Safari 14 ===");
-        System.out.println("Name: " + safari14.safariName);
-        System.out.println("Location: " + safari14.location);
-        System.out.println("Animals: " + safari14.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari14.jeepAvailable);
-        System.out.println("Duration: " + safari14.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari14.ticketPrice);
-        System.out.println("Best Time: " + safari14.bestTimeToVisit);
+        safari14.getForestSafariInfo();
 
         ForestSafari safari15 = new ForestSafari();
         safari15.safariName = "Savanna Trek";
@@ -266,13 +182,7 @@ class ForestSafariRunner {
         safari15.bestTimeToVisit = "Jun-Sep";
 
         System.out.println("=== Safari 15 ===");
-        System.out.println("Name: " + safari15.safariName);
-        System.out.println("Location: " + safari15.location);
-        System.out.println("Animals: " + safari15.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari15.jeepAvailable);
-        System.out.println("Duration: " + safari15.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari15.ticketPrice);
-        System.out.println("Best Time: " + safari15.bestTimeToVisit);
+        safari15.getForestSafariInfo();
 
         ForestSafari safari16 = new ForestSafari();
         safari16.safariName = "Wildlife Watch";
@@ -284,13 +194,7 @@ class ForestSafariRunner {
         safari16.bestTimeToVisit = "Nov-Feb";
 
         System.out.println("=== Safari 16 ===");
-        System.out.println("Name: " + safari16.safariName);
-        System.out.println("Location: " + safari16.location);
-        System.out.println("Animals: " + safari16.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari16.jeepAvailable);
-        System.out.println("Duration: " + safari16.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari16.ticketPrice);
-        System.out.println("Best Time: " + safari16.bestTimeToVisit);
+        safari16.getForestSafariInfo();
 
         ForestSafari safari17 = new ForestSafari();
         safari17.safariName = "Silent Valley";
@@ -302,13 +206,7 @@ class ForestSafariRunner {
         safari17.bestTimeToVisit = "Aug-Nov";
 
         System.out.println("=== Safari 17 ===");
-        System.out.println("Name: " + safari17.safariName);
-        System.out.println("Location: " + safari17.location);
-        System.out.println("Animals: " + safari17.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari17.jeepAvailable);
-        System.out.println("Duration: " + safari17.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari17.ticketPrice);
-        System.out.println("Best Time: " + safari17.bestTimeToVisit);
+        safari17.getForestSafariInfo();
 
         ForestSafari safari18 = new ForestSafari();
         safari18.safariName = "Jungle Jam";
@@ -320,13 +218,7 @@ class ForestSafariRunner {
         safari18.bestTimeToVisit = "Oct-Feb";
 
         System.out.println("=== Safari 18 ===");
-        System.out.println("Name: " + safari18.safariName);
-        System.out.println("Location: " + safari18.location);
-        System.out.println("Animals: " + safari18.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari18.jeepAvailable);
-        System.out.println("Duration: " + safari18.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari18.ticketPrice);
-        System.out.println("Best Time: " + safari18.bestTimeToVisit);
+        safari18.getForestSafariInfo();
 
         ForestSafari safari19 = new ForestSafari();
         safari19.safariName = "Rainforest Tour";
@@ -338,13 +230,7 @@ class ForestSafariRunner {
         safari19.bestTimeToVisit = "May-Jul";
 
         System.out.println("=== Safari 19 ===");
-        System.out.println("Name: " + safari19.safariName);
-        System.out.println("Location: " + safari19.location);
-        System.out.println("Animals: " + safari19.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari19.jeepAvailable);
-        System.out.println("Duration: " + safari19.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari19.ticketPrice);
-        System.out.println("Best Time: " + safari19.bestTimeToVisit);
+        safari19.getForestSafariInfo();
 
         ForestSafari safari20 = new ForestSafari();
         safari20.safariName = "Leopard Line";
@@ -356,15 +242,8 @@ class ForestSafariRunner {
         safari20.bestTimeToVisit = "Dec-Feb";
 
         System.out.println("=== Safari 20 ===");
-        System.out.println("Name: " + safari20.safariName);
-        System.out.println("Location: " + safari20.location);
-        System.out.println("Animals: " + safari20.numberOfAnimals);
-        System.out.println("Jeep Available: " + safari20.jeepAvailable);
-        System.out.println("Duration: " + safari20.safariDurationHours + " hrs");
-        System.out.println("Price: " + safari20.ticketPrice);
-        System.out.println("Best Time: " + safari20.bestTimeToVisit);
+        safari20.getForestSafariInfo();
 
         System.out.println("Main Ended");
-	
-	}
+    }
 }

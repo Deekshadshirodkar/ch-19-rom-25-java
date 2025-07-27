@@ -13,13 +13,7 @@ class BladeRunner {
         blade1.isDisposable = true;
         blade1.usage = "Shaving";
         System.out.println("=== Blade 1 ===");
-        System.out.println("ID: " + blade1.bladeId);
-        System.out.println("Brand: " + blade1.brand);
-        System.out.println("Type: " + blade1.bladeType);
-        System.out.println("Material: " + blade1.material);
-        System.out.println("Price: ₹" + blade1.price);
-        System.out.println("Disposable: " + blade1.isDisposable);
-        System.out.println("Usage: " + blade1.usage);
+        blade1.getBladeInfo();
 
         Blade blade2 = new Blade();
         blade2.bladeId = 2;
@@ -30,13 +24,7 @@ class BladeRunner {
         blade2.isDisposable = false;
         blade2.usage = "Shaving";
         System.out.println("=== Blade 2 ===");
-        System.out.println("ID: " + blade2.bladeId);
-        System.out.println("Brand: " + blade2.brand);
-        System.out.println("Type: " + blade2.bladeType);
-        System.out.println("Material: " + blade2.material);
-        System.out.println("Price: ₹" + blade2.price);
-        System.out.println("Disposable: " + blade2.isDisposable);
-        System.out.println("Usage: " + blade2.usage);
+        blade2.getBladeInfo();
 
         Blade blade3 = new Blade();
         blade3.bladeId = 3;
@@ -47,13 +35,7 @@ class BladeRunner {
         blade3.isDisposable = true;
         blade3.usage = "Shaving";
         System.out.println("=== Blade 3 ===");
-        System.out.println("ID: " + blade3.bladeId);
-        System.out.println("Brand: " + blade3.brand);
-        System.out.println("Type: " + blade3.bladeType);
-        System.out.println("Material: " + blade3.material);
-        System.out.println("Price: ₹" + blade3.price);
-        System.out.println("Disposable: " + blade3.isDisposable);
-        System.out.println("Usage: " + blade3.usage);
+        blade3.getBladeInfo();
 
         Blade blade4 = new Blade();
         blade4.bladeId = 4;
@@ -64,13 +46,7 @@ class BladeRunner {
         blade4.isDisposable = false;
         blade4.usage = "Shaving";
         System.out.println("=== Blade 4 ===");
-        System.out.println("ID: " + blade4.bladeId);
-        System.out.println("Brand: " + blade4.brand);
-        System.out.println("Type: " + blade4.bladeType);
-        System.out.println("Material: " + blade4.material);
-        System.out.println("Price: ₹" + blade4.price);
-        System.out.println("Disposable: " + blade4.isDisposable);
-        System.out.println("Usage: " + blade4.usage);
+        blade4.getBladeInfo();
 
         Blade blade5 = new Blade();
         blade5.bladeId = 5;
@@ -81,13 +57,7 @@ class BladeRunner {
         blade5.isDisposable = false;
         blade5.usage = "Shaving";
         System.out.println("=== Blade 5 ===");
-        System.out.println("ID: " + blade5.bladeId);
-        System.out.println("Brand: " + blade5.brand);
-        System.out.println("Type: " + blade5.bladeType);
-        System.out.println("Material: " + blade5.material);
-        System.out.println("Price: ₹" + blade5.price);
-        System.out.println("Disposable: " + blade5.isDisposable);
-        System.out.println("Usage: " + blade5.usage);
+        blade5.getBladeInfo();
 
         Blade blade6 = new Blade();
         blade6.bladeId = 6;
@@ -98,13 +68,7 @@ class BladeRunner {
         blade6.isDisposable = true;
         blade6.usage = "Shaving";
         System.out.println("=== Blade 6 ===");
-        System.out.println("ID: " + blade6.bladeId);
-        System.out.println("Brand: " + blade6.brand);
-        System.out.println("Type: " + blade6.bladeType);
-        System.out.println("Material: " + blade6.material);
-        System.out.println("Price: ₹" + blade6.price);
-        System.out.println("Disposable: " + blade6.isDisposable);
-        System.out.println("Usage: " + blade6.usage);
+        blade6.getBladeInfo();
 
         Blade blade7 = new Blade();
         blade7.bladeId = 7;
@@ -115,13 +79,7 @@ class BladeRunner {
         blade7.isDisposable = true;
         blade7.usage = "Shaving";
         System.out.println("=== Blade 7 ===");
-        System.out.println("ID: " + blade7.bladeId);
-        System.out.println("Brand: " + blade7.brand);
-        System.out.println("Type: " + blade7.bladeType);
-        System.out.println("Material: " + blade7.material);
-        System.out.println("Price: ₹" + blade7.price);
-        System.out.println("Disposable: " + blade7.isDisposable);
-        System.out.println("Usage: " + blade7.usage);
+        blade7.getBladeInfo();
 
         Blade blade8 = new Blade();
         blade8.bladeId = 8;
@@ -132,13 +90,7 @@ class BladeRunner {
         blade8.isDisposable = false;
         blade8.usage = "Shaving";
         System.out.println("=== Blade 8 ===");
-        System.out.println("ID: " + blade8.bladeId);
-        System.out.println("Brand: " + blade8.brand);
-        System.out.println("Type: " + blade8.bladeType);
-        System.out.println("Material: " + blade8.material);
-        System.out.println("Price: ₹" + blade8.price);
-        System.out.println("Disposable: " + blade8.isDisposable);
-        System.out.println("Usage: " + blade8.usage);
+        blade8.getBladeInfo();
 
         Blade blade9 = new Blade();
         blade9.bladeId = 9;
@@ -149,13 +101,7 @@ class BladeRunner {
         blade9.isDisposable = false;
         blade9.usage = "Luxury Shaving";
         System.out.println("=== Blade 9 ===");
-        System.out.println("ID: " + blade9.bladeId);
-        System.out.println("Brand: " + blade9.brand);
-        System.out.println("Type: " + blade9.bladeType);
-        System.out.println("Material: " + blade9.material);
-        System.out.println("Price: ₹" + blade9.price);
-        System.out.println("Disposable: " + blade9.isDisposable);
-        System.out.println("Usage: " + blade9.usage);
+        blade9.getBladeInfo();
 
         Blade blade10 = new Blade();
         blade10.bladeId = 10;
@@ -166,13 +112,7 @@ class BladeRunner {
         blade10.isDisposable = true;
         blade10.usage = "Professional Use";
         System.out.println("=== Blade 10 ===");
-        System.out.println("ID: " + blade10.bladeId);
-        System.out.println("Brand: " + blade10.brand);
-        System.out.println("Type: " + blade10.bladeType);
-        System.out.println("Material: " + blade10.material);
-        System.out.println("Price: ₹" + blade10.price);
-        System.out.println("Disposable: " + blade10.isDisposable);
-        System.out.println("Usage: " + blade10.usage);
+        blade10.getBladeInfo();
 
         Blade blade11 = new Blade();
         blade11.bladeId = 11;
@@ -183,13 +123,7 @@ class BladeRunner {
         blade11.isDisposable = false;
         blade11.usage = "Shaving";
         System.out.println("=== Blade 11 ===");
-        System.out.println("ID: " + blade11.bladeId);
-        System.out.println("Brand: " + blade11.brand);
-        System.out.println("Type: " + blade11.bladeType);
-        System.out.println("Material: " + blade11.material);
-        System.out.println("Price: ₹" + blade11.price);
-        System.out.println("Disposable: " + blade11.isDisposable);
-        System.out.println("Usage: " + blade11.usage);
+        blade11.getBladeInfo();
 
         Blade blade12 = new Blade();
         blade12.bladeId = 12;
@@ -200,13 +134,7 @@ class BladeRunner {
         blade12.isDisposable = false;
         blade12.usage = "Shaving";
         System.out.println("=== Blade 12 ===");
-        System.out.println("ID: " + blade12.bladeId);
-        System.out.println("Brand: " + blade12.brand);
-        System.out.println("Type: " + blade12.bladeType);
-        System.out.println("Material: " + blade12.material);
-        System.out.println("Price: ₹" + blade12.price);
-        System.out.println("Disposable: " + blade12.isDisposable);
-        System.out.println("Usage: " + blade12.usage);
+        blade12.getBladeInfo();
 
         Blade blade13 = new Blade();
         blade13.bladeId = 13;
@@ -217,13 +145,7 @@ class BladeRunner {
         blade13.isDisposable = false;
         blade13.usage = "Shaving";
         System.out.println("=== Blade 13 ===");
-        System.out.println("ID: " + blade13.bladeId);
-        System.out.println("Brand: " + blade13.brand);
-        System.out.println("Type: " + blade13.bladeType);
-        System.out.println("Material: " + blade13.material);
-        System.out.println("Price: ₹" + blade13.price);
-        System.out.println("Disposable: " + blade13.isDisposable);
-        System.out.println("Usage: " + blade13.usage);
+        blade13.getBladeInfo();
 
         Blade blade14 = new Blade();
         blade14.bladeId = 14;
@@ -234,13 +156,7 @@ class BladeRunner {
         blade14.isDisposable = true;
         blade14.usage = "Shaving";
         System.out.println("=== Blade 14 ===");
-        System.out.println("ID: " + blade14.bladeId);
-        System.out.println("Brand: " + blade14.brand);
-        System.out.println("Type: " + blade14.bladeType);
-        System.out.println("Material: " + blade14.material);
-        System.out.println("Price: ₹" + blade14.price);
-        System.out.println("Disposable: " + blade14.isDisposable);
-        System.out.println("Usage: " + blade14.usage);
+        blade14.getBladeInfo();
 
         Blade blade15 = new Blade();
         blade15.bladeId = 15;
@@ -251,13 +167,7 @@ class BladeRunner {
         blade15.isDisposable = false;
         blade15.usage = "Shaving";
         System.out.println("=== Blade 15 ===");
-        System.out.println("ID: " + blade15.bladeId);
-        System.out.println("Brand: " + blade15.brand);
-        System.out.println("Type: " + blade15.bladeType);
-        System.out.println("Material: " + blade15.material);
-        System.out.println("Price: ₹" + blade15.price);
-        System.out.println("Disposable: " + blade15.isDisposable);
-        System.out.println("Usage: " + blade15.usage);
+        blade15.getBladeInfo();
 
         Blade blade16 = new Blade();
         blade16.bladeId = 16;
@@ -268,13 +178,7 @@ class BladeRunner {
         blade16.isDisposable = false;
         blade16.usage = "Shaving";
         System.out.println("=== Blade 16 ===");
-        System.out.println("ID: " + blade16.bladeId);
-        System.out.println("Brand: " + blade16.brand);
-        System.out.println("Type: " + blade16.bladeType);
-        System.out.println("Material: " + blade16.material);
-        System.out.println("Price: ₹" + blade16.price);
-        System.out.println("Disposable: " + blade16.isDisposable);
-        System.out.println("Usage: " + blade16.usage);
+        blade16.getBladeInfo();
 
         Blade blade17 = new Blade();
         blade17.bladeId = 17;
@@ -285,13 +189,7 @@ class BladeRunner {
         blade17.isDisposable = false;
         blade17.usage = "Shaving";
         System.out.println("=== Blade 17 ===");
-        System.out.println("ID: " + blade17.bladeId);
-        System.out.println("Brand: " + blade17.brand);
-        System.out.println("Type: " + blade17.bladeType);
-        System.out.println("Material: " + blade17.material);
-        System.out.println("Price: ₹" + blade17.price);
-        System.out.println("Disposable: " + blade17.isDisposable);
-        System.out.println("Usage: " + blade17.usage);
+        blade17.getBladeInfo();
 
         Blade blade18 = new Blade();
         blade18.bladeId = 18;
@@ -302,13 +200,7 @@ class BladeRunner {
         blade18.isDisposable = true;
         blade18.usage = "Disposable Shaving";
         System.out.println("=== Blade 18 ===");
-        System.out.println("ID: " + blade18.bladeId);
-        System.out.println("Brand: " + blade18.brand);
-        System.out.println("Type: " + blade18.bladeType);
-        System.out.println("Material: " + blade18.material);
-        System.out.println("Price: ₹" + blade18.price);
-        System.out.println("Disposable: " + blade18.isDisposable);
-        System.out.println("Usage: " + blade18.usage);
+        blade18.getBladeInfo();
 
         Blade blade19 = new Blade();
         blade19.bladeId = 19;
@@ -319,13 +211,7 @@ class BladeRunner {
         blade19.isDisposable = false;
         blade19.usage = "Shaving";
         System.out.println("=== Blade 19 ===");
-        System.out.println("ID: " + blade19.bladeId);
-        System.out.println("Brand: " + blade19.brand);
-        System.out.println("Type: " + blade19.bladeType);
-        System.out.println("Material: " + blade19.material);
-        System.out.println("Price: ₹" + blade19.price);
-        System.out.println("Disposable: " + blade19.isDisposable);
-        System.out.println("Usage: " + blade19.usage);
+        blade19.getBladeInfo();
 
         Blade blade20 = new Blade();
         blade20.bladeId = 20;
@@ -336,13 +222,7 @@ class BladeRunner {
         blade20.isDisposable = true;
         blade20.usage = "Quick Shave";
         System.out.println("=== Blade 20 ===");
-        System.out.println("ID: " + blade20.bladeId);
-        System.out.println("Brand: " + blade20.brand);
-        System.out.println("Type: " + blade20.bladeType);
-        System.out.println("Material: " + blade20.material);
-        System.out.println("Price: ₹" + blade20.price);
-        System.out.println("Disposable: " + blade20.isDisposable);
-        System.out.println("Usage: " + blade20.usage);
+        blade20.getBladeInfo();
 
         System.out.println("Main Ended");
     }

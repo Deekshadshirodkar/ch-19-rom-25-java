@@ -8,4 +8,13 @@ class Hairclip {
     double price;
     boolean isDecorative;
 
+    public void getHairclipInfo() {
+        System.out.println("ID: " + clipId);
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
+        System.out.println("Material: " + material);
+        System.out.println("Price: ₹" + price);
+        System.out.println("Decorative: " + isDecorative);
+    }
 }

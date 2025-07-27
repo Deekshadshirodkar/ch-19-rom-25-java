@@ -12,15 +12,8 @@ class MarbleRunner {
         m1.texture = "Smooth";
         m1.transparent = true;
         m1.origin = "India";
-
         System.out.println("=== Marble 1 ===");
-        System.out.println("Color: " + m1.color);
-        System.out.println("Type: " + m1.type);
-        System.out.println("Diameter: " + m1.diameter + " cm");
-        System.out.println("Weight: " + m1.weight + " g");
-        System.out.println("Texture: " + m1.texture);
-        System.out.println("Transparent: " + m1.transparent);
-        System.out.println("Origin: " + m1.origin);
+        m1.getMarbleInfo();
 
         Marble m2 = new Marble();
         m2.color = "Green";
@@ -30,15 +23,8 @@ class MarbleRunner {
         m2.texture = "Grainy";
         m2.transparent = false;
         m2.origin = "China";
-
         System.out.println("=== Marble 2 ===");
-        System.out.println("Color: " + m2.color);
-        System.out.println("Type: " + m2.type);
-        System.out.println("Diameter: " + m2.diameter + " cm");
-        System.out.println("Weight: " + m2.weight + " g");
-        System.out.println("Texture: " + m2.texture);
-        System.out.println("Transparent: " + m2.transparent);
-        System.out.println("Origin: " + m2.origin);
+        m2.getMarbleInfo();
 
         Marble m3 = new Marble();
         m3.color = "Red";
@@ -48,17 +34,10 @@ class MarbleRunner {
         m3.texture = "Rough";
         m3.transparent = false;
         m3.origin = "USA";
-
         System.out.println("=== Marble 3 ===");
-        System.out.println("Color: " + m3.color);
-        System.out.println("Type: " + m3.type);
-        System.out.println("Diameter: " + m3.diameter + " cm");
-        System.out.println("Weight: " + m3.weight + " g");
-        System.out.println("Texture: " + m3.texture);
-        System.out.println("Transparent: " + m3.transparent);
-        System.out.println("Origin: " + m3.origin);
+        m3.getMarbleInfo();
 
-		        Marble m4 = new Marble();
+        Marble m4 = new Marble();
         m4.color = "Yellow";
         m4.type = "Glass";
         m4.diameter = 2.2;
@@ -66,15 +45,8 @@ class MarbleRunner {
         m4.texture = "Smooth";
         m4.transparent = true;
         m4.origin = "Italy";
-
         System.out.println("=== Marble 4 ===");
-        System.out.println("Color: " + m4.color);
-        System.out.println("Type: " + m4.type);
-        System.out.println("Diameter: " + m4.diameter + " cm");
-        System.out.println("Weight: " + m4.weight + " g");
-        System.out.println("Texture: " + m4.texture);
-        System.out.println("Transparent: " + m4.transparent);
-        System.out.println("Origin: " + m4.origin);
+        m4.getMarbleInfo();
 
         Marble m5 = new Marble();
         m5.color = "Orange";
@@ -84,15 +56,8 @@ class MarbleRunner {
         m5.texture = "Rough";
         m5.transparent = false;
         m5.origin = "Brazil";
-
         System.out.println("=== Marble 5 ===");
-        System.out.println("Color: " + m5.color);
-        System.out.println("Type: " + m5.type);
-        System.out.println("Diameter: " + m5.diameter + " cm");
-        System.out.println("Weight: " + m5.weight + " g");
-        System.out.println("Texture: " + m5.texture);
-        System.out.println("Transparent: " + m5.transparent);
-        System.out.println("Origin: " + m5.origin);
+        m5.getMarbleInfo();
 
         Marble m6 = new Marble();
         m6.color = "White";
@@ -102,15 +67,8 @@ class MarbleRunner {
         m6.texture = "Smooth";
         m6.transparent = true;
         m6.origin = "France";
-
         System.out.println("=== Marble 6 ===");
-        System.out.println("Color: " + m6.color);
-        System.out.println("Type: " + m6.type);
-        System.out.println("Diameter: " + m6.diameter + " cm");
-        System.out.println("Weight: " + m6.weight + " g");
-        System.out.println("Texture: " + m6.texture);
-        System.out.println("Transparent: " + m6.transparent);
-        System.out.println("Origin: " + m6.origin);
+        m6.getMarbleInfo();
 
         Marble m7 = new Marble();
         m7.color = "Black";
@@ -120,15 +78,8 @@ class MarbleRunner {
         m7.texture = "Glossy";
         m7.transparent = false;
         m7.origin = "Turkey";
-
         System.out.println("=== Marble 7 ===");
-        System.out.println("Color: " + m7.color);
-        System.out.println("Type: " + m7.type);
-        System.out.println("Diameter: " + m7.diameter + " cm");
-        System.out.println("Weight: " + m7.weight + " g");
-        System.out.println("Texture: " + m7.texture);
-        System.out.println("Transparent: " + m7.transparent);
-        System.out.println("Origin: " + m7.origin);
+        m7.getMarbleInfo();
 
         Marble m8 = new Marble();
         m8.color = "Purple";
@@ -138,15 +89,8 @@ class MarbleRunner {
         m8.texture = "Smooth";
         m8.transparent = true;
         m8.origin = "Japan";
-
         System.out.println("=== Marble 8 ===");
-        System.out.println("Color: " + m8.color);
-        System.out.println("Type: " + m8.type);
-        System.out.println("Diameter: " + m8.diameter + " cm");
-        System.out.println("Weight: " + m8.weight + " g");
-        System.out.println("Texture: " + m8.texture);
-        System.out.println("Transparent: " + m8.transparent);
-        System.out.println("Origin: " + m8.origin);
+        m8.getMarbleInfo();
 
         Marble m9 = new Marble();
         m9.color = "Pink";
@@ -156,15 +100,8 @@ class MarbleRunner {
         m9.texture = "Polished";
         m9.transparent = false;
         m9.origin = "India";
-
         System.out.println("=== Marble 9 ===");
-        System.out.println("Color: " + m9.color);
-        System.out.println("Type: " + m9.type);
-        System.out.println("Diameter: " + m9.diameter + " cm");
-        System.out.println("Weight: " + m9.weight + " g");
-        System.out.println("Texture: " + m9.texture);
-        System.out.println("Transparent: " + m9.transparent);
-        System.out.println("Origin: " + m9.origin);
+        m9.getMarbleInfo();
 
         Marble m10 = new Marble();
         m10.color = "Grey";
@@ -174,17 +111,10 @@ class MarbleRunner {
         m10.texture = "Matte";
         m10.transparent = false;
         m10.origin = "Germany";
-
         System.out.println("=== Marble 10 ===");
-        System.out.println("Color: " + m10.color);
-        System.out.println("Type: " + m10.type);
-        System.out.println("Diameter: " + m10.diameter + " cm");
-        System.out.println("Weight: " + m10.weight + " g");
-        System.out.println("Texture: " + m10.texture);
-        System.out.println("Transparent: " + m10.transparent);
-        System.out.println("Origin: " + m10.origin);
+        m10.getMarbleInfo();
 
-		Marble m11 = new Marble();
+        Marble m11 = new Marble();
         m11.color = "Turquoise";
         m11.type = "Ceramic";
         m11.diameter = 2.6;
@@ -192,15 +122,8 @@ class MarbleRunner {
         m11.texture = "Smooth";
         m11.transparent = false;
         m11.origin = "China";
-
         System.out.println("=== Marble 11 ===");
-        System.out.println("Color: " + m11.color);
-        System.out.println("Type: " + m11.type);
-        System.out.println("Diameter: " + m11.diameter + " cm");
-        System.out.println("Weight: " + m11.weight + " g");
-        System.out.println("Texture: " + m11.texture);
-        System.out.println("Transparent: " + m11.transparent);
-        System.out.println("Origin: " + m11.origin);
+        m11.getMarbleInfo();
 
         Marble m12 = new Marble();
         m12.color = "Brown";
@@ -210,15 +133,8 @@ class MarbleRunner {
         m12.texture = "Grainy";
         m12.transparent = false;
         m12.origin = "Mexico";
-
         System.out.println("=== Marble 12 ===");
-        System.out.println("Color: " + m12.color);
-        System.out.println("Type: " + m12.type);
-        System.out.println("Diameter: " + m12.diameter + " cm");
-        System.out.println("Weight: " + m12.weight + " g");
-        System.out.println("Texture: " + m12.texture);
-        System.out.println("Transparent: " + m12.transparent);
-        System.out.println("Origin: " + m12.origin);
+        m12.getMarbleInfo();
 
         Marble m13 = new Marble();
         m13.color = "Gold";
@@ -228,15 +144,8 @@ class MarbleRunner {
         m13.texture = "Glossy";
         m13.transparent = true;
         m13.origin = "Dubai";
-
         System.out.println("=== Marble 13 ===");
-        System.out.println("Color: " + m13.color);
-        System.out.println("Type: " + m13.type);
-        System.out.println("Diameter: " + m13.diameter + " cm");
-        System.out.println("Weight: " + m13.weight + " g");
-        System.out.println("Texture: " + m13.texture);
-        System.out.println("Transparent: " + m13.transparent);
-        System.out.println("Origin: " + m13.origin);
+        m13.getMarbleInfo();
 
         Marble m14 = new Marble();
         m14.color = "Silver";
@@ -246,15 +155,8 @@ class MarbleRunner {
         m14.texture = "Shiny";
         m14.transparent = true;
         m14.origin = "Austria";
-
         System.out.println("=== Marble 14 ===");
-        System.out.println("Color: " + m14.color);
-        System.out.println("Type: " + m14.type);
-        System.out.println("Diameter: " + m14.diameter + " cm");
-        System.out.println("Weight: " + m14.weight + " g");
-        System.out.println("Texture: " + m14.texture);
-        System.out.println("Transparent: " + m14.transparent);
-        System.out.println("Origin: " + m14.origin);
+        m14.getMarbleInfo();
 
         Marble m15 = new Marble();
         m15.color = "Navy Blue";
@@ -264,15 +166,8 @@ class MarbleRunner {
         m15.texture = "Matte";
         m15.transparent = true;
         m15.origin = "Netherlands";
-
         System.out.println("=== Marble 15 ===");
-        System.out.println("Color: " + m15.color);
-        System.out.println("Type: " + m15.type);
-        System.out.println("Diameter: " + m15.diameter + " cm");
-        System.out.println("Weight: " + m15.weight + " g");
-        System.out.println("Texture: " + m15.texture);
-        System.out.println("Transparent: " + m15.transparent);
-        System.out.println("Origin: " + m15.origin);
+        m15.getMarbleInfo();
 
         Marble m16 = new Marble();
         m16.color = "Beige";
@@ -282,15 +177,8 @@ class MarbleRunner {
         m16.texture = "Smooth";
         m16.transparent = false;
         m16.origin = "Egypt";
-
         System.out.println("=== Marble 16 ===");
-        System.out.println("Color: " + m16.color);
-        System.out.println("Type: " + m16.type);
-        System.out.println("Diameter: " + m16.diameter + " cm");
-        System.out.println("Weight: " + m16.weight + " g");
-        System.out.println("Texture: " + m16.texture);
-        System.out.println("Transparent: " + m16.transparent);
-        System.out.println("Origin: " + m16.origin);
+        m16.getMarbleInfo();
 
         Marble m17 = new Marble();
         m17.color = "Ivory";
@@ -300,15 +188,8 @@ class MarbleRunner {
         m17.texture = "Polished";
         m17.transparent = true;
         m17.origin = "USA";
-
         System.out.println("=== Marble 17 ===");
-        System.out.println("Color: " + m17.color);
-        System.out.println("Type: " + m17.type);
-        System.out.println("Diameter: " + m17.diameter + " cm");
-        System.out.println("Weight: " + m17.weight + " g");
-        System.out.println("Texture: " + m17.texture);
-        System.out.println("Transparent: " + m17.transparent);
-        System.out.println("Origin: " + m17.origin);
+        m17.getMarbleInfo();
 
         Marble m18 = new Marble();
         m18.color = "Sky Blue";
@@ -318,15 +199,8 @@ class MarbleRunner {
         m18.texture = "Glossy";
         m18.transparent = true;
         m18.origin = "South Korea";
-
         System.out.println("=== Marble 18 ===");
-        System.out.println("Color: " + m18.color);
-        System.out.println("Type: " + m18.type);
-        System.out.println("Diameter: " + m18.diameter + " cm");
-        System.out.println("Weight: " + m18.weight + " g");
-        System.out.println("Texture: " + m18.texture);
-        System.out.println("Transparent: " + m18.transparent);
-        System.out.println("Origin: " + m18.origin);
+        m18.getMarbleInfo();
 
         Marble m19 = new Marble();
         m19.color = "Mint Green";
@@ -336,15 +210,8 @@ class MarbleRunner {
         m19.texture = "Matte";
         m19.transparent = false;
         m19.origin = "Thailand";
-
         System.out.println("=== Marble 19 ===");
-        System.out.println("Color: " + m19.color);
-        System.out.println("Type: " + m19.type);
-        System.out.println("Diameter: " + m19.diameter + " cm");
-        System.out.println("Weight: " + m19.weight + " g");
-        System.out.println("Texture: " + m19.texture);
-        System.out.println("Transparent: " + m19.transparent);
-        System.out.println("Origin: " + m19.origin);
+        m19.getMarbleInfo();
 
         Marble m20 = new Marble();
         m20.color = "Copper";
@@ -354,18 +221,9 @@ class MarbleRunner {
         m20.texture = "Rough";
         m20.transparent = false;
         m20.origin = "Russia";
-
         System.out.println("=== Marble 20 ===");
-        System.out.println("Color: " + m20.color);
-        System.out.println("Type: " + m20.type);
-        System.out.println("Diameter: " + m20.diameter + " cm");
-        System.out.println("Weight: " + m20.weight + " g");
-        System.out.println("Texture: " + m20.texture);
-        System.out.println("Transparent: " + m20.transparent);
-        System.out.println("Origin: " + m20.origin);
+        m20.getMarbleInfo();
 
         System.out.println("Main Ended");
-
-	}
-
+    }
 }

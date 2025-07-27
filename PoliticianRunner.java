@@ -13,13 +13,7 @@ class PoliticianRunner {
         politician1.isCabinetMinister = false;
         politician1.constituency = "Varanasi";
         System.out.println("=== Politician 1 ===");
-        System.out.println("ID: " + politician1.politicianId);
-        System.out.println("Name: " + politician1.name);
-        System.out.println("Party: " + politician1.party);
-        System.out.println("State: " + politician1.state);
-        System.out.println("Age: " + politician1.age);
-        System.out.println("Cabinet Minister: " + politician1.isCabinetMinister);
-        System.out.println("Constituency: " + politician1.constituency);
+        politician1.getPoliticianInfo();
 
         Politician politician2 = new Politician();
         politician2.politicianId = 2;
@@ -30,13 +24,7 @@ class PoliticianRunner {
         politician2.isCabinetMinister = false;
         politician2.constituency = "Wayanad";
         System.out.println("=== Politician 2 ===");
-        System.out.println("ID: " + politician2.politicianId);
-        System.out.println("Name: " + politician2.name);
-        System.out.println("Party: " + politician2.party);
-        System.out.println("State: " + politician2.state);
-        System.out.println("Age: " + politician2.age);
-        System.out.println("Cabinet Minister: " + politician2.isCabinetMinister);
-        System.out.println("Constituency: " + politician2.constituency);
+        politician2.getPoliticianInfo();
 
         Politician politician3 = new Politician();
         politician3.politicianId = 3;
@@ -47,13 +35,7 @@ class PoliticianRunner {
         politician3.isCabinetMinister = false;
         politician3.constituency = "Bhabanipur";
         System.out.println("=== Politician 3 ===");
-        System.out.println("ID: " + politician3.politicianId);
-        System.out.println("Name: " + politician3.name);
-        System.out.println("Party: " + politician3.party);
-        System.out.println("State: " + politician3.state);
-        System.out.println("Age: " + politician3.age);
-        System.out.println("Cabinet Minister: " + politician3.isCabinetMinister);
-        System.out.println("Constituency: " + politician3.constituency);
+        politician3.getPoliticianInfo();
 
         Politician politician4 = new Politician();
         politician4.politicianId = 4;
@@ -64,13 +46,7 @@ class PoliticianRunner {
         politician4.isCabinetMinister = true;
         politician4.constituency = "Gandhinagar";
         System.out.println("=== Politician 4 ===");
-        System.out.println("ID: " + politician4.politicianId);
-        System.out.println("Name: " + politician4.name);
-        System.out.println("Party: " + politician4.party);
-        System.out.println("State: " + politician4.state);
-        System.out.println("Age: " + politician4.age);
-        System.out.println("Cabinet Minister: " + politician4.isCabinetMinister);
-        System.out.println("Constituency: " + politician4.constituency);
+        politician4.getPoliticianInfo();
 
         Politician politician5 = new Politician();
         politician5.politicianId = 5;
@@ -81,13 +57,7 @@ class PoliticianRunner {
         politician5.isCabinetMinister = false;
         politician5.constituency = "New Delhi";
         System.out.println("=== Politician 5 ===");
-        System.out.println("ID: " + politician5.politicianId);
-        System.out.println("Name: " + politician5.name);
-        System.out.println("Party: " + politician5.party);
-        System.out.println("State: " + politician5.state);
-        System.out.println("Age: " + politician5.age);
-        System.out.println("Cabinet Minister: " + politician5.isCabinetMinister);
-        System.out.println("Constituency: " + politician5.constituency);
+        politician5.getPoliticianInfo();
 
         Politician politician6 = new Politician();
         politician6.politicianId = 6;
@@ -98,13 +68,7 @@ class PoliticianRunner {
         politician6.isCabinetMinister = false;
         politician6.constituency = "Gorakhpur";
         System.out.println("=== Politician 6 ===");
-        System.out.println("ID: " + politician6.politicianId);
-        System.out.println("Name: " + politician6.name);
-        System.out.println("Party: " + politician6.party);
-        System.out.println("State: " + politician6.state);
-        System.out.println("Age: " + politician6.age);
-        System.out.println("Cabinet Minister: " + politician6.isCabinetMinister);
-        System.out.println("Constituency: " + politician6.constituency);
+        politician6.getPoliticianInfo();
 
         Politician politician7 = new Politician();
         politician7.politicianId = 7;
@@ -115,13 +79,7 @@ class PoliticianRunner {
         politician7.isCabinetMinister = false;
         politician7.constituency = "Baramati";
         System.out.println("=== Politician 7 ===");
-        System.out.println("ID: " + politician7.politicianId);
-        System.out.println("Name: " + politician7.name);
-        System.out.println("Party: " + politician7.party);
-        System.out.println("State: " + politician7.state);
-        System.out.println("Age: " + politician7.age);
-        System.out.println("Cabinet Minister: " + politician7.isCabinetMinister);
-        System.out.println("Constituency: " + politician7.constituency);
+        politician7.getPoliticianInfo();
 
         Politician politician8 = new Politician();
         politician8.politicianId = 8;
@@ -132,13 +90,7 @@ class PoliticianRunner {
         politician8.isCabinetMinister = false;
         politician8.constituency = "Rae Bareli";
         System.out.println("=== Politician 8 ===");
-        System.out.println("ID: " + politician8.politicianId);
-        System.out.println("Name: " + politician8.name);
-        System.out.println("Party: " + politician8.party);
-        System.out.println("State: " + politician8.state);
-        System.out.println("Age: " + politician8.age);
-        System.out.println("Cabinet Minister: " + politician8.isCabinetMinister);
-        System.out.println("Constituency: " + politician8.constituency);
+        politician8.getPoliticianInfo();
 
         Politician politician9 = new Politician();
         politician9.politicianId = 9;
@@ -149,13 +101,7 @@ class PoliticianRunner {
         politician9.isCabinetMinister = false;
         politician9.constituency = "Nalanda";
         System.out.println("=== Politician 9 ===");
-        System.out.println("ID: " + politician9.politicianId);
-        System.out.println("Name: " + politician9.name);
-        System.out.println("Party: " + politician9.party);
-        System.out.println("State: " + politician9.state);
-        System.out.println("Age: " + politician9.age);
-        System.out.println("Cabinet Minister: " + politician9.isCabinetMinister);
-        System.out.println("Constituency: " + politician9.constituency);
+        politician9.getPoliticianInfo();
 
         Politician politician10 = new Politician();
         politician10.politicianId = 10;
@@ -166,13 +112,7 @@ class PoliticianRunner {
         politician10.isCabinetMinister = false;
         politician10.constituency = "Ambedkar Nagar";
         System.out.println("=== Politician 10 ===");
-        System.out.println("ID: " + politician10.politicianId);
-        System.out.println("Name: " + politician10.name);
-        System.out.println("Party: " + politician10.party);
-        System.out.println("State: " + politician10.state);
-        System.out.println("Age: " + politician10.age);
-        System.out.println("Cabinet Minister: " + politician10.isCabinetMinister);
-        System.out.println("Constituency: " + politician10.constituency);
+        politician10.getPoliticianInfo();
 
         Politician politician11 = new Politician();
         politician11.politicianId = 11;
@@ -183,13 +123,7 @@ class PoliticianRunner {
         politician11.isCabinetMinister = false;
         politician11.constituency = "Patna";
         System.out.println("=== Politician 11 ===");
-        System.out.println("ID: " + politician11.politicianId);
-        System.out.println("Name: " + politician11.name);
-        System.out.println("Party: " + politician11.party);
-        System.out.println("State: " + politician11.state);
-        System.out.println("Age: " + politician11.age);
-        System.out.println("Cabinet Minister: " + politician11.isCabinetMinister);
-        System.out.println("Constituency: " + politician11.constituency);
+        politician11.getPoliticianInfo();
 
         Politician politician12 = new Politician();
         politician12.politicianId = 12;
@@ -200,13 +134,7 @@ class PoliticianRunner {
         politician12.isCabinetMinister = false;
         politician12.constituency = "Agra";
         System.out.println("=== Politician 12 ===");
-        System.out.println("ID: " + politician12.politicianId);
-        System.out.println("Name: " + politician12.name);
-        System.out.println("Party: " + politician12.party);
-        System.out.println("State: " + politician12.state);
-        System.out.println("Age: " + politician12.age);
-        System.out.println("Cabinet Minister: " + politician12.isCabinetMinister);
-        System.out.println("Constituency: " + politician12.constituency);
+        politician12.getPoliticianInfo();
 
         Politician politician13 = new Politician();
         politician13.politicianId = 13;
@@ -217,13 +145,7 @@ class PoliticianRunner {
         politician13.isCabinetMinister = false;
         politician13.constituency = "Lucknow";
         System.out.println("=== Politician 13 ===");
-        System.out.println("ID: " + politician13.politicianId);
-        System.out.println("Name: " + politician13.name);
-        System.out.println("Party: " + politician13.party);
-        System.out.println("State: " + politician13.state);
-        System.out.println("Age: " + politician13.age);
-        System.out.println("Cabinet Minister: " + politician13.isCabinetMinister);
-        System.out.println("Constituency: " + politician13.constituency);
+        politician13.getPoliticianInfo();
 
         Politician politician14 = new Politician();
         politician14.politicianId = 14;
@@ -234,13 +156,7 @@ class PoliticianRunner {
         politician14.isCabinetMinister = false;
         politician14.constituency = "Jaipur";
         System.out.println("=== Politician 14 ===");
-        System.out.println("ID: " + politician14.politicianId);
-        System.out.println("Name: " + politician14.name);
-        System.out.println("Party: " + politician14.party);
-        System.out.println("State: " + politician14.state);
-        System.out.println("Age: " + politician14.age);
-        System.out.println("Cabinet Minister: " + politician14.isCabinetMinister);
-        System.out.println("Constituency: " + politician14.constituency);
+        politician14.getPoliticianInfo();
 
         Politician politician15 = new Politician();
         politician15.politicianId = 15;
@@ -251,13 +167,7 @@ class PoliticianRunner {
         politician15.isCabinetMinister = false;
         politician15.constituency = "Amritsar";
         System.out.println("=== Politician 15 ===");
-        System.out.println("ID: " + politician15.politicianId);
-        System.out.println("Name: " + politician15.name);
-        System.out.println("Party: " + politician15.party);
-        System.out.println("State: " + politician15.state);
-        System.out.println("Age: " + politician15.age);
-        System.out.println("Cabinet Minister: " + politician15.isCabinetMinister);
-        System.out.println("Constituency: " + politician15.constituency);
+        politician15.getPoliticianInfo();
 
         Politician politician16 = new Politician();
         politician16.politicianId = 16;
@@ -268,13 +178,7 @@ class PoliticianRunner {
         politician16.isCabinetMinister = false;
         politician16.constituency = "Vijayawada";
         System.out.println("=== Politician 16 ===");
-        System.out.println("ID: " + politician16.politicianId);
-        System.out.println("Name: " + politician16.name);
-        System.out.println("Party: " + politician16.party);
-        System.out.println("State: " + politician16.state);
-        System.out.println("Age: " + politician16.age);
-        System.out.println("Cabinet Minister: " + politician16.isCabinetMinister);
-        System.out.println("Constituency: " + politician16.constituency);
+        politician16.getPoliticianInfo();
 
         Politician politician17 = new Politician();
         politician17.politicianId = 17;
@@ -285,13 +189,7 @@ class PoliticianRunner {
         politician17.isCabinetMinister = false;
         politician17.constituency = "Siddipet";
         System.out.println("=== Politician 17 ===");
-        System.out.println("ID: " + politician17.politicianId);
-        System.out.println("Name: " + politician17.name);
-        System.out.println("Party: " + politician17.party);
-        System.out.println("State: " + politician17.state);
-        System.out.println("Age: " + politician17.age);
-        System.out.println("Cabinet Minister: " + politician17.isCabinetMinister);
-        System.out.println("Constituency: " + politician17.constituency);
+        politician17.getPoliticianInfo();
 
         Politician politician18 = new Politician();
         politician18.politicianId = 18;
@@ -302,13 +200,7 @@ class PoliticianRunner {
         politician18.isCabinetMinister = false;
         politician18.constituency = "Delhi Cantonment";
         System.out.println("=== Politician 18 ===");
-        System.out.println("ID: " + politician18.politicianId);
-        System.out.println("Name: " + politician18.name);
-        System.out.println("Party: " + politician18.party);
-        System.out.println("State: " + politician18.state);
-        System.out.println("Age: " + politician18.age);
-        System.out.println("Cabinet Minister: " + politician18.isCabinetMinister);
-        System.out.println("Constituency: " + politician18.constituency);
+        politician18.getPoliticianInfo();
 
         Politician politician19 = new Politician();
         politician19.politicianId = 19;
@@ -319,13 +211,7 @@ class PoliticianRunner {
         politician19.isCabinetMinister = false;
         politician19.constituency = "Nagpur";
         System.out.println("=== Politician 19 ===");
-        System.out.println("ID: " + politician19.politicianId);
-        System.out.println("Name: " + politician19.name);
-        System.out.println("Party: " + politician19.party);
-        System.out.println("State: " + politician19.state);
-        System.out.println("Age: " + politician19.age);
-        System.out.println("Cabinet Minister: " + politician19.isCabinetMinister);
-        System.out.println("Constituency: " + politician19.constituency);
+        politician19.getPoliticianInfo();
 
         Politician politician20 = new Politician();
         politician20.politicianId = 20;
@@ -336,13 +222,7 @@ class PoliticianRunner {
         politician20.isCabinetMinister = false;
         politician20.constituency = "Udaipur";
         System.out.println("=== Politician 20 ===");
-        System.out.println("ID: " + politician20.politicianId);
-        System.out.println("Name: " + politician20.name);
-        System.out.println("Party: " + politician20.party);
-        System.out.println("State: " + politician20.state);
-        System.out.println("Age: " + politician20.age);
-        System.out.println("Cabinet Minister: " + politician20.isCabinetMinister);
-        System.out.println("Constituency: " + politician20.constituency);
+        politician20.getPoliticianInfo();
 
         System.out.println("Main Ended");
     }

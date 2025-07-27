@@ -12,15 +12,8 @@ class CourtcaseRunner {
         case1.judge = "Justice Mehra";
         case1.courtName = "Delhi High Court";
         case1.isClosed = false;
-
         System.out.println("=== Case 1 ===");
-        System.out.println("ID: " + case1.caseId);
-        System.out.println("Title: " + case1.caseTitle);
-        System.out.println("Plaintiff: " + case1.plaintiff);
-        System.out.println("Defendant: " + case1.defendant);
-        System.out.println("Judge: " + case1.judge);
-        System.out.println("Court: " + case1.courtName);
-        System.out.println("Closed: " + case1.isClosed);
+        case1.getCourtcaseInfo();
 
         Courtcase case2 = new Courtcase();
         case2.caseId = 2;
@@ -30,15 +23,8 @@ class CourtcaseRunner {
         case2.judge = "Justice Sharma";
         case2.courtName = "Supreme Court";
         case2.isClosed = false;
-
         System.out.println("=== Case 2 ===");
-        System.out.println("ID: " + case2.caseId);
-        System.out.println("Title: " + case2.caseTitle);
-        System.out.println("Plaintiff: " + case2.plaintiff);
-        System.out.println("Defendant: " + case2.defendant);
-        System.out.println("Judge: " + case2.judge);
-        System.out.println("Court: " + case2.courtName);
-        System.out.println("Closed: " + case2.isClosed);
+        case2.getCourtcaseInfo();
 
         Courtcase case3 = new Courtcase();
         case3.caseId = 3;
@@ -48,17 +34,10 @@ class CourtcaseRunner {
         case3.judge = "Justice Rao";
         case3.courtName = "Mumbai Family Court";
         case3.isClosed = true;
-
         System.out.println("=== Case 3 ===");
-        System.out.println("ID: " + case3.caseId);
-        System.out.println("Title: " + case3.caseTitle);
-        System.out.println("Plaintiff: " + case3.plaintiff);
-        System.out.println("Defendant: " + case3.defendant);
-        System.out.println("Judge: " + case3.judge);
-        System.out.println("Court: " + case3.courtName);
-        System.out.println("Closed: " + case3.isClosed);
+        case3.getCourtcaseInfo();
 
-		Courtcase case4 = new Courtcase();
+        Courtcase case4 = new Courtcase();
         case4.caseId = 4;
         case4.caseTitle = "Property Claim";
         case4.plaintiff = "Anjali Desai";
@@ -66,15 +45,8 @@ class CourtcaseRunner {
         case4.judge = "Justice Rao";
         case4.courtName = "Ahmedabad High Court";
         case4.isClosed = false;
-
         System.out.println("=== Case 4 ===");
-        System.out.println("ID: " + case4.caseId);
-        System.out.println("Title: " + case4.caseTitle);
-        System.out.println("Plaintiff: " + case4.plaintiff);
-        System.out.println("Defendant: " + case4.defendant);
-        System.out.println("Judge: " + case4.judge);
-        System.out.println("Court: " + case4.courtName);
-        System.out.println("Closed: " + case4.isClosed);
+        case4.getCourtcaseInfo();
 
         Courtcase case5 = new Courtcase();
         case5.caseId = 5;
@@ -84,15 +56,8 @@ class CourtcaseRunner {
         case5.judge = "Justice Tripathi";
         case5.courtName = "Patna Sessions Court";
         case5.isClosed = false;
-
         System.out.println("=== Case 5 ===");
-        System.out.println("ID: " + case5.caseId);
-        System.out.println("Title: " + case5.caseTitle);
-        System.out.println("Plaintiff: " + case5.plaintiff);
-        System.out.println("Defendant: " + case5.defendant);
-        System.out.println("Judge: " + case5.judge);
-        System.out.println("Court: " + case5.courtName);
-        System.out.println("Closed: " + case5.isClosed);
+        case5.getCourtcaseInfo();
 
         Courtcase case6 = new Courtcase();
         case6.caseId = 6;
@@ -102,15 +67,8 @@ class CourtcaseRunner {
         case6.judge = "Justice Meena";
         case6.courtName = "Delhi District Court";
         case6.isClosed = true;
-
         System.out.println("=== Case 6 ===");
-        System.out.println("ID: " + case6.caseId);
-        System.out.println("Title: " + case6.caseTitle);
-        System.out.println("Plaintiff: " + case6.plaintiff);
-        System.out.println("Defendant: " + case6.defendant);
-        System.out.println("Judge: " + case6.judge);
-        System.out.println("Court: " + case6.courtName);
-        System.out.println("Closed: " + case6.isClosed);
+        case6.getCourtcaseInfo();
 
         Courtcase case7 = new Courtcase();
         case7.caseId = 7;
@@ -120,15 +78,8 @@ class CourtcaseRunner {
         case7.judge = "Justice Arora";
         case7.courtName = "Chennai High Court";
         case7.isClosed = true;
-
         System.out.println("=== Case 7 ===");
-        System.out.println("ID: " + case7.caseId);
-        System.out.println("Title: " + case7.caseTitle);
-        System.out.println("Plaintiff: " + case7.plaintiff);
-        System.out.println("Defendant: " + case7.defendant);
-        System.out.println("Judge: " + case7.judge);
-        System.out.println("Court: " + case7.courtName);
-        System.out.println("Closed: " + case7.isClosed);
+        case7.getCourtcaseInfo();
 
         Courtcase case8 = new Courtcase();
         case8.caseId = 8;
@@ -138,15 +89,8 @@ class CourtcaseRunner {
         case8.judge = "Justice Ghosh";
         case8.courtName = "Kolkata Cyber Court";
         case8.isClosed = false;
-
         System.out.println("=== Case 8 ===");
-        System.out.println("ID: " + case8.caseId);
-        System.out.println("Title: " + case8.caseTitle);
-        System.out.println("Plaintiff: " + case8.plaintiff);
-        System.out.println("Defendant: " + case8.defendant);
-        System.out.println("Judge: " + case8.judge);
-        System.out.println("Court: " + case8.courtName);
-        System.out.println("Closed: " + case8.isClosed);
+        case8.getCourtcaseInfo();
 
         Courtcase case9 = new Courtcase();
         case9.caseId = 9;
@@ -156,15 +100,8 @@ class CourtcaseRunner {
         case9.judge = "Justice Nanda";
         case9.courtName = "Hyderabad Civil Court";
         case9.isClosed = false;
-
         System.out.println("=== Case 9 ===");
-        System.out.println("ID: " + case9.caseId);
-        System.out.println("Title: " + case9.caseTitle);
-        System.out.println("Plaintiff: " + case9.plaintiff);
-        System.out.println("Defendant: " + case9.defendant);
-        System.out.println("Judge: " + case9.judge);
-        System.out.println("Court: " + case9.courtName);
-        System.out.println("Closed: " + case9.isClosed);
+        case9.getCourtcaseInfo();
 
         Courtcase case10 = new Courtcase();
         case10.caseId = 10;
@@ -174,17 +111,10 @@ class CourtcaseRunner {
         case10.judge = "Justice Bose";
         case10.courtName = "Bangalore Consumer Court";
         case10.isClosed = true;
-
         System.out.println("=== Case 10 ===");
-        System.out.println("ID: " + case10.caseId);
-        System.out.println("Title: " + case10.caseTitle);
-        System.out.println("Plaintiff: " + case10.plaintiff);
-        System.out.println("Defendant: " + case10.defendant);
-        System.out.println("Judge: " + case10.judge);
-        System.out.println("Court: " + case10.courtName);
-        System.out.println("Closed: " + case10.isClosed);
+        case10.getCourtcaseInfo();
 
-		        Courtcase case11 = new Courtcase();
+        Courtcase case11 = new Courtcase();
         case11.caseId = 11;
         case11.caseTitle = "Fraud Transaction";
         case11.plaintiff = "Manoj Seth";
@@ -192,15 +122,8 @@ class CourtcaseRunner {
         case11.judge = "Justice Naidu";
         case11.courtName = "Mumbai Economic Offense Court";
         case11.isClosed = false;
-
         System.out.println("=== Case 11 ===");
-        System.out.println("ID: " + case11.caseId);
-        System.out.println("Title: " + case11.caseTitle);
-        System.out.println("Plaintiff: " + case11.plaintiff);
-        System.out.println("Defendant: " + case11.defendant);
-        System.out.println("Judge: " + case11.judge);
-        System.out.println("Court: " + case11.courtName);
-        System.out.println("Closed: " + case11.isClosed);
+        case11.getCourtcaseInfo();
 
         Courtcase case12 = new Courtcase();
         case12.caseId = 12;
@@ -210,15 +133,8 @@ class CourtcaseRunner {
         case12.judge = "Justice Menon";
         case12.courtName = "Pune District Court";
         case12.isClosed = true;
-
         System.out.println("=== Case 12 ===");
-        System.out.println("ID: " + case12.caseId);
-        System.out.println("Title: " + case12.caseTitle);
-        System.out.println("Plaintiff: " + case12.plaintiff);
-        System.out.println("Defendant: " + case12.defendant);
-        System.out.println("Judge: " + case12.judge);
-        System.out.println("Court: " + case12.courtName);
-        System.out.println("Closed: " + case12.isClosed);
+        case12.getCourtcaseInfo();
 
         Courtcase case13 = new Courtcase();
         case13.caseId = 13;
@@ -228,15 +144,8 @@ class CourtcaseRunner {
         case13.judge = "Justice Shinde";
         case13.courtName = "NGT Delhi";
         case13.isClosed = false;
-
         System.out.println("=== Case 13 ===");
-        System.out.println("ID: " + case13.caseId);
-        System.out.println("Title: " + case13.caseTitle);
-        System.out.println("Plaintiff: " + case13.plaintiff);
-        System.out.println("Defendant: " + case13.defendant);
-        System.out.println("Judge: " + case13.judge);
-        System.out.println("Court: " + case13.courtName);
-        System.out.println("Closed: " + case13.isClosed);
+        case13.getCourtcaseInfo();
 
         Courtcase case14 = new Courtcase();
         case14.caseId = 14;
@@ -246,15 +155,8 @@ class CourtcaseRunner {
         case14.judge = "Justice Batra";
         case14.courtName = "Company Law Board, Delhi";
         case14.isClosed = false;
-
         System.out.println("=== Case 14 ===");
-        System.out.println("ID: " + case14.caseId);
-        System.out.println("Title: " + case14.caseTitle);
-        System.out.println("Plaintiff: " + case14.plaintiff);
-        System.out.println("Defendant: " + case14.defendant);
-        System.out.println("Judge: " + case14.judge);
-        System.out.println("Court: " + case14.courtName);
-        System.out.println("Closed: " + case14.isClosed);
+        case14.getCourtcaseInfo();
 
         Courtcase case15 = new Courtcase();
         case15.caseId = 15;
@@ -264,15 +166,8 @@ class CourtcaseRunner {
         case15.judge = "Justice Agrawal";
         case15.courtName = "Labour Court, Indore";
         case15.isClosed = true;
-
         System.out.println("=== Case 15 ===");
-        System.out.println("ID: " + case15.caseId);
-        System.out.println("Title: " + case15.caseTitle);
-        System.out.println("Plaintiff: " + case15.plaintiff);
-        System.out.println("Defendant: " + case15.defendant);
-        System.out.println("Judge: " + case15.judge);
-        System.out.println("Court: " + case15.courtName);
-        System.out.println("Closed: " + case15.isClosed);
+        case15.getCourtcaseInfo();
 
         Courtcase case16 = new Courtcase();
         case16.caseId = 16;
@@ -282,15 +177,8 @@ class CourtcaseRunner {
         case16.judge = "Justice Bhalla";
         case16.courtName = "Bhopal Civil Court";
         case16.isClosed = true;
-
         System.out.println("=== Case 16 ===");
-        System.out.println("ID: " + case16.caseId);
-        System.out.println("Title: " + case16.caseTitle);
-        System.out.println("Plaintiff: " + case16.plaintiff);
-        System.out.println("Defendant: " + case16.defendant);
-        System.out.println("Judge: " + case16.judge);
-        System.out.println("Court: " + case16.courtName);
-        System.out.println("Closed: " + case16.isClosed);
+        case16.getCourtcaseInfo();
 
         Courtcase case17 = new Courtcase();
         case17.caseId = 17;
@@ -300,15 +188,8 @@ class CourtcaseRunner {
         case17.judge = "Justice Dey";
         case17.courtName = "Mumbai Magistrate Court";
         case17.isClosed = true;
-
         System.out.println("=== Case 17 ===");
-        System.out.println("ID: " + case17.caseId);
-        System.out.println("Title: " + case17.caseTitle);
-        System.out.println("Plaintiff: " + case17.plaintiff);
-        System.out.println("Defendant: " + case17.defendant);
-        System.out.println("Judge: " + case17.judge);
-        System.out.println("Court: " + case17.courtName);
-        System.out.println("Closed: " + case17.isClosed);
+        case17.getCourtcaseInfo();
 
         Courtcase case18 = new Courtcase();
         case18.caseId = 18;
@@ -318,15 +199,8 @@ class CourtcaseRunner {
         case18.judge = "Justice Vasudev";
         case18.courtName = "IP Court, Mumbai";
         case18.isClosed = false;
-
         System.out.println("=== Case 18 ===");
-        System.out.println("ID: " + case18.caseId);
-        System.out.println("Title: " + case18.caseTitle);
-        System.out.println("Plaintiff: " + case18.plaintiff);
-        System.out.println("Defendant: " + case18.defendant);
-        System.out.println("Judge: " + case18.judge);
-        System.out.println("Court: " + case18.courtName);
-        System.out.println("Closed: " + case18.isClosed);
+        case18.getCourtcaseInfo();
 
         Courtcase case19 = new Courtcase();
         case19.caseId = 19;
@@ -336,15 +210,8 @@ class CourtcaseRunner {
         case19.judge = "Justice Gill";
         case19.courtName = "Family Court, Delhi";
         case19.isClosed = false;
-
         System.out.println("=== Case 19 ===");
-        System.out.println("ID: " + case19.caseId);
-        System.out.println("Title: " + case19.caseTitle);
-        System.out.println("Plaintiff: " + case19.plaintiff);
-        System.out.println("Defendant: " + case19.defendant);
-        System.out.println("Judge: " + case19.judge);
-        System.out.println("Court: " + case19.courtName);
-        System.out.println("Closed: " + case19.isClosed);
+        case19.getCourtcaseInfo();
 
         Courtcase case20 = new Courtcase();
         case20.caseId = 20;
@@ -354,17 +221,9 @@ class CourtcaseRunner {
         case20.judge = "Justice Narayanan";
         case20.courtName = "Arbitration Tribunal";
         case20.isClosed = true;
-
         System.out.println("=== Case 20 ===");
-        System.out.println("ID: " + case20.caseId);
-        System.out.println("Title: " + case20.caseTitle);
-        System.out.println("Plaintiff: " + case20.plaintiff);
-        System.out.println("Defendant: " + case20.defendant);
-        System.out.println("Judge: " + case20.judge);
-        System.out.println("Court: " + case20.courtName);
-        System.out.println("Closed: " + case20.isClosed);
+        case20.getCourtcaseInfo();
 
         System.out.println("Main Ended");
     }
 }
-

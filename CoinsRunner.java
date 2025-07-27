@@ -13,13 +13,7 @@ class CoinsRunner {
         coin1.color = "Brown";
         coin1.isCollectible = false;
         System.out.println("=== Coin 1 ===");
-        System.out.println("ID: " + coin1.coinId);
-        System.out.println("Weight: " + coin1.weight + "g");
-        System.out.println("Material: " + coin1.material);
-        System.out.println("Country: " + coin1.country);
-        System.out.println("Year: " + coin1.year);
-        System.out.println("Color: " + coin1.color);
-        System.out.println("Collectible: " + coin1.isCollectible);
+        coin1.getCoinInfo();
 
         Coins coin2 = new Coins();
         coin2.coinId = 2;
@@ -30,13 +24,7 @@ class CoinsRunner {
         coin2.color = "Silver";
         coin2.isCollectible = true;
         System.out.println("=== Coin 2 ===");
-        System.out.println("ID: " + coin2.coinId);
-        System.out.println("Weight: " + coin2.weight + "g");
-        System.out.println("Material: " + coin2.material);
-        System.out.println("Country: " + coin2.country);
-        System.out.println("Year: " + coin2.year);
-        System.out.println("Color: " + coin2.color);
-        System.out.println("Collectible: " + coin2.isCollectible);
+        coin2.getCoinInfo();
 
         Coins coin3 = new Coins();
         coin3.coinId = 3;
@@ -47,13 +35,7 @@ class CoinsRunner {
         coin3.color = "Grey";
         coin3.isCollectible = false;
         System.out.println("=== Coin 3 ===");
-        System.out.println("ID: " + coin3.coinId);
-        System.out.println("Weight: " + coin3.weight + "g");
-        System.out.println("Material: " + coin3.material);
-        System.out.println("Country: " + coin3.country);
-        System.out.println("Year: " + coin3.year);
-        System.out.println("Color: " + coin3.color);
-        System.out.println("Collectible: " + coin3.isCollectible);
+        coin3.getCoinInfo();
 
         Coins coin4 = new Coins();
         coin4.coinId = 4;
@@ -64,13 +46,7 @@ class CoinsRunner {
         coin4.color = "Shiny Silver";
         coin4.isCollectible = true;
         System.out.println("=== Coin 4 ===");
-        System.out.println("ID: " + coin4.coinId);
-        System.out.println("Weight: " + coin4.weight + "g");
-        System.out.println("Material: " + coin4.material);
-        System.out.println("Country: " + coin4.country);
-        System.out.println("Year: " + coin4.year);
-        System.out.println("Color: " + coin4.color);
-        System.out.println("Collectible: " + coin4.isCollectible);
+        coin4.getCoinInfo();
 
         Coins coin5 = new Coins();
         coin5.coinId = 5;
@@ -81,15 +57,9 @@ class CoinsRunner {
         coin5.color = "Golden";
         coin5.isCollectible = false;
         System.out.println("=== Coin 5 ===");
-        System.out.println("ID: " + coin5.coinId);
-        System.out.println("Weight: " + coin5.weight + "g");
-        System.out.println("Material: " + coin5.material);
-        System.out.println("Country: " + coin5.country);
-        System.out.println("Year: " + coin5.year);
-        System.out.println("Color: " + coin5.color);
-        System.out.println("Collectible: " + coin5.isCollectible);
+        coin5.getCoinInfo();
 
-		Coins coin6 = new Coins();
+        Coins coin6 = new Coins();
         coin6.coinId = 6;
         coin6.weight = 1.0;
         coin6.material = "Zinc";
@@ -98,13 +68,7 @@ class CoinsRunner {
         coin6.color = "Silver";
         coin6.isCollectible = false;
         System.out.println("=== Coin 6 ===");
-        System.out.println("ID: " + coin6.coinId);
-        System.out.println("Weight: " + coin6.weight + "g");
-        System.out.println("Material: " + coin6.material);
-        System.out.println("Country: " + coin6.country);
-        System.out.println("Year: " + coin6.year);
-        System.out.println("Color: " + coin6.color);
-        System.out.println("Collectible: " + coin6.isCollectible);
+        coin6.getCoinInfo();
 
         Coins coin7 = new Coins();
         coin7.coinId = 7;
@@ -115,13 +79,7 @@ class CoinsRunner {
         coin7.color = "Brown";
         coin7.isCollectible = true;
         System.out.println("=== Coin 7 ===");
-        System.out.println("ID: " + coin7.coinId);
-        System.out.println("Weight: " + coin7.weight + "g");
-        System.out.println("Material: " + coin7.material);
-        System.out.println("Country: " + coin7.country);
-        System.out.println("Year: " + coin7.year);
-        System.out.println("Color: " + coin7.color);
-        System.out.println("Collectible: " + coin7.isCollectible);
+        coin7.getCoinInfo();
 
         Coins coin8 = new Coins();
         coin8.coinId = 8;
@@ -132,13 +90,7 @@ class CoinsRunner {
         coin8.color = "Grey";
         coin8.isCollectible = false;
         System.out.println("=== Coin 8 ===");
-        System.out.println("ID: " + coin8.coinId);
-        System.out.println("Weight: " + coin8.weight + "g");
-        System.out.println("Material: " + coin8.material);
-        System.out.println("Country: " + coin8.country);
-        System.out.println("Year: " + coin8.year);
-        System.out.println("Color: " + coin8.color);
-        System.out.println("Collectible: " + coin8.isCollectible);
+        coin8.getCoinInfo();
 
         Coins coin9 = new Coins();
         coin9.coinId = 9;
@@ -149,13 +101,7 @@ class CoinsRunner {
         coin9.color = "Silver-Grey";
         coin9.isCollectible = true;
         System.out.println("=== Coin 9 ===");
-        System.out.println("ID: " + coin9.coinId);
-        System.out.println("Weight: " + coin9.weight + "g");
-        System.out.println("Material: " + coin9.material);
-        System.out.println("Country: " + coin9.country);
-        System.out.println("Year: " + coin9.year);
-        System.out.println("Color: " + coin9.color);
-        System.out.println("Collectible: " + coin9.isCollectible);
+        coin9.getCoinInfo();
 
         Coins coin10 = new Coins();
         coin10.coinId = 10;
@@ -166,13 +112,7 @@ class CoinsRunner {
         coin10.color = "Silver";
         coin10.isCollectible = false;
         System.out.println("=== Coin 10 ===");
-        System.out.println("ID: " + coin10.coinId);
-        System.out.println("Weight: " + coin10.weight + "g");
-        System.out.println("Material: " + coin10.material);
-        System.out.println("Country: " + coin10.country);
-        System.out.println("Year: " + coin10.year);
-        System.out.println("Color: " + coin10.color);
-        System.out.println("Collectible: " + coin10.isCollectible);
+        coin10.getCoinInfo();
 
         Coins coin11 = new Coins();
         coin11.coinId = 11;
@@ -183,13 +123,7 @@ class CoinsRunner {
         coin11.color = "Transparent";
         coin11.isCollectible = true;
         System.out.println("=== Coin 11 ===");
-        System.out.println("ID: " + coin11.coinId);
-        System.out.println("Weight: " + coin11.weight + "g");
-        System.out.println("Material: " + coin11.material);
-        System.out.println("Country: " + coin11.country);
-        System.out.println("Year: " + coin11.year);
-        System.out.println("Color: " + coin11.color);
-        System.out.println("Collectible: " + coin11.isCollectible);
+        coin11.getCoinInfo();
 
         Coins coin12 = new Coins();
         coin12.coinId = 12;
@@ -200,13 +134,7 @@ class CoinsRunner {
         coin12.color = "Shiny";
         coin12.isCollectible = true;
         System.out.println("=== Coin 12 ===");
-        System.out.println("ID: " + coin12.coinId);
-        System.out.println("Weight: " + coin12.weight + "g");
-        System.out.println("Material: " + coin12.material);
-        System.out.println("Country: " + coin12.country);
-        System.out.println("Year: " + coin12.year);
-        System.out.println("Color: " + coin12.color);
-        System.out.println("Collectible: " + coin12.isCollectible);
+        coin12.getCoinInfo();
 
         Coins coin13 = new Coins();
         coin13.coinId = 13;
@@ -217,13 +145,7 @@ class CoinsRunner {
         coin13.color = "Grey";
         coin13.isCollectible = false;
         System.out.println("=== Coin 13 ===");
-        System.out.println("ID: " + coin13.coinId);
-        System.out.println("Weight: " + coin13.weight + "g");
-        System.out.println("Material: " + coin13.material);
-        System.out.println("Country: " + coin13.country);
-        System.out.println("Year: " + coin13.year);
-        System.out.println("Color: " + coin13.color);
-        System.out.println("Collectible: " + coin13.isCollectible);
+        coin13.getCoinInfo();
 
         Coins coin14 = new Coins();
         coin14.coinId = 14;
@@ -234,13 +156,7 @@ class CoinsRunner {
         coin14.color = "Gold";
         coin14.isCollectible = true;
         System.out.println("=== Coin 14 ===");
-        System.out.println("ID: " + coin14.coinId);
-        System.out.println("Weight: " + coin14.weight + "g");
-        System.out.println("Material: " + coin14.material);
-        System.out.println("Country: " + coin14.country);
-        System.out.println("Year: " + coin14.year);
-        System.out.println("Color: " + coin14.color);
-        System.out.println("Collectible: " + coin14.isCollectible);
+        coin14.getCoinInfo();
 
         Coins coin15 = new Coins();
         coin15.coinId = 15;
@@ -251,13 +167,7 @@ class CoinsRunner {
         coin15.color = "Bright Silver";
         coin15.isCollectible = true;
         System.out.println("=== Coin 15 ===");
-        System.out.println("ID: " + coin15.coinId);
-        System.out.println("Weight: " + coin15.weight + "g");
-        System.out.println("Material: " + coin15.material);
-        System.out.println("Country: " + coin15.country);
-        System.out.println("Year: " + coin15.year);
-        System.out.println("Color: " + coin15.color);
-        System.out.println("Collectible: " + coin15.isCollectible);
+        coin15.getCoinInfo();
 
         Coins coin16 = new Coins();
         coin16.coinId = 16;
@@ -268,13 +178,7 @@ class CoinsRunner {
         coin16.color = "Brown";
         coin16.isCollectible = false;
         System.out.println("=== Coin 16 ===");
-        System.out.println("ID: " + coin16.coinId);
-        System.out.println("Weight: " + coin16.weight + "g");
-        System.out.println("Material: " + coin16.material);
-        System.out.println("Country: " + coin16.country);
-        System.out.println("Year: " + coin16.year);
-        System.out.println("Color: " + coin16.color);
-        System.out.println("Collectible: " + coin16.isCollectible);
+        coin16.getCoinInfo();
 
         Coins coin17 = new Coins();
         coin17.coinId = 17;
@@ -285,13 +189,7 @@ class CoinsRunner {
         coin17.color = "Grey";
         coin17.isCollectible = true;
         System.out.println("=== Coin 17 ===");
-        System.out.println("ID: " + coin17.coinId);
-        System.out.println("Weight: " + coin17.weight + "g");
-        System.out.println("Material: " + coin17.material);
-        System.out.println("Country: " + coin17.country);
-        System.out.println("Year: " + coin17.year);
-        System.out.println("Color: " + coin17.color);
-        System.out.println("Collectible: " + coin17.isCollectible);
+        coin17.getCoinInfo();
 
         Coins coin18 = new Coins();
         coin18.coinId = 18;
@@ -302,13 +200,7 @@ class CoinsRunner {
         coin18.color = "Silver";
         coin18.isCollectible = false;
         System.out.println("=== Coin 18 ===");
-        System.out.println("ID: " + coin18.coinId);
-        System.out.println("Weight: " + coin18.weight + "g");
-        System.out.println("Material: " + coin18.material);
-        System.out.println("Country: " + coin18.country);
-        System.out.println("Year: " + coin18.year);
-        System.out.println("Color: " + coin18.color);
-        System.out.println("Collectible: " + coin18.isCollectible);
+        coin18.getCoinInfo();
 
         Coins coin19 = new Coins();
         coin19.coinId = 19;
@@ -319,13 +211,7 @@ class CoinsRunner {
         coin19.color = "Antique";
         coin19.isCollectible = true;
         System.out.println("=== Coin 19 ===");
-        System.out.println("ID: " + coin19.coinId);
-        System.out.println("Weight: " + coin19.weight + "g");
-        System.out.println("Material: " + coin19.material);
-        System.out.println("Country: " + coin19.country);
-        System.out.println("Year: " + coin19.year);
-        System.out.println("Color: " + coin19.color);
-        System.out.println("Collectible: " + coin19.isCollectible);
+        coin19.getCoinInfo();
 
         Coins coin20 = new Coins();
         coin20.coinId = 20;
@@ -336,13 +222,7 @@ class CoinsRunner {
         coin20.color = "Neon Blue";
         coin20.isCollectible = true;
         System.out.println("=== Coin 20 ===");
-        System.out.println("ID: " + coin20.coinId);
-        System.out.println("Weight: " + coin20.weight + "g");
-        System.out.println("Material: " + coin20.material);
-        System.out.println("Country: " + coin20.country);
-        System.out.println("Year: " + coin20.year);
-        System.out.println("Color: " + coin20.color);
-        System.out.println("Collectible: " + coin20.isCollectible);
+        coin20.getCoinInfo();
 
         System.out.println("Main Ended");
     }
