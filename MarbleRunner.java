@@ -4,7 +4,72 @@ class MarbleRunner {
 
         System.out.println("Main Started");
 
-        Marble m1 = new Marble();
+        Marble m1 = new Marble("Blue", "Glass", 2.5, 5.0, "Smooth", true, "India");
+        m1.getMarbleInfo();
+
+        Marble m2 = new Marble("Green", "Agate", 3.0, 6.5, "Grainy", false, "China");
+        m2.getMarbleInfo();
+
+        Marble m3 = new Marble("Red", "Clay", 2.8, 4.5, "Rough", false, "USA");
+        m3.getMarbleInfo();
+
+        Marble m4 = new Marble("Yellow", "Glass", 2.2, 3.9, "Smooth", true, "Italy");
+        m4.getMarbleInfo();
+
+        Marble m5 = new Marble("Orange", "Stone", 2.0, 6.0, "Rough", false, "Brazil");
+        m5.getMarbleInfo();
+
+        Marble m6 = new Marble("White", "Glass", 2.3, 4.0, "Smooth", true, "France");
+        m6.getMarbleInfo();
+
+        Marble m7 = new Marble("Black", "Onyx", 3.1, 7.2, "Glossy", false, "Turkey");
+        m7.getMarbleInfo();
+
+        Marble m8 = new Marble("Purple", "Glass", 2.9, 5.5, "Smooth", true, "Japan");
+        m8.getMarbleInfo();
+
+        Marble m9 = new Marble("Pink", "Marble Stone", 2.7, 5.1, "Polished", false, "India");
+        m9.getMarbleInfo();
+
+        Marble m10 = new Marble("Grey", "Granite", 3.0, 6.3, "Matte", false, "Germany");
+        m10.getMarbleInfo();
+
+        Marble m11 = new Marble("Turquoise", "Ceramic", 2.6, 5.8, "Smooth", false, "China");
+        m11.getMarbleInfo();
+
+        Marble m12 = new Marble("Brown", "Stone", 2.1, 5.0, "Grainy", false, "Mexico");
+        m12.getMarbleInfo();
+
+        Marble m13 = new Marble("Gold", "Glass", 3.4, 7.0, "Glossy", true, "Dubai");
+        m13.getMarbleInfo();
+
+        Marble m14 = new Marble("Silver", "Crystal", 2.8, 6.4, "Shiny", true, "Austria");
+        m14.getMarbleInfo();
+
+        Marble m15 = new Marble("Navy Blue", "Glass", 2.2, 5.2, "Matte", true, "Netherlands");
+        m15.getMarbleInfo();
+
+        Marble m16 = new Marble("Beige", "Marble", 2.9, 6.1, "Smooth", false, "Egypt");
+        m16.getMarbleInfo();
+
+        Marble m17 = new Marble("Ivory", "Glass", 2.5, 4.7, "Polished", true, "USA");
+        m17.getMarbleInfo();
+
+        Marble m18 = new Marble("Sky Blue", "Glass", 3.0, 6.9, "Glossy", true, "South Korea");
+        m18.getMarbleInfo();
+
+        Marble m19 = new Marble("Mint Green", "Ceramic", 2.4, 5.5, "Matte", false, "Thailand");
+        m19.getMarbleInfo();
+
+        Marble m20 = new Marble("Copper", "Metallic", 3.2, 7.6, "Rough", false, "Russia");
+        m20.getMarbleInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Marble m1 = new Marble();
         m1.color = "Blue";
         m1.type = "Glass";
         m1.diameter = 2.5;
@@ -222,8 +287,4 @@ class MarbleRunner {
         m20.transparent = false;
         m20.origin = "Russia";
         System.out.println("=== Marble 20 ===");
-        m20.getMarbleInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        m20.getMarbleInfo();*/

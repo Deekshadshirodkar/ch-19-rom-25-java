@@ -4,7 +4,92 @@ class RodRunner {
 
         System.out.println("Main Started");
 
-        Rod rod1 = new Rod();
+        Rod rod1 = new Rod(1, "Steel", 2.5, 4.5, "Construction", "TATA Steel", 800.0);
+        System.out.println("=== Rod 1 ===");
+        rod1.getRodInfo();
+
+        Rod rod2 = new Rod(2, "Iron", 3.0, 5.2, "Support Beam", "JSW", 950.0);
+        System.out.println("=== Rod 2 ===");
+        rod2.getRodInfo();
+
+        Rod rod3 = new Rod(3, "Aluminium", 2.0, 2.8, "Tent Pole", "Hindalco", 600.0);
+        System.out.println("=== Rod 3 ===");
+        rod3.getRodInfo();
+
+        Rod rod4 = new Rod(4, "Carbon Fiber", 1.5, 1.2, "Aerospace", "ISRO Suppliers", 1200.0);
+        System.out.println("=== Rod 4 ===");
+        rod4.getRodInfo();
+
+        Rod rod5 = new Rod(5, "PVC", 2.0, 3.0, "Water Pipeline", "Supreme", 500.0);
+        System.out.println("=== Rod 5 ===");
+        rod5.getRodInfo();
+
+        Rod rod6 = new Rod(6, "Stainless Steel", 2.2, 4.0, "Railings", "Jindal", 980.0);
+        System.out.println("=== Rod 6 ===");
+        rod6.getRodInfo();
+
+        Rod rod7 = new Rod(7, "Brass", 1.8, 3.5, "Decorative", "BrassoTech", 750.0);
+        System.out.println("=== Rod 7 ===");
+        rod7.getRodInfo();
+
+        Rod rod8 = new Rod(8, "Copper", 1.6, 4.1, "Electrical Grounding", "ElectroCore", 1100.0);
+        System.out.println("=== Rod 8 ===");
+        rod8.getRodInfo();
+
+        Rod rod9 = new Rod(9, "Fiberglass", 2.1, 2.2, "Flag Pole", "FiberPro", 670.0);
+        System.out.println("=== Rod 9 ===");
+        rod9.getRodInfo();
+
+        Rod rod10 = new Rod(10, "Titanium", 1.9, 3.1, "Medical Implants", "BioMetal Inc.", 2500.0);
+        System.out.println("=== Rod 10 ===");
+        rod10.getRodInfo();
+
+        Rod rod11 = new Rod(11, "Cast Iron", 2.8, 6.0, "Fencing", "IronBuild", 1050.0);
+        System.out.println("=== Rod 11 ===");
+        rod11.getRodInfo();
+
+        Rod rod12 = new Rod(12, "Nickel Alloy", 1.7, 2.6, "Heat Resistance", "AlloyTech", 1340.0);
+        System.out.println("=== Rod 12 ===");
+        rod12.getRodInfo();
+
+        Rod rod13 = new Rod(13, "Galvanized Iron", 2.3, 4.4, "Scaffolding", "GalvaPro", 890.0);
+        System.out.println("=== Rod 13 ===");
+        rod13.getRodInfo();
+
+        Rod rod14 = new Rod(14, "Plastic Coated", 2.0, 3.3, "Closet Rod", "ClosetCraft", 430.0);
+        System.out.println("=== Rod 14 ===");
+        rod14.getRodInfo();
+
+        Rod rod15 = new Rod(15, "Mild Steel", 2.6, 5.0, "Fabrication", "MS Steel Ltd.", 720.0);
+        System.out.println("=== Rod 15 ===");
+        rod15.getRodInfo();
+
+        Rod rod16 = new Rod(16, "Zinc-Coated", 1.5, 2.9, "Automobile", "ZincPlus", 890.0);
+        System.out.println("=== Rod 16 ===");
+        rod16.getRodInfo();
+
+        Rod rod17 = new Rod(17, "Wooden", 1.8, 3.0, "Curtain Rod", "HomeDeco", 350.0);
+        System.out.println("=== Rod 17 ===");
+        rod17.getRodInfo();
+
+        Rod rod18 = new Rod(18, "Plastic", 1.2, 1.5, "DIY Project", "CraftPro", 150.0);
+        System.out.println("=== Rod 18 ===");
+        rod18.getRodInfo();
+
+        Rod rod19 = new Rod(19, "Reinforced Steel", 3.5, 6.5, "Pillars", "SteelWorks", 1200.0);
+        System.out.println("=== Rod 19 ===");
+        rod19.getRodInfo();
+
+        Rod rod20 = new Rod(20, "Chromium Alloy", 2.2, 3.6, "Automotive Shaft", "AutoAlloy Ltd.", 1550.0);
+        System.out.println("=== Rod 20 ===");
+        rod20.getRodInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+		/*Rod rod1 = new Rod();
         rod1.rodId = 1;
         rod1.material = "Steel";
         rod1.lengthInMeters = 2.5;
@@ -222,8 +307,4 @@ class RodRunner {
         rod20.manufacturer = "AutoAlloy Ltd.";
         rod20.price = 1550.0;
         System.out.println("=== Rod 20 ===");
-        rod20.getRodInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        rod20.getRodInfo();*/

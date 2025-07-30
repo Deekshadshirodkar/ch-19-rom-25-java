@@ -4,7 +4,93 @@ class PipeRunner {
 
         System.out.println("Main Started");
 
-        Pipe pipe1 = new Pipe();
+        Pipe pipe1 = new Pipe(1, "PVC", 3.0, 2.5, false, "Water Supply", "White");
+        System.out.println("=== Pipe 1 ===");
+        pipe1.getPipeInfo();
+
+        Pipe pipe2 = new Pipe(2, "Steel", 6.0, 3.0, false, "Gas Pipeline", "Silver");
+        System.out.println("=== Pipe 2 ===");
+        pipe2.getPipeInfo();
+
+        Pipe pipe3 = new Pipe(3, "Copper", 2.5, 1.5, false, "Electrical Conduit", "Copper Red");
+        System.out.println("=== Pipe 3 ===");
+        pipe3.getPipeInfo();
+
+        Pipe pipe4 = new Pipe(4, "Rubber", 1.0, 0.5, true, "Drainage", "Black");
+        System.out.println("=== Pipe 4 ===");
+        pipe4.getPipeInfo();
+
+        Pipe pipe5 = new Pipe(5, "Plastic", 4.5, 2.0, true, "Garden Hose", "Green");
+        System.out.println("=== Pipe 5 ===");
+        pipe5.getPipeInfo();
+
+        Pipe pipe6 = new Pipe(6, "Aluminum", 3.2, 1.0, false, "Exhaust", "Gray");
+        System.out.println("=== Pipe 6 ===");
+        pipe6.getPipeInfo();
+
+        Pipe pipe7 = new Pipe(7, "Fiber", 5.0, 1.8, false, "Cable Casing", "Blue");
+        System.out.println("=== Pipe 7 ===");
+        pipe7.getPipeInfo();
+
+        Pipe pipe8 = new Pipe(8, "PVC", 2.0, 1.2, true, "Irrigation", "White");
+        System.out.println("=== Pipe 8 ===");
+        pipe8.getPipeInfo();
+
+        Pipe pipe9 = new Pipe(9, "Iron", 6.0, 4.0, false, "Sewerage", "Rust Brown");
+        System.out.println("=== Pipe 9 ===");
+        pipe9.getPipeInfo();
+
+        Pipe pipe10 = new Pipe(10, "Plastic", 2.2, 0.75, true, "Air Duct", "Yellow");
+        System.out.println("=== Pipe 10 ===");
+        pipe10.getPipeInfo();
+
+        Pipe pipe11 = new Pipe(11, "PVC", 1.5, 0.5, true, "Bathroom Fitting", "Cream");
+        System.out.println("=== Pipe 11 ===");
+        pipe11.getPipeInfo();
+
+        Pipe pipe12 = new Pipe(12, "Steel", 7.5, 3.2, false, "Construction", "Silver");
+        System.out.println("=== Pipe 12 ===");
+        pipe12.getPipeInfo();
+
+        Pipe pipe13 = new Pipe(13, "Rubber", 1.8, 1.1, true, "Automotive Hose", "Red");
+        System.out.println("=== Pipe 13 ===");
+        pipe13.getPipeInfo();
+
+        Pipe pipe14 = new Pipe(14, "Copper", 2.8, 2.0, false, "Air Conditioner Tube", "Golden Brown");
+        System.out.println("=== Pipe 14 ===");
+        pipe14.getPipeInfo();
+
+        Pipe pipe15 = new Pipe(15, "PVC", 5.5, 3.0, false, "Sump Outlet", "White");
+        System.out.println("=== Pipe 15 ===");
+        pipe15.getPipeInfo();
+
+        Pipe pipe16 = new Pipe(16, "Plastic", 3.8, 1.9, true, "Aquarium Pump", "Transparent");
+        System.out.println("=== Pipe 16 ===");
+        pipe16.getPipeInfo();
+
+        Pipe pipe17 = new Pipe(17, "Steel", 8.0, 4.5, false, "Oil Refinery", "Steel Gray");
+        System.out.println("=== Pipe 17 ===");
+        pipe17.getPipeInfo();
+
+        Pipe pipe18 = new Pipe(18, "Copper", 2.0, 1.3, true, "Fridge Coil", "Reddish Brown");
+        System.out.println("=== Pipe 18 ===");
+        pipe18.getPipeInfo();
+
+        Pipe pipe19 = new Pipe(19, "Fiber", 4.0, 2.4, false, "Data Conduit", "Orange");
+        System.out.println("=== Pipe 19 ===");
+        pipe19.getPipeInfo();
+
+        Pipe pipe20 = new Pipe(20, "PVC", 3.5, 1.7, false, "Rain Water", "Gray");
+        System.out.println("=== Pipe 20 ===");
+        pipe20.getPipeInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*Pipe pipe1 = new Pipe();
         pipe1.pipeId = 1;
         pipe1.material = "PVC";
         pipe1.lengthInMeters = 3.0;
@@ -222,8 +308,4 @@ class PipeRunner {
         pipe20.usageType = "Rain Water";
         pipe20.color = "Gray";
         System.out.println("=== Pipe 20 ===");
-        pipe20.getPipeInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        pipe20.getPipeInfo();*/

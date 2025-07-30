@@ -1,10 +1,74 @@
 class KarateRunner {
-	
     public static void main(String[] args) {
-		
         System.out.println("Main Started");
 
-        Karate k1 = new Karate();
+        Karate k1 = new Karate(1, "Ravi", "Tiger Dojo", "Sensei Kumar", false, "India", 1);
+        k1.getKarateInfo();
+
+        Karate k2 = new Karate(2, "Asha", "Dragon Academy", "Sensei Mehta", false, "India", 2);
+        k2.getKarateInfo();
+
+        Karate k3 = new Karate(3, "Sam", "Black Belt Club", "Sensei Lee", true, "USA", 5);
+        k3.getKarateInfo();
+
+        Karate k4 = new Karate(4, "Neha", "Zen Warriors", "Sensei Yamato", false, "Japan", 3);
+        k4.getKarateInfo();
+
+        Karate k5 = new Karate(5, "Rahul", "Blazing Fists", "Sensei Raj", true, "India", 6);
+        k5.getKarateInfo();
+
+        Karate k6 = new Karate(6, "Sneha", "Iron Fist Dojo", "Sensei Hiro", false, "Japan", 4);
+        k6.getKarateInfo();
+
+        Karate k7 = new Karate(3, "Arun", "Silent Warriors", "Sensei Ken", false, "India", 2);
+        k7.getKarateInfo();
+
+        Karate k8 = new Karate(4, "Priya", "Urban Combat", "Sensei Leena", true, "UK", 6);
+        k8.getKarateInfo();
+
+        Karate k9 = new Karate(2, "Nikhil", "Power Strike", "Sensei Aravind", false, "India", 3);
+        k9.getKarateInfo();
+
+        Karate k10 = new Karate(5, "Meera", "Zen Dojo", "Sensei Tanaka", true, "Japan", 7);
+        k10.getKarateInfo();
+
+        Karate k11 = new Karate(1, "Aman", "Crimson Tigers", "Sensei Vikram", false, "India", 1);
+        k11.getKarateInfo();
+
+        Karate k12 = new Karate(2, "Divya", "White Dragons", "Sensei Chen", false, "China", 2);
+        k12.getKarateInfo();
+
+        Karate k13 = new Karate(3, "Raj", "Street Fighters", "Sensei Abdul", true, "UAE", 5);
+        k13.getKarateInfo();
+
+        Karate k14 = new Karate(4, "Sana", "Blitz Dojo", "Sensei Rosa", false, "Brazil", 4);
+        k14.getKarateInfo();
+
+        Karate k15 = new Karate(5, "Farhan", "Red Phoenix", "Sensei Omar", true, "Pakistan", 6);
+        k15.getKarateInfo();
+
+        Karate k16 = new Karate(6, "Rekha", "Urban Lions", "Sensei Sato", true, "Japan", 8);
+        k16.getKarateInfo();
+
+        Karate k17 = new Karate(1, "Zaid", "Raging Storm", "Sensei Noor", false, "India", 1);
+        k17.getKarateInfo();
+
+        Karate k18 = new Karate(2, "Lata", "Golden Eagles", "Sensei Patel", false, "India", 2);
+        k18.getKarateInfo();
+
+        Karate k19 = new Karate(3, "Imran", "Shadow Warriors", "Sensei Raghav", true, "India", 5);
+        k19.getKarateInfo();
+
+        Karate k20 = new Karate(4, "Anjali", "Fury Academy", "Sensei Dev", true, "India", 6);
+        k20.getKarateInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*Karate k1 = new Karate();
         k1.beltLevel = 1;
         k1.studentName = "Ravi";
         k1.dojoName = "Tiger Dojo";
@@ -222,8 +286,4 @@ class KarateRunner {
         k20.country = "India";
         k20.yearsOfTraining = 6;
         System.out.println("=== Karate 20 ===");
-        k20.getKarateInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        k20.getKarateInfo();*/

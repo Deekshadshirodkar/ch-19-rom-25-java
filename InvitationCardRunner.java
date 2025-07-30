@@ -4,7 +4,73 @@ class InvitationCardRunner {
 
         System.out.println("Main Started");
 
-        InvitationCard card1 = new InvitationCard();
+        InvitationCard card1 = new InvitationCard(1, "Wedding", "Rahul & Anjali", "Taj West End, Bengaluru", "25-12-2025", "6:00 PM", "Floral Gold");
+        card1.getInvitationCardInfo();
+
+        InvitationCard card2 = new InvitationCard(2, "Birthday", "Aarav", "Wonderland Hall, Mumbai", "15-08-2025", "4:00 PM", "Cartoon Theme");
+        card2.getInvitationCardInfo();
+
+        InvitationCard card3 = new InvitationCard(3, "Housewarming", "Mr. & Mrs. Sharma", "Jayanagar, Bengaluru", "01-11-2025", "11:00 AM", "Traditional Pooja");
+        card3.getInvitationCardInfo();
+
+        InvitationCard card4 = new InvitationCard(4, "Engagement", "Karan & Priya", "Leela Palace, Delhi", "18-09-2025", "7:00 PM", "Elegant Pastel");
+        card4.getInvitationCardInfo();
+
+        InvitationCard card5 = new InvitationCard(5, "Baby Shower", "Megha", "JP Nagar, Bengaluru", "05-10-2025", "12:30 PM", "Baby Blue & Pink");
+        card5.getInvitationCardInfo();
+
+        InvitationCard card6 = new InvitationCard(6, "Retirement", "Mr. Ramesh Kumar", "Club House, Hyderabad", "30-11-2025", "5:00 PM", "Golden Years");
+        card6.getInvitationCardInfo();
+
+        InvitationCard card7 = new InvitationCard(7, "Graduation", "Neha Verma", "St. Xavier's Auditorium, Mumbai", "10-06-2025", "3:00 PM", "Cap & Gown");
+        card7.getInvitationCardInfo();
+
+        InvitationCard card8 = new InvitationCard(8, "Anniversary", "Ravi & Sita", "Marriott Hotel, Chennai", "14-02-2025", "8:00 PM", "Romantic Red");
+        card8.getInvitationCardInfo();
+
+        InvitationCard card9 = new InvitationCard(9, "Naming Ceremony", "The Patil Family", "Sankranti Hall, Pune", "21-03-2025", "10:00 AM", "Traditional Baby");
+        card9.getInvitationCardInfo();
+
+        InvitationCard card10 = new InvitationCard(10, "Farewell", "Class of 2025", "College Lawn, Bhopal", "05-04-2025", "6:30 PM", "Memories & Laughter");
+        card10.getInvitationCardInfo();
+
+        InvitationCard card11 = new InvitationCard(11, "Festival Party", "Residents' Association", "Community Center, Noida", "02-10-2025", "5:30 PM", "Diwali Sparkle");
+        card11.getInvitationCardInfo();
+
+        InvitationCard card12 = new InvitationCard(12, "Kitty Party", "Ladies Club", "Garden View Café, Jaipur", "12-08-2025", "2:00 PM", "Peach Blossom");
+        card12.getInvitationCardInfo();
+
+        InvitationCard card13 = new InvitationCard(13, "Sports Day", "Greenfield School", "Sports Ground, Lucknow", "20-01-2025", "9:00 AM", "Victory Colors");
+        card13.getInvitationCardInfo();
+
+        InvitationCard card14 = new InvitationCard(14, "Music Concert", "Yuva Rocks", "Open Arena, Kolkata", "30-07-2025", "7:00 PM", "Electric Beats");
+        card14.getInvitationCardInfo();
+
+        InvitationCard card15 = new InvitationCard(15, "Dance Showcase", "Rhythm Academy", "Auditorium, Nagpur", "12-09-2025", "6:30 PM", "Grace & Glam");
+        card15.getInvitationCardInfo();
+
+        InvitationCard card16 = new InvitationCard(16, "Art Exhibition", "Fine Arts Dept.", "Art Gallery, Kochi", "03-03-2025", "11:00 AM", "Brush Strokes");
+        card16.getInvitationCardInfo();
+
+        InvitationCard card17 = new InvitationCard(17, "Science Fair", "XYZ School", "Exhibition Hall, Patna", "17-07-2025", "10:00 AM", "Innovative Minds");
+        card17.getInvitationCardInfo();
+
+        InvitationCard card18 = new InvitationCard(18, "Literature Fest", "Readers Club", "Library Hall, Chandigarh", "23-04-2025", "4:00 PM", "Book Haven");
+        card18.getInvitationCardInfo();
+
+        InvitationCard card19 = new InvitationCard(19, "Cooking Contest", "Foodie Group", "Kitchen Studio, Surat", "29-05-2025", "1:00 PM", "Spice & Style");
+        card19.getInvitationCardInfo();
+
+        InvitationCard card20 = new InvitationCard(20, "Startup Pitch", "Entrepreneur Club", "Tech Hub, Bengaluru", "11-11-2025", "10:30 AM", "Innovation Blue");
+        card20.getInvitationCardInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*InvitationCard card1 = new InvitationCard();
         card1.cardId = 1;
         card1.eventType = "Wedding";
         card1.hostName = "Rahul & Anjali";
@@ -222,8 +288,4 @@ class InvitationCardRunner {
         card20.time = "10:30 AM";
         card20.cardTheme = "Innovation Blue";
         System.out.println("=== Invitation Card 20 ===");
-        card20.displayCardInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        card20.displayCardInfo();*/

@@ -4,7 +4,91 @@ class CoinsRunner {
 
         System.out.println("Main Started");
 
-        Coins coin1 = new Coins();
+        Coins coin1 = new Coins(1, 5.0, "Copper", "India", 1990, "Brown", false);
+        System.out.println("=== Coin 1 ===");
+        coin1.getCoinInfo();
+
+        Coins coin2 = new Coins(2, 2.5, "Aluminum", "India", 1985, "Silver", true);
+        System.out.println("=== Coin 2 ===");
+        coin2.getCoinInfo();
+
+        Coins coin3 = new Coins(3, 6.0, "Nickel", "USA", 1978, "Grey", false);
+        System.out.println("=== Coin 3 ===");
+        coin3.getCoinInfo();
+
+        Coins coin4 = new Coins(4, 10.0, "Silver", "UK", 1960, "Shiny Silver", true);
+        System.out.println("=== Coin 4 ===");
+        coin4.getCoinInfo();
+
+        Coins coin5 = new Coins(5, 3.0, "Brass", "India", 2000, "Golden", false);
+        System.out.println("=== Coin 5 ===");
+        coin5.getCoinInfo();
+
+        Coins coin6 = new Coins(6, 1.0, "Zinc", "Canada", 2010, "Silver", false);
+        System.out.println("=== Coin 6 ===");
+        coin6.getCoinInfo();
+
+        Coins coin7 = new Coins(7, 4.5, "Bronze", "India", 1975, "Brown", true);
+        System.out.println("=== Coin 7 ===");
+        coin7.getCoinInfo();
+
+        Coins coin8 = new Coins(8, 2.2, "Nickel", "USA", 2005, "Grey", false);
+        System.out.println("=== Coin 8 ===");
+        coin8.getCoinInfo();
+
+        Coins coin9 = new Coins(9, 7.0, "Steel", "Germany", 1999, "Silver-Grey", true);
+        System.out.println("=== Coin 9 ===");
+        coin9.getCoinInfo();
+
+        Coins coin10 = new Coins(10, 3.3, "Aluminum", "Japan", 2012, "Silver", false);
+        System.out.println("=== Coin 10 ===");
+        coin10.getCoinInfo();
+
+        Coins coin11 = new Coins(11, 1.1, "Plastic", "Fantasy", 2023, "Transparent", true);
+        System.out.println("=== Coin 11 ===");
+        coin11.getCoinInfo();
+
+        Coins coin12 = new Coins(12, 8.0, "Silver", "UK", 1980, "Shiny", true);
+        System.out.println("=== Coin 12 ===");
+        coin12.getCoinInfo();
+
+        Coins coin13 = new Coins(13, 4.0, "Steel", "Russia", 1995, "Grey", false);
+        System.out.println("=== Coin 13 ===");
+        coin13.getCoinInfo();
+
+        Coins coin14 = new Coins(14, 5.5, "Brass", "India", 2015, "Gold", true);
+        System.out.println("=== Coin 14 ===");
+        coin14.getCoinInfo();
+
+        Coins coin15 = new Coins(15, 9.9, "Silver", "France", 1970, "Bright Silver", true);
+        System.out.println("=== Coin 15 ===");
+        coin15.getCoinInfo();
+
+        Coins coin16 = new Coins(16, 2.8, "Copper", "USA", 1992, "Brown", false);
+        System.out.println("=== Coin 16 ===");
+        coin16.getCoinInfo();
+
+        Coins coin17 = new Coins(17, 6.4, "Nickel", "Germany", 1988, "Grey", true);
+        System.out.println("=== Coin 17 ===");
+        coin17.getCoinInfo();
+
+        Coins coin18 = new Coins(18, 1.9, "Aluminum", "India", 2008, "Silver", false);
+        System.out.println("=== Coin 18 ===");
+        coin18.getCoinInfo();
+
+        Coins coin19 = new Coins(19, 10.5, "Silver", "USA", 1945, "Antique", true);
+        System.out.println("=== Coin 19 ===");
+        coin19.getCoinInfo();
+
+        Coins coin20 = new Coins(20, 2.0, "Plastic", "FantasyLand", 2024, "Neon Blue", true);
+        System.out.println("=== Coin 20 ===");
+        coin20.getCoinInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+		/*Coins coin1 = new Coins();
         coin1.coinId = 1;
         coin1.weight = 5.0;
         coin1.material = "Copper";
@@ -222,8 +306,4 @@ class CoinsRunner {
         coin20.color = "Neon Blue";
         coin20.isCollectible = true;
         System.out.println("=== Coin 20 ===");
-        coin20.getCoinInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        coin20.getCoinInfo();*/

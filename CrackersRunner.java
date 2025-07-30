@@ -3,8 +3,95 @@ class CrackersRunner {
     public static void main(String[] args) {
 
         System.out.println("Main Started");
+		
+		
+        Crackers cracker1 = new Crackers(1, "Flower Pot", "Fountain", "Red", false, 50, "Standard Fireworks");
+        System.out.println("=== Cracker 1 ===");
+        cracker1.getCrackersInfo();
 
-        Crackers cracker1 = new Crackers();
+        Crackers cracker2 = new Crackers(2, "Chakri", "Spinner", "Green", false, 30, "Ajanta Fireworks");
+        System.out.println("=== Cracker 2 ===");
+        cracker2.getCrackersInfo();
+
+        Crackers cracker3 = new Crackers(3, "Rocket", "Sky Shot", "Blue", true, 70, "Sri Kaliswari");
+        System.out.println("=== Cracker 3 ===");
+        cracker3.getCrackersInfo();
+
+        Crackers cracker4 = new Crackers(4, "Atom Bomb", "Sound", "Black", true, 40, "Classic Fireworks");
+        System.out.println("=== Cracker 4 ===");
+        cracker4.getCrackersInfo();
+
+        Crackers cracker5 = new Crackers(5, "Snake Tablet", "Fun", "Brown", false, 10, "Anil Fireworks");
+        System.out.println("=== Cracker 5 ===");
+        cracker5.getCrackersInfo();
+
+        Crackers cracker6 = new Crackers(6, "Garland", "Chain", "Red", true, 60, "Sivakasi Boom");
+        System.out.println("=== Cracker 6 ===");
+        cracker6.getCrackersInfo();
+
+        Crackers cracker7 = new Crackers(7, "Sky Shots", "Aerial", "Rainbow", true, 150, "Royal Fireworks");
+        System.out.println("=== Cracker 7 ===");
+        cracker7.getCrackersInfo();
+
+        Crackers cracker8 = new Crackers(8, "Bullet Bomb", "Sound", "Black", true, 55, "Tiger Fireworks");
+        System.out.println("=== Cracker 8 ===");
+        cracker8.getCrackersInfo();
+
+        Crackers cracker9 = new Crackers(9, "Twinkling Stars", "Aerial", "White", false, 80, "Sparkle Lights");
+        System.out.println("=== Cracker 9 ===");
+        cracker9.getCrackersInfo();
+
+        Crackers cracker10 = new Crackers(10, "Thunder King", "Shell", "Grey", true, 100, "Supreme Boom");
+        System.out.println("=== Cracker 10 ===");
+        cracker10.getCrackersInfo();
+
+        Crackers cracker11 = new Crackers(11, "Laser Shots", "Visual", "Purple", false, 120, "ColorBang");
+        System.out.println("=== Cracker 11 ===");
+        cracker11.getCrackersInfo();
+
+        Crackers cracker12 = new Crackers(12, "Whistler", "Sound", "Orange", true, 35, "Mega Boom");
+        System.out.println("=== Cracker 12 ===");
+        cracker12.getCrackersInfo();
+
+        Crackers cracker13 = new Crackers(13, "Diya Bomb", "Diya Shape", "Yellow", false, 25, "Glow Fest");
+        System.out.println("=== Cracker 13 ===");
+        cracker13.getCrackersInfo();
+
+        Crackers cracker14 = new Crackers(14, "Ribbon Bomb", "Decorative", "Pink", true, 45, "Festiva Fireworks");
+        System.out.println("=== Cracker 14 ===");
+        cracker14.getCrackersInfo();
+
+        Crackers cracker15 = new Crackers(15, "Magic Showers", "Fountain", "Multicolor", false, 60, "Fancy Bang");
+        System.out.println("=== Cracker 15 ===");
+        cracker15.getCrackersInfo();
+
+        Crackers cracker16 = new Crackers(16, "Thunder Crack", "Explosive", "Grey", true, 90, "Storm Blaze");
+        System.out.println("=== Cracker 16 ===");
+        cracker16.getCrackersInfo();
+
+        Crackers cracker17 = new Crackers(17, "Fire Ring", "Circle", "Red", false, 65, "RoundSpark");
+        System.out.println("=== Cracker 17 ===");
+        cracker17.getCrackersInfo();
+
+        Crackers cracker18 = new Crackers(18, "Flash Bomb", "Flash", "White", true, 70, "SparkPro");
+        System.out.println("=== Cracker 18 ===");
+        cracker18.getCrackersInfo();
+
+        Crackers cracker19 = new Crackers(19, "Spiral Shower", "Spinning Fountain", "Silver", false, 85, "SpinLite");
+        System.out.println("=== Cracker 19 ===");
+        cracker19.getCrackersInfo();
+
+        Crackers cracker20 = new Crackers(20, "Rainbow Rocket", "Sky Shot", "Multicolor", true, 160, "Nova Fireworks");
+        System.out.println("=== Cracker 20 ===");
+        cracker20.getCrackersInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*Crackers cracker1 = new Crackers();
         cracker1.crackerId = 1;
         cracker1.name = "Flower Pot";
         cracker1.type = "Fountain";
@@ -222,8 +309,4 @@ class CrackersRunner {
         cracker20.price = 160;
         cracker20.manufacturer = "Nova Fireworks";
         System.out.println("=== Cracker 20 ===");
-        cracker20.getCrackersInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        cracker20.getCrackersInfo();*/

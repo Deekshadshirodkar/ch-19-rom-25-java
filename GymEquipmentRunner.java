@@ -4,7 +4,93 @@ class GymEquipmentRunner {
 
         System.out.println("Main Started");
 
-        GymEquipment equipment1 = new GymEquipment();
+        GymEquipment equipment1 = new GymEquipment(1, "Treadmill", "FitTech", "Cardio", 80.5, 55000.0, true);
+        System.out.println("=== Equipment 1 ===");
+        equipment1.getGymEquipmentInfo();
+
+        GymEquipment equipment2 = new GymEquipment(2, "Elliptical", "HealthMax", "Cardio", 65.0, 48000.0, true);
+        System.out.println("=== Equipment 2 ===");
+        equipment2.getGymEquipmentInfo();
+
+        GymEquipment equipment3 = new GymEquipment(3, "Dumbbell Set", "IronGrip", "Strength", 20.0, 3200.0, false);
+        System.out.println("=== Equipment 3 ===");
+        equipment3.getGymEquipmentInfo();
+
+        GymEquipment equipment4 = new GymEquipment(4, "Rowing Machine", "ProRow", "Cardio", 75.0, 60000.0, true);
+        System.out.println("=== Equipment 4 ===");
+        equipment4.getGymEquipmentInfo();
+
+        GymEquipment equipment5 = new GymEquipment(5, "Bench Press", "MuscleForge", "Strength", 50.0, 25000.0, false);
+        System.out.println("=== Equipment 5 ===");
+        equipment5.getGymEquipmentInfo();
+
+        GymEquipment equipment6 = new GymEquipment(6, "Exercise Bike", "CycleFit", "Cardio", 42.0, 27000.0, true);
+        System.out.println("=== Equipment 6 ===");
+        equipment6.getGymEquipmentInfo();
+
+        GymEquipment equipment7 = new GymEquipment(7, "Kettlebells", "PowerBell", "Strength", 16.0, 4500.0, false);
+        System.out.println("=== Equipment 7 ===");
+        equipment7.getGymEquipmentInfo();
+
+        GymEquipment equipment8 = new GymEquipment(8, "Leg Press", "LegMaster", "Strength", 90.0, 72000.0, false);
+        System.out.println("=== Equipment 8 ===");
+        equipment8.getGymEquipmentInfo();
+
+        GymEquipment equipment9 = new GymEquipment(9, "Smith Machine", "IronSmith", "Strength", 100.0, 85000.0, false);
+        System.out.println("=== Equipment 9 ===");
+        equipment9.getGymEquipmentInfo();
+
+        GymEquipment equipment10 = new GymEquipment(10, "Pull-up Bar", "FlexBar", "Strength", 10.0, 1500.0, false);
+        System.out.println("=== Equipment 10 ===");
+        equipment10.getGymEquipmentInfo();
+
+        GymEquipment equipment11 = new GymEquipment(11, "Power Rack", "RackPro", "Strength", 120.0, 90000.0, false);
+        System.out.println("=== Equipment 11 ===");
+        equipment11.getGymEquipmentInfo();
+
+        GymEquipment equipment12 = new GymEquipment(12, "Cable Machine", "CableX", "Strength", 95.0, 78000.0, false);
+        System.out.println("=== Equipment 12 ===");
+        equipment12.getGymEquipmentInfo();
+
+        GymEquipment equipment13 = new GymEquipment(13, "Punching Bag", "BoxPro", "Conditioning", 30.0, 5000.0, false);
+        System.out.println("=== Equipment 13 ===");
+        equipment13.getGymEquipmentInfo();
+
+        GymEquipment equipment14 = new GymEquipment(14, "Medicine Ball", "MedFit", "Conditioning", 10.0, 1200.0, false);
+        System.out.println("=== Equipment 14 ===");
+        equipment14.getGymEquipmentInfo();
+
+        GymEquipment equipment15 = new GymEquipment(15, "Lat Pulldown", "LatKing", "Strength", 85.0, 69000.0, false);
+        System.out.println("=== Equipment 15 ===");
+        equipment15.getGymEquipmentInfo();
+
+        GymEquipment equipment16 = new GymEquipment(16, "Battle Ropes", "RopeX", "Conditioning", 12.0, 3000.0, false);
+        System.out.println("=== Equipment 16 ===");
+        equipment16.getGymEquipmentInfo();
+
+        GymEquipment equipment17 = new GymEquipment(17, "Resistance Bands", "BandFlex", "Strength", 2.0, 800.0, false);
+        System.out.println("=== Equipment 17 ===");
+        equipment17.getGymEquipmentInfo();
+
+        GymEquipment equipment18 = new GymEquipment(18, "Ab Roller", "CoreMaster", "Strength", 3.0, 1000.0, false);
+        System.out.println("=== Equipment 18 ===");
+        equipment18.getGymEquipmentInfo();
+
+        GymEquipment equipment19 = new GymEquipment(19, "Vibration Plate", "VibeFit", "Cardio", 30.0, 25000.0, true);
+        System.out.println("=== Equipment 19 ===");
+        equipment19.getGymEquipmentInfo();
+
+        GymEquipment equipment20 = new GymEquipment(20, "Stepper Machine", "StepStrong", "Cardio", 48.0, 39000.0, true);
+        System.out.println("=== Equipment 20 ===");
+        equipment20.getGymEquipmentInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*GymEquipment equipment1 = new GymEquipment();
         equipment1.equipmentId = 1;
         equipment1.name = "Treadmill";
         equipment1.brand = "FitTech";
@@ -222,8 +308,4 @@ class GymEquipmentRunner {
         equipment20.price = 39000.0;
         equipment20.isElectric = true;
         System.out.println("=== Equipment 20 ===");
-        equipment20.getGymEquipmentInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        equipment20.getGymEquipmentInfo();*/

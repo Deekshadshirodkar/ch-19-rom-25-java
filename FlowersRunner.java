@@ -4,7 +4,92 @@ class FlowersRunner {
 
         System.out.println("Main Started");
 
-        Flowers flower1 = new Flowers();
+        Flowers flower1 = new Flowers(1, "Rose", "Red", true, "Spring", 5.5, "Asia");
+        System.out.println("=== Flower 1 ===");
+        flower1.getFlowersInfo();
+
+        Flowers flower2 = new Flowers(2, "Lily", "White", true, "Summer", 6.2, "Europe");
+        System.out.println("=== Flower 2 ===");
+        flower2.getFlowersInfo();
+
+        Flowers flower3 = new Flowers(3, "Tulip", "Yellow", false, "Spring", 4.0, "Turkey");
+        System.out.println("=== Flower 3 ===");
+        flower3.getFlowersInfo();
+
+        Flowers flower4 = new Flowers(4, "Sunflower", "Yellow", false, "Summer", 7.5, "North America");
+        System.out.println("=== Flower 4 ===");
+        flower4.getFlowersInfo();
+
+        Flowers flower5 = new Flowers(5, "Orchid", "Purple", true, "Fall", 3.5, "Tropics");
+        System.out.println("=== Flower 5 ===");
+        flower5.getFlowersInfo();
+
+        Flowers flower6 = new Flowers(6, "Daisy", "White", false, "Spring", 2.5, "Europe");
+        System.out.println("=== Flower 6 ===");
+        flower6.getFlowersInfo();
+
+        Flowers flower7 = new Flowers(7, "Jasmine", "White", true, "Summer", 1.8, "India");
+        System.out.println("=== Flower 7 ===");
+        flower7.getFlowersInfo();
+
+        Flowers flower8 = new Flowers(8, "Marigold", "Orange", true, "Winter", 4.3, "Mexico");
+        System.out.println("=== Flower 8 ===");
+        flower8.getFlowersInfo();
+
+        Flowers flower9 = new Flowers(9, "Lotus", "Pink", true, "Monsoon", 6.0, "India");
+        System.out.println("=== Flower 9 ===");
+        flower9.getFlowersInfo();
+
+        Flowers flower10 = new Flowers(10, "Peony", "Pink", true, "Late Spring", 5.0, "China");
+        System.out.println("=== Flower 10 ===");
+        flower10.getFlowersInfo();
+
+        Flowers flower11 = new Flowers(11, "Chrysanthemum", "Yellow", true, "Autumn", 4.2, "China");
+        System.out.println("=== Flower 11 ===");
+        flower11.getFlowersInfo();
+
+        Flowers flower12 = new Flowers(12, "Carnation", "Pink", true, "Spring", 3.7, "Europe");
+        System.out.println("=== Flower 12 ===");
+        flower12.getFlowersInfo();
+
+        Flowers flower13 = new Flowers(13, "Zinnia", "Red", false, "Summer", 3.0, "Mexico");
+        System.out.println("=== Flower 13 ===");
+        flower13.getFlowersInfo();
+
+        Flowers flower14 = new Flowers(14, "Hydrangea", "Blue", false, "Summer", 5.1, "Japan");
+        System.out.println("=== Flower 14 ===");
+        flower14.getFlowersInfo();
+
+        Flowers flower15 = new Flowers(15, "Daffodil", "Yellow", true, "Spring", 3.6, "England");
+        System.out.println("=== Flower 15 ===");
+        flower15.getFlowersInfo();
+
+        Flowers flower16 = new Flowers(16, "Bluebell", "Blue", true, "Spring", 2.0, "UK");
+        System.out.println("=== Flower 16 ===");
+        flower16.getFlowersInfo();
+
+        Flowers flower17 = new Flowers(17, "Anemone", "Purple", false, "Spring", 3.2, "Mediterranean");
+        System.out.println("=== Flower 17 ===");
+        flower17.getFlowersInfo();
+
+        Flowers flower18 = new Flowers(18, "Camellia", "Pink", false, "Winter", 4.5, "Asia");
+        System.out.println("=== Flower 18 ===");
+        flower18.getFlowersInfo();
+
+        Flowers flower19 = new Flowers(19, "Gladiolus", "Red", false, "Summer", 6.8, "South Africa");
+        System.out.println("=== Flower 19 ===");
+        flower19.getFlowersInfo();
+
+        Flowers flower20 = new Flowers(20, "Snapdragon", "Pink", false, "Fall", 3.3, "Spain");
+        System.out.println("=== Flower 20 ===");
+        flower20.getFlowersInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Flowers flower1 = new Flowers();
         flower1.flowerId = 1;
         flower1.name = "Rose";
         flower1.color = "Red";
@@ -222,8 +307,4 @@ class FlowersRunner {
         flower20.petalLength = 3.3;
         flower20.origin = "Spain";
         System.out.println("=== Flower 20 ===");
-        flower20.getFlowersInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        flower20.getFlowersInfo();*/

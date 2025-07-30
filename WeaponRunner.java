@@ -4,7 +4,93 @@ class WeaponRunner {
 
         System.out.println("Main Started");
 
-        Weapon weapon1 = new Weapon();
+        Weapon weapon1 = new Weapon(1, "Desert Eagle", "Pistol", "Steel", 1.8, 26.5, true);
+        System.out.println("=== Weapon 1 ===");
+        weapon1.getWeaponInfo();
+
+        Weapon weapon2 = new Weapon(2, "Katana", "Sword", "Carbon Steel", 1.2, 100.0, false);
+        System.out.println("=== Weapon 2 ===");
+        weapon2.getWeaponInfo();
+
+        Weapon weapon3 = new Weapon(3, "AK-47", "Rifle", "Steel", 4.3, 87.0, true);
+        System.out.println("=== Weapon 3 ===");
+        weapon3.getWeaponInfo();
+
+        Weapon weapon4 = new Weapon(4, "Crossbow", "Bow", "Fiberglass", 2.5, 78.0, false);
+        System.out.println("=== Weapon 4 ===");
+        weapon4.getWeaponInfo();
+
+        Weapon weapon5 = new Weapon(5, "Trident", "Spear", "Iron", 3.0, 150.0, false);
+        System.out.println("=== Weapon 5 ===");
+        weapon5.getWeaponInfo();
+
+        Weapon weapon6 = new Weapon(6, "Machete", "Blade", "Stainless Steel", 1.0, 60.0, false);
+        System.out.println("=== Weapon 6 ===");
+        weapon6.getWeaponInfo();
+
+        Weapon weapon7 = new Weapon(7, "Nunchaku", "Martial Arts", "Wood", 0.5, 30.0, false);
+        System.out.println("=== Weapon 7 ===");
+        weapon7.getWeaponInfo();
+
+        Weapon weapon8 = new Weapon(8, "Grenade", "Explosive", "Metal", 0.4, 10.0, true);
+        System.out.println("=== Weapon 8 ===");
+        weapon8.getWeaponInfo();
+
+        Weapon weapon9 = new Weapon(9, "Taser", "Electroshock", "Plastic & Metal", 0.6, 15.0, true);
+        System.out.println("=== Weapon 9 ===");
+        weapon9.getWeaponInfo();
+
+        Weapon weapon10 = new Weapon(10, "Tomahawk", "Axe", "Carbon Steel", 1.5, 50.0, false);
+        System.out.println("=== Weapon 10 ===");
+        weapon10.getWeaponInfo();
+
+        Weapon weapon11 = new Weapon(11, "Sickle", "Sharp Tool", "Iron", 0.7, 35.0, false);
+        System.out.println("=== Weapon 11 ===");
+        weapon11.getWeaponInfo();
+
+        Weapon weapon12 = new Weapon(12, "Throwing Star", "Shuriken", "Stainless Steel", 0.2, 12.0, false);
+        System.out.println("=== Weapon 12 ===");
+        weapon12.getWeaponInfo();
+
+        Weapon weapon13 = new Weapon(13, "Morning Star", "Spiked Mace", "Iron", 3.5, 80.0, false);
+        System.out.println("=== Weapon 13 ===");
+        weapon13.getWeaponInfo();
+
+        Weapon weapon14 = new Weapon(14, "Flamethrower", "Incendiary", "Metal", 15.0, 110.0, true);
+        System.out.println("=== Weapon 14 ===");
+        weapon14.getWeaponInfo();
+
+        Weapon weapon15 = new Weapon(15, "Whip", "Flexible", "Leather", 0.9, 180.0, false);
+        System.out.println("=== Weapon 15 ===");
+        weapon15.getWeaponInfo();
+
+        Weapon weapon16 = new Weapon(16, "Bayonet", "Knife", "Steel", 0.8, 35.0, true);
+        System.out.println("=== Weapon 16 ===");
+        weapon16.getWeaponInfo();
+
+        Weapon weapon17 = new Weapon(17, "Spear", "Polearm", "Steel and Wood", 2.8, 220.0, false);
+        System.out.println("=== Weapon 17 ===");
+        weapon17.getWeaponInfo();
+
+        Weapon weapon18 = new Weapon(18, "Slingshot", "Projectile", "Plastic", 0.3, 18.0, false);
+        System.out.println("=== Weapon 18 ===");
+        weapon18.getWeaponInfo();
+
+        Weapon weapon19 = new Weapon(19, "Laser Gun", "Sci-Fi", "Futuristic Alloy", 5.0, 95.0, true);
+        System.out.println("=== Weapon 19 ===");
+        weapon19.getWeaponInfo();
+
+        Weapon weapon20 = new Weapon(20, "Boomerang", "Returning Throw", "Wood", 0.4, 25.0, false);
+        System.out.println("=== Weapon 20 ===");
+        weapon20.getWeaponInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*Weapon weapon1 = new Weapon();
         weapon1.weaponId = 1;
         weapon1.name = "Desert Eagle";
         weapon1.type = "Pistol";
@@ -222,8 +308,4 @@ class WeaponRunner {
         weapon20.length = 25.0;
         weapon20.isLicensed = false;
         System.out.println("=== Weapon 20 ===");
-        weapon20.getWeaponInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        weapon20.getWeaponInfo();*/

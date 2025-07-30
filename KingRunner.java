@@ -4,7 +4,72 @@ class KingRunner {
 
         System.out.println("Main Started");
 
-        King king1 = new King();
+        King king1 = new King(1, "Ashoka", "Maurya", 268, 232, true, "Asandhimitra");
+        king1.getKingInfo();
+
+        King king2 = new King(2, "Akbar", "Mughal", 1556, 1605, true, "Jodha Bai");
+        king2.getKingInfo();
+
+        King king3 = new King(3, "Raja Raja Chola", "Chola", 985, 1014, true, "Trailokya Mahadevi");
+        king3.getKingInfo();
+
+        King king4 = new King(4, "Krishnadevaraya", "Vijayanagara", 1509, 1529, true, "Chinna Devi");
+        king4.getKingInfo();
+
+        King king5 = new King(5, "Harsha", "Vardhana", 606, 647, true, "Unnamed");
+        king5.getKingInfo();
+
+        King king6 = new King(6, "Prithviraj Chauhan", "Chahamana", 1178, 1192, true, "Samyukta");
+        king6.getKingInfo();
+
+        King king7 = new King(7, "Shivaji Maharaj", "Maratha", 1674, 1680, true, "Sai Bhonsale");
+        king7.getKingInfo();
+
+        King king8 = new King(8, "Chandragupta Maurya", "Maurya", 321, 297, true, "Durdhara");
+        king8.getKingInfo();
+
+        King king9 = new King(9, "Bindusara", "Maurya", 297, 273, true, "Subhadrangi");
+        king9.getKingInfo();
+
+        King king10 = new King(10, "Ranjit Singh", "Sikh Empire", 1801, 1839, true, "Mehtab Kaur");
+        king10.getKingInfo();
+
+        King king11 = new King(11, "Bimbisara", "Haryanka", 544, 492, true, "Kosala Devi");
+        king11.getKingInfo();
+
+        King king12 = new King(12, "Pulakeshin II", "Chalukya", 610, 642, true, "Unnamed");
+        king12.getKingInfo();
+
+        King king13 = new King(13, "Vikramaditya", "Ujjain", 57, 0, true, "Unknown");
+        king13.getKingInfo();
+
+        King king14 = new King(14, "Rajendra Chola", "Chola", 1014, 1044, true, "Unknown");
+        king14.getKingInfo();
+
+        King king15 = new King(15, "Dharma Raja", "Travancore", 1758, 1798, false, "Unknown");
+        king15.getKingInfo();
+
+        King king16 = new King(16, "Raja Bhoj", "Paramara", 1010, 1055, true, "Unknown");
+        king16.getKingInfo();
+
+        King king17 = new King(17, "Jai Singh II", "Amber", 1699, 1743, true, "Unknown");
+        king17.getKingInfo();
+
+        King king18 = new King(18, "Zahir-ud-din Babur", "Mughal", 1526, 1530, true, "Aisha Sultan Begum");
+        king18.getKingInfo();
+
+        King king19 = new King(19, "Tipu Sultan", "Mysore", 1782, 1799, true, "Unnamed");
+        king19.getKingInfo();
+
+        King king20 = new King(20, "Narendra Dev", "Kosala", 6, 0, false, "Unknown");
+        king20.getKingInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*King king1 = new King();
         king1.kingId = 1;
         king1.name = "Ashoka";
         king1.kingdom = "Maurya";
@@ -242,8 +307,4 @@ class KingRunner {
         king20.queenName = "Unknown";
 
         System.out.println("=== King 20 ===");
-        king20.getKingInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        king20.getKingInfo();*/

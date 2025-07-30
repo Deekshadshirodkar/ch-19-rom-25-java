@@ -4,7 +4,92 @@ class HatRunner {
 
         System.out.println("Main Started");
 
-        Hat hat1 = new Hat();
+        Hat hat1 = new Hat(1, "Nike", "Black", "Cotton", "M", "Baseball Cap", 799.0);
+        System.out.println("=== Hat 1 ===");
+        hat1.getHatInfo();
+
+        Hat hat2 = new Hat(2, "Adidas", "White", "Polyester", "L", "Snapback", 899.0);
+        System.out.println("=== Hat 2 ===");
+        hat2.getHatInfo();
+
+        Hat hat3 = new Hat(3, "Puma", "Grey", "Wool", "S", "Beanie", 499.0);
+        System.out.println("=== Hat 3 ===");
+        hat3.getHatInfo();
+
+        Hat hat4 = new Hat(4, "Reebok", "Blue", "Cotton", "M", "Bucket Hat", 699.0);
+        System.out.println("=== Hat 4 ===");
+        hat4.getHatInfo();
+
+        Hat hat5 = new Hat(5, "Under Armour", "Red", "Nylon", "L", "Trucker Hat", 999.0);
+        System.out.println("=== Hat 5 ===");
+        hat5.getHatInfo();
+
+        Hat hat6 = new Hat(6, "New Era", "Green", "Denim", "M", "Dad Hat", 1099.0);
+        System.out.println("=== Hat 6 ===");
+        hat6.getHatInfo();
+
+        Hat hat7 = new Hat(7, "Gucci", "Black", "Leather", "S", "Fedora", 2999.0);
+        System.out.println("=== Hat 7 ===");
+        hat7.getHatInfo();
+
+        Hat hat8 = new Hat(8, "Prada", "Brown", "Felt", "L", "Trilby", 3499.0);
+        System.out.println("=== Hat 8 ===");
+        hat8.getHatInfo();
+
+        Hat hat9 = new Hat(9, "Zara", "Beige", "Straw", "M", "Panama Hat", 599.0);
+        System.out.println("=== Hat 9 ===");
+        hat9.getHatInfo();
+
+        Hat hat10 = new Hat(10, "H&M", "Olive", "Linen", "S", "Newsboy", 749.0);
+        System.out.println("=== Hat 10 ===");
+        hat10.getHatInfo();
+
+        Hat hat11 = new Hat(11, "Levi's", "Maroon", "Velvet", "M", "Cowboy Hat", 999.0);
+        System.out.println("=== Hat 11 ===");
+        hat11.getHatInfo();
+
+        Hat hat12 = new Hat(12, "Wrangler", "Navy Blue", "Cotton", "L", "Safari Hat", 899.0);
+        System.out.println("=== Hat 12 ===");
+        hat12.getHatInfo();
+
+        Hat hat13 = new Hat(13, "Fila", "Sky Blue", "Polyester", "S", "Cloche", 659.0);
+        System.out.println("=== Hat 13 ===");
+        hat13.getHatInfo();
+
+        Hat hat14 = new Hat(14, "Biba", "Pink", "Silk", "M", "Beret", 1199.0);
+        System.out.println("=== Hat 14 ===");
+        hat14.getHatInfo();
+
+        Hat hat15 = new Hat(15, "Allen Solly", "Yellow", "Wool", "L", "Top Hat", 1599.0);
+        System.out.println("=== Hat 15 ===");
+        hat15.getHatInfo();
+
+        Hat hat16 = new Hat(16, "Raymond", "Purple", "Cotton", "M", "Gatsby", 1350.0);
+        System.out.println("=== Hat 16 ===");
+        hat16.getHatInfo();
+
+        Hat hat17 = new Hat(17, "Gap", "Orange", "Denim", "S", "Visor", 720.0);
+        System.out.println("=== Hat 17 ===");
+        hat17.getHatInfo();
+
+        Hat hat18 = new Hat(18, "Forever 21", "Teal", "Acrylic", "L", "Bucket Hat", 820.0);
+        System.out.println("=== Hat 18 ===");
+        hat18.getHatInfo();
+
+        Hat hat19 = new Hat(19, "Peter England", "White", "Wool Blend", "M", "Boater", 1090.0);
+        System.out.println("=== Hat 19 ===");
+        hat19.getHatInfo();
+
+        Hat hat20 = new Hat(20, "Van Heusen", "Grey", "Linen", "L", "Flat Brim", 1399.0);
+        System.out.println("=== Hat 20 ===");
+        hat20.getHatInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Hat hat1 = new Hat();
         hat1.hatId = 1;
         hat1.brand = "Nike";
         hat1.color = "Black";
@@ -222,8 +307,4 @@ class HatRunner {
         hat20.style = "Flat Brim";
         hat20.price = 1399.0;
         System.out.println("=== Hat 20 ===");
-        hat20.getHatInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        hat20.getHatInfo();*/

@@ -1,10 +1,95 @@
 class JewelleryRunner {
-	
+
     public static void main(String[] args) {
 
         System.out.println("Main Started");
 
-        Jewellery j1 = new Jewellery();
+        Jewellery j1 = new Jewellery(1, "Necklace", "Gold", 15.0, "Tanishq", "Golden", 75000.0);
+		System.out.println("=== Jewellery 1 ===");
+        j1.getJewelleryInfo();
+
+        Jewellery j2 = new Jewellery(2, "Ring", "Platinum", 5.0, "Malabar", "Silver", 35000.0);
+        System.out.println("=== Jewellery 2 ===");
+        j2.getJewelleryInfo();
+
+        Jewellery j3 = new Jewellery(3, "Bangle", "Gold", 10.0, "Kalyan", "Yellow Gold", 58000.0);
+        System.out.println("=== Jewellery 3 ===");
+        j3.getJewelleryInfo();
+
+        Jewellery j4 = new Jewellery(4, "Earrings", "Diamond", 3.5, "Reliance Jewels", "White", 45000.0);
+        System.out.println("=== Jewellery 4 ===");
+        j4.getJewelleryInfo();
+
+        Jewellery j5 = new Jewellery(5, "Bracelet", "Silver", 7.0, "PC Jeweller", "Silver", 8000.0);
+        System.out.println("=== Jewellery 5 ===");
+        j5.getJewelleryInfo();
+
+        Jewellery j6 = new Jewellery(6, "Pendant", "Gold", 6.0, "Senco Gold", "Golden", 31000.0);
+        System.out.println("=== Jewellery 6 ===");
+        j6.getJewelleryInfo();
+
+        Jewellery j7 = new Jewellery(7, "Anklet", "Silver", 4.5, "Tribes India", "Silver", 2500.0);
+        System.out.println("=== Jewellery 7 ===");
+        j7.getJewelleryInfo();
+
+        Jewellery j8 = new Jewellery(8, "Nose Pin", "Diamond", 1.0, "CaratLane", "White", 15000.0);
+        System.out.println("=== Jewellery 8 ===");
+        j8.getJewelleryInfo();
+
+        Jewellery j9 = new Jewellery(9, "Toe Ring", "Silver", 2.0, "Local Craft", "Silver", 1000.0);
+        System.out.println("=== Jewellery 9 ===");
+        j9.getJewelleryInfo();
+
+        Jewellery j10 = new Jewellery(10, "Mangalsutra", "Gold", 18.0, "Kalyan Jewellers", "Golden Black", 82000.0);
+        System.out.println("=== Jewellery 10 ===");
+        j10.getJewelleryInfo();
+
+        Jewellery j11 = new Jewellery(11, "Necklace", "Diamond", 22.0, "Tanishq", "White Gold", 150000.0);
+        System.out.println("=== Jewellery 11 ===");
+        j11.getJewelleryInfo();
+
+        Jewellery j12 = new Jewellery(12, "Ring", "Gold", 4.0, "BlueStone", "Golden", 28000.0);
+        System.out.println("=== Jewellery 12 ===");
+        j12.getJewelleryInfo();
+
+        Jewellery j13 = new Jewellery(13, "Bracelet", "Gold", 8.0, "CaratLane", "Golden", 44000.0);
+        System.out.println("=== Jewellery 13 ===");
+        j13.getJewelleryInfo();
+
+        Jewellery j14 = new Jewellery(14, "Earrings", "Platinum", 6.5, "Malabar", "Silver", 56000.0);
+        System.out.println("=== Jewellery 14 ===");
+        j14.getJewelleryInfo();
+
+        Jewellery j15 = new Jewellery(15, "Pendant", "Silver", 5.5, "Local Maker", "Silver", 3200.0);
+        System.out.println("=== Jewellery 15 ===");
+        j15.getJewelleryInfo();
+
+        Jewellery j16 = new Jewellery(16, "Ring", "Diamond", 2.8, "Tanishq", "White", 62000.0);
+        System.out.println("=== Jewellery 16 ===");
+        j16.getJewelleryInfo();
+
+        Jewellery j17 = new Jewellery(17, "Nose Pin", "Gold", 1.2, "Malabar", "Yellow Gold", 7800.0);
+        System.out.println("=== Jewellery 17 ===");
+        j17.getJewelleryInfo();
+
+        Jewellery j18 = new Jewellery(18, "Anklet", "Silver", 4.0, "Tribal Art", "Silver", 1800.0);
+        System.out.println("=== Jewellery 18 ===");
+        j18.getJewelleryInfo();
+
+        Jewellery j19 = new Jewellery(19, "Necklace", "Gold", 25.0, "Senco Gold", "Golden", 102000.0);
+        System.out.println("=== Jewellery 19 ===");
+        j19.getJewelleryInfo();
+
+        Jewellery j20 = new Jewellery(20, "Bracelet", "Platinum", 10.0, "BlueStone", "Silver", 70000.0);
+        System.out.println("=== Jewellery 20 ===");
+        j20.getJewelleryInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Jewellery j1 = new Jewellery();
         j1.jewelleryId = 1;
         j1.type = "Necklace";
         j1.material = "Gold";
@@ -222,8 +307,4 @@ class JewelleryRunner {
         j20.color = "Silver";
         j20.price = 70000.0;
         System.out.println("=== Jewellery 20 ===");
-        j20.getJewelleryInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        j20.getJewelleryInfo();*/

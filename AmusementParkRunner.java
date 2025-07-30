@@ -4,7 +4,70 @@ class AmusementParkRunner {
 
         System.out.println("Main Started");
 
-        AmusementPark park1 = new AmusementPark();
+        AmusementPark park1 = new AmusementPark("Wonderla", "Bangalore", 50, true, 1300.0, "10:00 AM", "7:00 PM");
+        park1.getAmusementParkInfo();
+
+        AmusementPark park2 = new AmusementPark("Imagicaa", "Mumbai", 40, true, 1500.0, "11:00 AM", "6:00 PM");
+        park2.getAmusementParkInfo();
+
+        AmusementPark park3 = new AmusementPark("Essel World", "Mumbai", 30, false, 1200.0, "10:30 AM", "6:30 PM");
+        park3.getAmusementParkInfo();
+
+        AmusementPark park4 = new AmusementPark("Adventure Island", "Delhi", 35, true, 1100.0, "11:00 AM", "8:00 PM");
+        park4.getAmusementParkInfo();
+
+        AmusementPark park5 = new AmusementPark("Nicco Park", "Kolkata", 25, false, 950.0, "10:00 AM", "6:00 PM");
+        park5.getAmusementParkInfo();
+
+        AmusementPark park6 = new AmusementPark("Fun World", "Bangalore", 20, false, 800.0, "9:30 AM", "5:30 PM");
+        park6.getAmusementParkInfo();
+
+        AmusementPark park7 = new AmusementPark("Wonder World", "Chennai", 45, true, 1250.0, "10:00 AM", "7:30 PM");
+        park7.getAmusementParkInfo();
+
+        AmusementPark park8 = new AmusementPark("Magic Planet", "Kerala", 18, false, 700.0, "9:00 AM", "5:00 PM");
+        park8.getAmusementParkInfo();
+
+        AmusementPark park9 = new AmusementPark("Thrill Land", "Mumbai", 55, true, 1400.0, "10:00 AM", "8:00 PM");
+        park9.getAmusementParkInfo();
+
+        AmusementPark park10 = new AmusementPark("Wonderla", "Hyderabad", 60, true, 1600.0, "11:00 AM", "7:00 PM");
+        park10.getAmusementParkInfo();
+
+        AmusementPark park11 = new AmusementPark("Speed World", "Pune", 33, false, 950.0, "10:30 AM", "6:00 PM");
+        park11.getAmusementParkInfo();
+
+        AmusementPark park12 = new AmusementPark("Galaxy Park", "Ahmedabad", 28, false, 850.0, "9:30 AM", "5:30 PM");
+        park12.getAmusementParkInfo();
+
+        AmusementPark park13 = new AmusementPark("Ocean Land", "Goa", 30, true, 1350.0, "10:00 AM", "7:00 PM");
+        park13.getAmusementParkInfo();
+
+        AmusementPark park14 = new AmusementPark("Mega Fun", "Delhi NCR", 45, true, 1500.0, "9:45 AM", "8:00 PM");
+        park14.getAmusementParkInfo();
+
+        AmusementPark park15 = new AmusementPark("Desert Springs", "Jodhpur", 18, false, 800.0, "10:00 AM", "5:00 PM");
+        park15.getAmusementParkInfo();
+
+        AmusementPark park16 = new AmusementPark("Riverdale Rides", "Ranchi", 22, false, 900.0, "9:00 AM", "6:00 PM");
+        park16.getAmusementParkInfo();
+
+        AmusementPark park17 = new AmusementPark("Sky High", "Dehradun", 15, false, 750.0, "10:00 AM", "5:30 PM");
+        park17.getAmusementParkInfo();
+
+        AmusementPark park18 = new AmusementPark("Green Zone", "Nagpur", 29, true, 1050.0, "10:00 AM", "6:00 PM");
+        park18.getAmusementParkInfo();
+
+        AmusementPark park19 = new AmusementPark("Crystal Fun Park", "Indore", 38, true, 1180.0, "10:15 AM", "7:00 PM");
+        park19.getAmusementParkInfo();
+
+        AmusementPark park20 = new AmusementPark("Sunset Amusements", "Udaipur", 21, false, 880.0, "10:00 AM", "6:30 PM");
+        park20.getAmusementParkInfo();
+    }
+}
+
+
+        /*AmusementPark park1 = new AmusementPark();
         park1.parkName = "Wonderla";
         park1.location = "Bangalore";
         park1.numberOfRides = 50;
@@ -222,6 +285,4 @@ class AmusementParkRunner {
         park20.openingTime = "10:00 AM";
         park20.closingTime = "6:30 PM";
         System.out.println("=== Park 20 ===");
-        park20.getAmusementParkInfo();
-    }
-}
+        park20.getAmusementParkInfo();*/

@@ -4,7 +4,93 @@ class PoliticianRunner {
 
         System.out.println("Main Started");
 
-        Politician politician1 = new Politician();
+        Politician politician1 = new Politician(1, "Narendra Modi", "BJP", "Gujarat", 74, false, "Varanasi");
+        System.out.println("=== Politician 1 ===");
+        politician1.getPoliticianInfo();
+
+        Politician politician2 = new Politician(2, "Rahul Gandhi", "Congress", "Kerala", 54, false, "Wayanad");
+        System.out.println("=== Politician 2 ===");
+        politician2.getPoliticianInfo();
+
+        Politician politician3 = new Politician(3, "Mamata Banerjee", "TMC", "West Bengal", 69, false, "Bhabanipur");
+        System.out.println("=== Politician 3 ===");
+        politician3.getPoliticianInfo();
+
+        Politician politician4 = new Politician(4, "Amit Shah", "BJP", "Gujarat", 60, true, "Gandhinagar");
+        System.out.println("=== Politician 4 ===");
+        politician4.getPoliticianInfo();
+
+        Politician politician5 = new Politician(5, "Arvind Kejriwal", "AAP", "Delhi", 55, false, "New Delhi");
+        System.out.println("=== Politician 5 ===");
+        politician5.getPoliticianInfo();
+
+        Politician politician6 = new Politician(6, "Yogi Adityanath", "BJP", "Uttar Pradesh", 51, false, "Gorakhpur");
+        System.out.println("=== Politician 6 ===");
+        politician6.getPoliticianInfo();
+
+        Politician politician7 = new Politician(7, "Sharad Pawar", "NCP", "Maharashtra", 84, false, "Baramati");
+        System.out.println("=== Politician 7 ===");
+        politician7.getPoliticianInfo();
+
+        Politician politician8 = new Politician(8, "Sonia Gandhi", "Congress", "Uttar Pradesh", 78, false, "Rae Bareli");
+        System.out.println("=== Politician 8 ===");
+        politician8.getPoliticianInfo();
+
+        Politician politician9 = new Politician(9, "Nitish Kumar", "JDU", "Bihar", 73, false, "Nalanda");
+        System.out.println("=== Politician 9 ===");
+        politician9.getPoliticianInfo();
+
+        Politician politician10 = new Politician(10, "Mayawati", "BSP", "Uttar Pradesh", 68, false, "Ambedkar Nagar");
+        System.out.println("=== Politician 10 ===");
+        politician10.getPoliticianInfo();
+
+        Politician politician11 = new Politician(11, "Ajay Tiwari", "LJP", "Bihar", 53, false, "Patna");
+        System.out.println("=== Politician 11 ===");
+        politician11.getPoliticianInfo();
+
+        Politician politician12 = new Politician(12, "Sunita Yadav", "BSP", "Uttar Pradesh", 49, false, "Agra");
+        System.out.println("=== Politician 12 ===");
+        politician12.getPoliticianInfo();
+
+        Politician politician13 = new Politician(13, "Imran Ali", "SP", "Uttar Pradesh", 51, false, "Lucknow");
+        System.out.println("=== Politician 13 ===");
+        politician13.getPoliticianInfo();
+
+        Politician politician14 = new Politician(14, "Kiran Verma", "Congress", "Rajasthan", 42, false, "Jaipur");
+        System.out.println("=== Politician 14 ===");
+        politician14.getPoliticianInfo();
+
+        Politician politician15 = new Politician(15, "Raj Malhotra", "Independent", "Punjab", 63, false, "Amritsar");
+        System.out.println("=== Politician 15 ===");
+        politician15.getPoliticianInfo();
+
+        Politician politician16 = new Politician(16, "Latha Reddy", "TDP", "Andhra Pradesh", 46, false, "Vijayawada");
+        System.out.println("=== Politician 16 ===");
+        politician16.getPoliticianInfo();
+
+        Politician politician17 = new Politician(17, "Harish Rao", "TRS", "Telangana", 55, false, "Siddipet");
+        System.out.println("=== Politician 17 ===");
+        politician17.getPoliticianInfo();
+
+        Politician politician18 = new Politician(18, "Anjali Sharma", "AAP", "Delhi", 38, false, "Delhi Cantonment");
+        System.out.println("=== Politician 18 ===");
+        politician18.getPoliticianInfo();
+
+        Politician politician19 = new Politician(19, "Farhan Qureshi", "NCP", "Maharashtra", 44, false, "Nagpur");
+        System.out.println("=== Politician 19 ===");
+        politician19.getPoliticianInfo();
+
+        Politician politician20 = new Politician(20, "Preeti Joshi", "Congress", "Rajasthan", 50, false, "Udaipur");
+        System.out.println("=== Politician 20 ===");
+        politician20.getPoliticianInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*Politician politician1 = new Politician();
         politician1.politicianId = 1;
         politician1.name = "Narendra Modi";
         politician1.party = "BJP";
@@ -222,8 +308,4 @@ class PoliticianRunner {
         politician20.isCabinetMinister = false;
         politician20.constituency = "Udaipur";
         System.out.println("=== Politician 20 ===");
-        politician20.getPoliticianInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        politician20.getPoliticianInfo();*/

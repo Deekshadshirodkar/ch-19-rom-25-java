@@ -1,10 +1,96 @@
 class HairclipRunner {
-	
+
     public static void main(String[] args) {
 
         System.out.println("Main Started");
 
-        Hairclip clip1 = new Hairclip();
+        Hairclip clip1 = new Hairclip(1, "Clippy", "Black", "Banana Clip", "Plastic", 25.0, false);
+        System.out.println("=== Hairclip 1 ===");
+        clip1.getHairclipInfo();
+
+        Hairclip clip2 = new Hairclip(2, "SnapFit", "Pink", "Snap Clip", "Metal", 30.0, true);
+        System.out.println("=== Hairclip 2 ===");
+        clip2.getHairclipInfo();
+
+        Hairclip clip3 = new Hairclip(3, "StylishLocks", "Red", "Claw Clip", "Plastic", 35.0, true);
+        System.out.println("=== Hairclip 3 ===");
+        clip3.getHairclipInfo();
+
+        Hairclip clip4 = new Hairclip(4, "BeautySnap", "Blue", "Barrette", "Metal", 28.0, false);
+        System.out.println("=== Hairclip 4 ===");
+        clip4.getHairclipInfo();
+
+        Hairclip clip5 = new Hairclip(5, "FancyHair", "Purple", "Duckbill Clip", "Acrylic", 40.0, true);
+        System.out.println("=== Hairclip 5 ===");
+        clip5.getHairclipInfo();
+
+        Hairclip clip6 = new Hairclip(6, "GlamClips", "Green", "Snap Clip", "Plastic", 18.0, true);
+        System.out.println("=== Hairclip 6 ===");
+        clip6.getHairclipInfo();
+
+        Hairclip clip7 = new Hairclip(7, "ElegantLocks", "Brown", "Alligator Clip", "Metal", 45.0, false);
+        System.out.println("=== Hairclip 7 ===");
+        clip7.getHairclipInfo();
+
+        Hairclip clip8 = new Hairclip(8, "PrincessStyle", "Yellow", "Claw Clip", "Plastic", 22.0, true);
+        System.out.println("=== Hairclip 8 ===");
+        clip8.getHairclipInfo();
+
+        Hairclip clip9 = new Hairclip(9, "HairTrendy", "Orange", "Snap Clip", "Metal", 26.0, false);
+        System.out.println("=== Hairclip 9 ===");
+        clip9.getHairclipInfo();
+
+        Hairclip clip10 = new Hairclip(10, "SparkleGrip", "White", "Banana Clip", "Plastic", 50.0, true);
+        System.out.println("=== Hairclip 10 ===");
+        clip10.getHairclipInfo();
+
+        Hairclip clip11 = new Hairclip(11, "RoyalLook", "Gold", "Barrette", "Metal", 65.0, true);
+        System.out.println("=== Hairclip 11 ===");
+        clip11.getHairclipInfo();
+
+        Hairclip clip12 = new Hairclip(12, "ColorCatch", "Multicolor", "Claw Clip", "Plastic", 38.0, false);
+        System.out.println("=== Hairclip 12 ===");
+        clip12.getHairclipInfo();
+
+        Hairclip clip13 = new Hairclip(13, "ClipOn", "Grey", "Duckbill Clip", "Metal", 32.0, false);
+        System.out.println("=== Hairclip 13 ===");
+        clip13.getHairclipInfo();
+
+        Hairclip clip14 = new Hairclip(14, "CuteCatcher", "Sky Blue", "Snap Clip", "Plastic", 29.0, true);
+        System.out.println("=== Hairclip 14 ===");
+        clip14.getHairclipInfo();
+
+        Hairclip clip15 = new Hairclip(15, "PearlHair", "Ivory", "Barrette", "Plastic", 60.0, true);
+        System.out.println("=== Hairclip 15 ===");
+        clip15.getHairclipInfo();
+
+        Hairclip clip16 = new Hairclip(16, "QuickGrip", "Beige", "Alligator Clip", "Metal", 33.0, false);
+        System.out.println("=== Hairclip 16 ===");
+        clip16.getHairclipInfo();
+
+        Hairclip clip17 = new Hairclip(17, "DaisyClips", "Lavender", "Claw Clip", "Plastic", 27.0, true);
+        System.out.println("=== Hairclip 17 ===");
+        clip17.getHairclipInfo();
+
+        Hairclip clip18 = new Hairclip(18, "PetalHair", "Pink", "Banana Clip", "Plastic", 42.0, true);
+        System.out.println("=== Hairclip 18 ===");
+        clip18.getHairclipInfo();
+
+        Hairclip clip19 = new Hairclip(19, "StarGrip", "Silver", "Barrette", "Metal", 70.0, true);
+        System.out.println("=== Hairclip 19 ===");
+        clip19.getHairclipInfo();
+
+        Hairclip clip20 = new Hairclip(20, "FloralFix", "Maroon", "Duckbill Clip", "Metal", 55.0, false);
+        System.out.println("=== Hairclip 20 ===");
+        clip20.getHairclipInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+
+        /*Hairclip clip1 = new Hairclip();
         clip1.clipId = 1;
         clip1.brand = "Clippy";
         clip1.color = "Black";
@@ -222,8 +308,4 @@ class HairclipRunner {
         clip20.price = 55.0;
         clip20.isDecorative = false;
         System.out.println("=== Hairclip 20 ===");
-        clip20.getHairclipInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        clip20.getHairclipInfo();*/

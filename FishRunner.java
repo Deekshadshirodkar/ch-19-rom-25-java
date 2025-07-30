@@ -1,10 +1,96 @@
 class FishRunner {
-	
+
     public static void main(String[] args) {
 
         System.out.println("Main Started");
 
-        Fish fish1 = new Fish();
+        Fish fish1 = new Fish(1, "Goldfish", "Golden", 6.0, 0.2, "Aquarium", true, "Flakes");
+        System.out.println("=== Fish 1 ===");
+        fish1.getFishInfo();
+
+        Fish fish2 = new Fish(2, "Clownfish", "Orange-White", 10.5, 0.3, "Coral Reefs", false, "Plankton");
+        System.out.println("=== Fish 2 ===");
+        fish2.getFishInfo();
+
+        Fish fish3 = new Fish(3, "Betta", "Red", 7.0, 0.1, "Tanks", true, "Insects");
+        System.out.println("=== Fish 3 ===");
+        fish3.getFishInfo();
+
+        Fish fish4 = new Fish(4, "Guppy", "Multicolor", 4.0, 0.05, "Freshwater streams", true, "Algae");
+        System.out.println("=== Fish 4 ===");
+        fish4.getFishInfo();
+
+        Fish fish5 = new Fish(5, "Tuna", "Blue", 150.0, 250.0, "Ocean", false, "Small fish");
+        System.out.println("=== Fish 5 ===");
+        fish5.getFishInfo();
+
+        Fish fish6 = new Fish(6, "Catfish", "Gray", 40.0, 3.2, "Rivers", true, "Insects");
+        System.out.println("=== Fish 6 ===");
+        fish6.getFishInfo();
+
+        Fish fish7 = new Fish(7, "Swordfish", "Blue-Silver", 300.0, 450.0, "Deep Ocean", false, "Squid");
+        System.out.println("=== Fish 7 ===");
+        fish7.getFishInfo();
+
+        Fish fish8 = new Fish(8, "Shark", "Gray", 400.0, 800.0, "Ocean", false, "Fish");
+        System.out.println("=== Fish 8 ===");
+        fish8.getFishInfo();
+
+        Fish fish9 = new Fish(9, "Salmon", "Pink", 75.0, 6.0, "Rivers and Oceans", true, "Insects");
+        System.out.println("=== Fish 9 ===");
+        fish9.getFishInfo();
+
+        Fish fish10 = new Fish(10, "Carp", "Brown", 70.0, 5.5, "Lakes", true, "Plants");
+        System.out.println("=== Fish 10 ===");
+        fish10.getFishInfo();
+
+        Fish fish11 = new Fish(11, "Piranha", "Silver", 25.0, 1.2, "Amazon River", true, "Meat");
+        System.out.println("=== Fish 11 ===");
+        fish11.getFishInfo();
+
+        Fish fish12 = new Fish(12, "Angelfish", "White", 15.0, 0.3, "Aquarium", true, "Flakes");
+        System.out.println("=== Fish 12 ===");
+        fish12.getFishInfo();
+
+        Fish fish13 = new Fish(13, "Seahorse", "Yellow", 10.0, 0.05, "Sea grass", false, "Plankton");
+        System.out.println("=== Fish 13 ===");
+        fish13.getFishInfo();
+
+        Fish fish14 = new Fish(14, "Snapper", "Red", 60.0, 4.5, "Coastal Waters", false, "Shrimp");
+        System.out.println("=== Fish 14 ===");
+        fish14.getFishInfo();
+
+        Fish fish15 = new Fish(15, "Eel", "Black", 100.0, 3.0, "River beds", true, "Crustaceans");
+        System.out.println("=== Fish 15 ===");
+        fish15.getFishInfo();
+
+        Fish fish16 = new Fish(16, "Flying Fish", "Silver-Blue", 30.0, 0.6, "Open Ocean", false, "Plankton");
+        System.out.println("=== Fish 16 ===");
+        fish16.getFishInfo();
+
+        Fish fish17 = new Fish(17, "Barracuda", "Silver", 100.0, 7.5, "Tropical Seas", false, "Fish");
+        System.out.println("=== Fish 17 ===");
+        fish17.getFishInfo();
+
+        Fish fish18 = new Fish(18, "Guppy", "Mixed", 5.0, 0.02, "Aquarium", true, "Algae");
+        System.out.println("=== Fish 18 ===");
+        fish18.getFishInfo();
+
+        Fish fish19 = new Fish(19, "Tilapia", "Dark Gray", 35.0, 2.0, "Lakes and Rivers", true, "Plants");
+        System.out.println("=== Fish 19 ===");
+        fish19.getFishInfo();
+
+        Fish fish20 = new Fish(20, "Zebrafish", "Striped Blue", 4.0, 0.01, "Aquarium", true, "Larvae");
+        System.out.println("=== Fish 20 ===");
+        fish20.getFishInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+       
+        /*Fish fish1 = new Fish();
         fish1.species = "Goldfish";
         fish1.color = "Golden";
         fish1.length = 6.0;
@@ -222,8 +308,4 @@ class FishRunner {
         fish20.freshwater = true;
         fish20.diet = "Larvae";
         System.out.println("=== Fish 20 ===");
-        fish20.getFishInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        fish20.getFishInfo();*/

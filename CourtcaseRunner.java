@@ -4,7 +4,92 @@ class CourtcaseRunner {
 
         System.out.println("Main Started");
 
-        Courtcase case1 = new Courtcase();
+        Courtcase case1 = new Courtcase(1, "Land Dispute", "Ravi Kumar", "Suresh Patel", "Justice Mehra", "Delhi High Court", false);
+        System.out.println("=== Case 1 ===");
+        case1.getCourtcaseInfo();
+
+        Courtcase case2 = new Courtcase(2, "Fraud Investigation", "CBI", "XYZ Corp", "Justice Sharma", "Supreme Court", false);
+        System.out.println("=== Case 2 ===");
+        case2.getCourtcaseInfo();
+
+        Courtcase case3 = new Courtcase(3, "Divorce Case", "Neha Singh", "Amit Singh", "Justice Rao", "Mumbai Family Court", true);
+        System.out.println("=== Case 3 ===");
+        case3.getCourtcaseInfo();
+
+        Courtcase case4 = new Courtcase(4, "Property Claim", "Anjali Desai", "State Govt", "Justice Rao", "Ahmedabad High Court", false);
+        System.out.println("=== Case 4 ===");
+        case4.getCourtcaseInfo();
+
+        Courtcase case5 = new Courtcase(5, "Murder Trial", "Govt of India", "Rahul Verma", "Justice Tripathi", "Patna Sessions Court", false);
+        System.out.println("=== Case 5 ===");
+        case5.getCourtcaseInfo();
+
+        Courtcase case6 = new Courtcase(6, "Cheque Bounce", "Nikita Jain", "Deepak Traders", "Justice Meena", "Delhi District Court", true);
+        System.out.println("=== Case 6 ===");
+        case6.getCourtcaseInfo();
+
+        Courtcase case7 = new Courtcase(7, "Accident Compensation", "Shyam Sundar", "XYZ Logistics", "Justice Arora", "Chennai High Court", true);
+        System.out.println("=== Case 7 ===");
+        case7.getCourtcaseInfo();
+
+        Courtcase case8 = new Courtcase(8, "Cybercrime", "Cyber Cell", "Unknown", "Justice Ghosh", "Kolkata Cyber Court", false);
+        System.out.println("=== Case 8 ===");
+        case8.getCourtcaseInfo();
+
+        Courtcase case9 = new Courtcase(9, "Loan Default", "SBI Bank", "Ravi Group", "Justice Nanda", "Hyderabad Civil Court", false);
+        System.out.println("=== Case 9 ===");
+        case9.getCourtcaseInfo();
+
+        Courtcase case10 = new Courtcase(10, "Medical Negligence", "Patient Welfare Org", "ABC Hospital", "Justice Bose", "Bangalore Consumer Court", true);
+        System.out.println("=== Case 10 ===");
+        case10.getCourtcaseInfo();
+
+        Courtcase case11 = new Courtcase(11, "Fraud Transaction", "Manoj Seth", "Techkart Ltd", "Justice Naidu", "Mumbai Economic Offense Court", false);
+        System.out.println("=== Case 11 ===");
+        case11.getCourtcaseInfo();
+
+        Courtcase case12 = new Courtcase(12, "Electricity Bill Dispute", "Sneha Kulkarni", "MSEB", "Justice Menon", "Pune District Court", true);
+        System.out.println("=== Case 12 ===");
+        case12.getCourtcaseInfo();
+
+        Courtcase case13 = new Courtcase(13, "Environmental Violation", "Green NGO", "XYZ Chemicals", "Justice Shinde", "NGT Delhi", false);
+        System.out.println("=== Case 13 ===");
+        case13.getCourtcaseInfo();
+
+        Courtcase case14 = new Courtcase(14, "Company Law Breach", "Registrar of Companies", "Bright Pvt Ltd", "Justice Batra", "Company Law Board, Delhi", false);
+        System.out.println("=== Case 14 ===");
+        case14.getCourtcaseInfo();
+
+        Courtcase case15 = new Courtcase(15, "Worker Compensation", "Ramesh Bhatt", "SunWorks Pvt Ltd", "Justice Agrawal", "Labour Court, Indore", true);
+        System.out.println("=== Case 15 ===");
+        case15.getCourtcaseInfo();
+
+        Courtcase case16 = new Courtcase(16, "Eviction Notice", "House Owner", "Tenant", "Justice Bhalla", "Bhopal Civil Court", true);
+        System.out.println("=== Case 16 ===");
+        case16.getCourtcaseInfo();
+
+        Courtcase case17 = new Courtcase(17, "Minor Theft", "Ravi Sharma", "John Doe", "Justice Dey", "Mumbai Magistrate Court", true);
+        System.out.println("=== Case 17 ===");
+        case17.getCourtcaseInfo();
+
+        Courtcase case18 = new Courtcase(18, "Copyright Infringement", "XYZ Studios", "PirateLinks.com", "Justice Vasudev", "IP Court, Mumbai", false);
+        System.out.println("=== Case 18 ===");
+        case18.getCourtcaseInfo();
+
+        Courtcase case19 = new Courtcase(19, "Family Dispute", "Sunita Sharma", "Rajeev Sharma", "Justice Gill", "Family Court, Delhi", false);
+        System.out.println("=== Case 19 ===");
+        case19.getCourtcaseInfo();
+
+        Courtcase case20 = new Courtcase(20, "Arbitration Dispute", "GlobalTech Ltd", "Zeta Contractors", "Justice Narayanan", "Arbitration Tribunal", true);
+        System.out.println("=== Case 20 ===");
+        case20.getCourtcaseInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Courtcase case1 = new Courtcase();
         case1.caseId = 1;
         case1.caseTitle = "Land Dispute";
         case1.plaintiff = "Ravi Kumar";
@@ -222,8 +307,4 @@ class CourtcaseRunner {
         case20.courtName = "Arbitration Tribunal";
         case20.isClosed = true;
         System.out.println("=== Case 20 ===");
-        case20.getCourtcaseInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        case20.getCourtcaseInfo();*/

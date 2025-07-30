@@ -1,10 +1,95 @@
 class CasinoRunner {
 
     public static void main(String[] args) {
-		
+
         System.out.println("Main Started");
 
-        Casino c1 = new Casino();
+        Casino c1 = new Casino("Royal Palace", "Goa", 50, true, true, 1000.0, "24/7");
+        System.out.println("=== Casino 1 ===");
+        c1.getCasinoInfo();
+
+        Casino c2 = new Casino("Neon Nights", "Las Vegas", 120, true, true, 0.0, "9 AM - 3 AM");
+        System.out.println("=== Casino 2 ===");
+        c2.getCasinoInfo();
+
+        Casino c3 = new Casino("Ocean Luck", "Macau", 85, false, true, 500.0, "10 AM - 2 AM");
+        System.out.println("=== Casino 3 ===");
+        c3.getCasinoInfo();
+
+        Casino c4 = new Casino("Desert Mirage", "Dubai", 95, true, false, 2000.0, "12 PM - 4 AM");
+        System.out.println("=== Casino 4 ===");
+        c4.getCasinoInfo();
+
+        Casino c5 = new Casino("River Gold", "Singapore", 65, true, true, 750.0, "10 AM - 1 AM");
+        System.out.println("=== Casino 5 ===");
+        c5.getCasinoInfo();
+
+        Casino c6 = new Casino("Star Spin", "Malaysia", 88, true, true, 650.0, "11 AM - 2 AM");
+        System.out.println("=== Casino 6 ===");
+        c6.getCasinoInfo();
+
+        Casino c7 = new Casino("Gold Rush", "Nepal", 70, false, true, 400.0, "12 PM - 12 AM");
+        System.out.println("=== Casino 7 ===");
+        c7.getCasinoInfo();
+
+        Casino c8 = new Casino("Jungle Spin", "Sri Lanka", 55, true, false, 300.0, "2 PM - 2 AM");
+        System.out.println("=== Casino 8 ===");
+        c8.getCasinoInfo();
+
+        Casino c9 = new Casino("Lucky Dice", "Mumbai", 40, false, false, 200.0, "5 PM - 1 AM");
+        System.out.println("=== Casino 9 ===");
+        c9.getCasinoInfo();
+
+        Casino c10 = new Casino("Thunder Jack", "Delhi", 60, true, false, 350.0, "6 PM - 3 AM");
+        System.out.println("=== Casino 10 ===");
+        c10.getCasinoInfo();
+
+        Casino c11 = new Casino("Neon Nights", "Goa", 100, true, true, 850.0, "6 PM - 6 AM");
+        System.out.println("=== Casino 11 ===");
+        c11.getCasinoInfo();
+
+        Casino c12 = new Casino("Pearl Palace", "Kolkata", 65, false, true, 450.0, "3 PM - 1 AM");
+        System.out.println("=== Casino 12 ===");
+        c12.getCasinoInfo();
+
+        Casino c13 = new Casino("Silver Ace", "Hyderabad", 72, true, false, 500.0, "2 PM - 2 AM");
+        System.out.println("=== Casino 13 ===");
+        c13.getCasinoInfo();
+
+        Casino c14 = new Casino("Dragon Fire", "Manila", 110, true, true, 950.0, "4 PM - 4 AM");
+        System.out.println("=== Casino 14 ===");
+        c14.getCasinoInfo();
+
+        Casino c15 = new Casino("Crystal Club", "Singapore", 80, false, true, 700.0, "1 PM - 12 AM");
+        System.out.println("=== Casino 15 ===");
+        c15.getCasinoInfo();
+
+        Casino c16 = new Casino("Night Whale", "Andaman", 30, false, false, 250.0, "6 PM - 11 PM");
+        System.out.println("=== Casino 16 ===");
+        c16.getCasinoInfo();
+
+        Casino c17 = new Casino("Venom Wheel", "Chennai", 90, true, true, 999.0, "7 PM - 5 AM");
+        System.out.println("=== Casino 17 ===");
+        c17.getCasinoInfo();
+
+        Casino c18 = new Casino("Red Ruby", "Dubai", 120, true, true, 1200.0, "3 PM - 3 AM");
+        System.out.println("=== Casino 18 ===");
+        c18.getCasinoInfo();
+
+        Casino c19 = new Casino("Golden Hour", "Pune", 60, false, true, 500.0, "5 PM - 1 AM");
+        System.out.println("=== Casino 19 ===");
+        c19.getCasinoInfo();
+
+        Casino c20 = new Casino("Ocean Deck", "Bali", 77, true, true, 899.0, "4 PM - 2 AM");
+        System.out.println("=== Casino 20 ===");
+        c20.getCasinoInfo();
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Casino c1 = new Casino();
         c1.casinoName = "Royal Palace";
         c1.location = "Goa";
         c1.totalGames = 50;
@@ -222,8 +307,4 @@ class CasinoRunner {
         c20.entryFee = 899.0;
         c20.openingHours = "4 PM - 2 AM";
         System.out.println("=== Casino 20 ===");
-        c20.getCasinoInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        c20.getCasinoInfo();*/

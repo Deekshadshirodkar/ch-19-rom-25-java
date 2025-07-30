@@ -1,10 +1,74 @@
 class NetworkRunner {
-
     public static void main(String[] args) {
-
         System.out.println("Main Started");
 
-        Network network1 = new Network();
+        Network network1 = new Network(1, "Jio", "Mobile", 150.0, 2.3, true, "India");
+        network1.getNetworkInfo();
+
+        Network network2 = new Network(2, "Airtel", "Fiber", 200.0, 2.4, false, "India");
+        network2.getNetworkInfo();
+
+        Network network3 = new Network(3, "Vi", "Mobile", 90.5, 1.8, false, "India");
+        network3.getNetworkInfo();
+
+        Network network4 = new Network(4, "BSNL", "Broadband", 50.0, 2.0, false, "India");
+        network4.getNetworkInfo();
+
+        Network network5 = new Network(5, "ACT", "Fiber", 300.0, 5.0, false, "Bangalore");
+        network5.getNetworkInfo();
+
+        Network network6 = new Network(6, "Hathway", "Cable Broadband", 40.0, 2.2, false, "Mumbai");
+        network6.getNetworkInfo();
+
+        Network network7 = new Network(7, "Spectra", "Fiber", 250.0, 5.0, false, "Delhi");
+        network7.getNetworkInfo();
+
+        Network network8 = new Network(8, "Excitel", "Fiber", 100.0, 2.5, false, "Chennai");
+        network8.getNetworkInfo();
+
+        Network network9 = new Network(9, "MTNL", "Broadband", 20.0, 2.0, false, "Delhi");
+        network9.getNetworkInfo();
+
+        Network network10 = new Network(10, "Tata Sky", "Wi-Fi", 120.0, 2.4, false, "Mumbai");
+        network10.getNetworkInfo();
+
+        Network network11 = new Network(11, "Jio Fiber", "Fiber", 300.0, 5.0, true, "Pune");
+        network11.getNetworkInfo();
+
+        Network network12 = new Network(12, "Airtel 5G", "Mobile", 500.0, 3.5, true, "Hyderabad");
+        network12.getNetworkInfo();
+
+        Network network13 = new Network(13, "RailWire", "Broadband", 100.0, 2.0, false, "Kerala");
+        network13.getNetworkInfo();
+
+        Network network14 = new Network(14, "Netplus", "Fiber", 150.0, 2.5, false, "Punjab");
+        network14.getNetworkInfo();
+
+        Network network15 = new Network(15, "GTPL", "Cable", 70.0, 2.3, false, "Ahmedabad");
+        network15.getNetworkInfo();
+
+        Network network16 = new Network(16, "Den Broadband", "Cable", 60.0, 2.1, false, "Jaipur");
+        network16.getNetworkInfo();
+
+        Network network17 = new Network(17, "Tikona", "Wireless", 25.0, 2.0, false, "Bangalore");
+        network17.getNetworkInfo();
+
+        Network network18 = new Network(18, "You Broadband", "Fiber", 150.0, 2.5, false, "Pune");
+        network18.getNetworkInfo();
+
+        Network network19 = new Network(19, "Siti Network", "Cable", 30.0, 2.2, false, "Nagpur");
+        network19.getNetworkInfo();
+
+        Network network20 = new Network(20, "Aircel", "Mobile", 10.0, 1.9, false, "Chennai");
+        network20.getNetworkInfo();
+
+
+        System.out.println("Main Ended");
+    }
+}
+
+
+        /*Network network1 = new Network();
         network1.networkId = 1;
         network1.provider = "Jio";
         network1.type = "Mobile";
@@ -222,8 +286,4 @@ class NetworkRunner {
         network20.is5G = false;
         network20.region = "Chennai";
         System.out.println("=== Network 20 ===");
-        network20.getNetworkInfo();
-
-        System.out.println("Main Ended");
-    }
-}
+        network20.getNetworkInfo();*/
