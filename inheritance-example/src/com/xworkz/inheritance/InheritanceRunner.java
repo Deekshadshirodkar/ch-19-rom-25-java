@@ -61,7 +61,7 @@ public class InheritanceRunner {
         Xworkz xworkz = new Xworkz();
         Bgmi bgmi = new Bgmi();
         Table table = new Table();
-        VishnuVardhan actor = new VishnuVardhan();
+        VishnuVardhan vishnuVardhan = new VishnuVardhan();
         Kannada kannada = new Kannada();
         India india = new India();
         RatanTata tata = new RatanTata();
@@ -73,5 +73,40 @@ public class InheritanceRunner {
         Google google = new Google();
 
         System.out.println("All the objects created successfully");
+
+        dolo.display();
+        dairyMilk.display();
+        shirt.display();
+        virat.display();
+        phone.display();
+        bottle.display();
+        mall.display();
+        lipstick.display();
+        bata.display();
+        sriHari.display();
+        podcast.display();
+        spoon.display();
+        apollo.display();
+        carrot.display();
+        lotus.display();
+        firefox.display();
+        soldier.display();
+        farmer.display();
+        hp.display();
+        comedy.display();
+        xworkz.display();
+        bgmi.display();
+        table.display();
+        vishnuVardhan.display();
+        kannada.display();
+        india.display();
+        tata.display();
+        surgeon.display();
+        guitar.display();
+        nifty.display();
+        nm.display();
+        dev.display();
+        google.display();
+
     }
 }
